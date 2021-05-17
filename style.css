@@ -1,0 +1,84 @@
+h1, h2 {
+    /*font-family: Courier;*/
+    font-weight: 200;
+    margin: 0.4rem;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #aaa;
+  }
+  
+  /* Cursor */
+  .txt-type > .txt {
+    border-right: 0.2rem solid #777;
+  }
+/*
+#titre #__bienvenue {
+    border: 3px rgb(36, 225, 250) ridge;
+}
+*/
+.card-body h5, .card-body h3, .mask h3{
+    font-family: Courier; 
+    font-weight: bold;
+}
+.mask h3{
+    color: white;
+}
+
+/*
+#hero #__parcours {
+    border: 3px rgb(36, 250, 89) ridge;
+}
+#hero #__portfolio {
+    border: 3px rgb(36, 250, 89) ridge;
+}
+#hero #__cv {
+    border: 3px rgb(36, 250, 89) ridge;
+}
+
+
+#description #__parcours {
+    border: 3px rgb(185, 9, 47) ridge;
+}
+
+#parcoursPro #__cv{
+    border: 3px rgb(42, 153, 156) ridge;
+}
+
+#valeurs #__1 {
+    border: 3px rgb(185, 9, 132) ridge;
+}
+#valeurs #__2 {
+    border: 3px rgb(185, 9, 132) ridge;
+}
+#valeurs #__3 {
+    border: 3px rgb(185, 9, 132) ridge;
+}
+#valeurs #__4 {
+    border: 3px rgb(185, 9, 132) ridge;
+}
+
+#portfolio #__projet_1 {
+    border: 3px rgb(6, 116, 6) ridge;
+}
+#portfolio #__projet_2 {
+    border: 3px rgb(6, 116, 6) ridge;
+}
+#portfolio #__projet_3 {
+    border: 3px rgb(6, 116, 6) ridge;
+}
+
+
+#footer #__liens {
+    border: 3px rgb(133, 238, 224) ridge;
+}
+
+#centres-interet{
+    border: 3px rgb(133, 238, 224) ridge;
+}
+*/
