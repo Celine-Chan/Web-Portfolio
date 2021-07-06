@@ -180,7 +180,7 @@
                         src="img/photo_profile.jpeg"
                         class="img-fluid p-4 "
                         alt="photo de profil"
-                        style="height: 70%;">
+                        style="height: 70%; width: auto;">
                 </div>
                 
                 <div class="col-12 col-md-12 col-lg-6
@@ -226,8 +226,7 @@
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100
-                            mt-3 pt-3">
+                            justify-content-center align-items-center h-100 text-center">
                               <p class="text-white mb-0"><h3>Quelle est ma destination</h3></p>
                               <p class="text-white m-n2 p-n2"><h3>
                                   <i class="fab fa-python"></i>
@@ -249,10 +248,10 @@
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100
-                            mt-3 pt-3">
+                            justify-content-center align-items-center h-100 text-center
+                            mt-3 pt-3 ">
                                 <p class="text-white mb-0"><h3>Gestion des Stocks</h3></p>
-                                <p class="text-white m-n2 p-n2"><h3>
+                                <p class="text-white m-n2 p-n2"><h3> 
                                     <i class="fab fa-python"></i>
                                     <i class="fab fa-html5"></i>
                                     <i class="fab fa-css3-alt"></i>
@@ -274,7 +273,7 @@
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100
+                            justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Approximation de Pi</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3><i class="fab fa-python"></i></h3></p>
@@ -298,7 +297,7 @@
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100
+                            justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Projets Arduino</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3>C/C++</h3></p>
@@ -317,7 +316,7 @@
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100
+                            justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Le Pendu</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3>C</h3></p>
@@ -337,7 +336,7 @@
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100
+                            justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>A venir</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3>
