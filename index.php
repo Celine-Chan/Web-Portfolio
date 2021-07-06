@@ -174,13 +174,13 @@
             <div class="row mb-2 pb-2 ms-2 ps-4 me-2 pe-4" id="centres-interet">
                 <div class="col-12 col-md-12 col-lg-6
                 d-flex align-items-center justify-content-center " 
-                id="__centres-interet"
-                style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0);" >
+                style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0);" 
+                id="__centres-interet_tg_gd_md">
                         <img
                         src="img/photo_profile.jpeg"
                         class="img-fluid p-4 "
                         alt="photo de profil"
-                        style="height: 70%; width: auto;">
+                        style="height: auto; width: 75%;">
                 </div>
                 
                 <div class="col-12 col-md-12 col-lg-6
