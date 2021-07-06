@@ -30,6 +30,29 @@ h1, h2 {
     color: white;
 }
 
+
+/* If the screen size is 768px wide or less, hide the element */
+@media screen and (max-width: 768px) {
+    #description_gd_ecrans {
+      display: none;
+    }
+  }
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    #presentation {
+        font-size: 3em;
+    }
+  }
+  
+
+@media screen and (min-width: 769px) {
+    #description_pt_ecrans {
+      display: none;
+    }
+  }
+
+  
+
 /*
 #hero #__parcours {
     border: 3px rgb(36, 250, 89) ridge;

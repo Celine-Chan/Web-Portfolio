@@ -32,86 +32,7 @@
     </head>
 
     <body>
-        <div class="bg-light">
-            <div class="container-fluid">
-                <div class="row" id="nav-logo"></div>
-                    <div class="col" id="nav-center">
-                        <nav id="navbar_top" 
-                        class="navbar navbar-expand-lg navbar-light bg-light">
-                            <!-- Container wrapper -->
-                            <div class="container-fluid">
-                            <!-- Toggle button -->
-                                <button
-                                class="navbar-toggler"
-                                type="button"
-                                data-mdb-toggle="collapse"
-                                data-mdb-target="#navbarCenteredExample"
-                                aria-controls="navbarCenteredExample"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                                >
-                                <i class="fas fa-bars"></i>
-                                </button>
-                        
-                                <!-- Collapsible wrapper -->
-                                <div
-                                class="collapse navbar-collapse justify-content-center"
-                                id="navbarCenteredExample"
-                                >
-                                    <!-- Navbar brand -->
-                                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
-                                        <img
-                                            src="img/218c9f5262a142318c2343e8fd6879ea.png"
-                                            height="75"
-                                            alt=""
-                                            loading="lazy"
-                                        />
-                                    </a>
-                                    <!-- Left links -->
-                                    <ul class="navbar-nav mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#" 
-                                            style="font-weight: bold;
-                                                font-family: Courier;
-                                                font-size: 1.5em;">ACCUEIL</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#" 
-                                            style="font-weight: bold;
-                                            font-family: Courier;
-                                            font-size: 1.5em;">PRÉSENTATION</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#"
-                                            style="font-weight: bold;
-                                            font-family: Courier;
-                                            font-size: 1.5em;">PORTFOLIO</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#" 
-                                            style="font-weight: bold;
-                                            font-family: Courier;
-                                            font-size: 1.5em;">PARCOURS</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#" 
-                                            style="font-weight: bold;
-                                            font-family: Courier;
-                                            font-size: 1.5em;">CONTACTS</a>
-                                        </li>
-                                    </ul>
-                                    <!-- Left links -->
-                                </div>
-                                <!-- Collapsible wrapper -->
-                            </div>
-                            <!-- Container wrapper -->
-                        </nav> 
-                    </div>
-                    <!-- Navbar center-->
-                </div>
-                <!--Header-->
-            </div>
-        </div>
+        <?php include("menu.php"); ?>
         <div class="container-fluid">
             <!-- Background image -->
             <div
@@ -189,9 +110,9 @@
                 </div>
             </div>
 
-            <!-- Description parcours -->
-            <div class="container">
-                <div class="row m-2 p-2  text-center bg-image" id="description"
+            <!-- Description parcours grandes tailles ecran-->
+            <div class="container" id="description_gd_ecrans">
+                <div class="row m-2 p-2  text-center bg-image"
                 style="
                     background-image: url('img/michael-shannon-iIrB37J5yfA-unsplash.jpg');
                     height: auto;
@@ -200,15 +121,14 @@
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;
-                "
+                " 
                 >
                     
                     <div class="col-9 col-md-8 col-lg-5 ms-n4" id="__parcours">
                         <div class="jumbotron mt-n4 mb-n5 me-5 pe-5" 
                         style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
-                            <h1 class="display-3 ">Présentation</h1>
-                            <p class="lead">Qui suis-je ?</p>
-                            <hr class="my-4">
+                            <h1 class="display-3 " id= "presentation">Présentation</h1>
+                            <p class="lead mt-3" >Qui suis-je ?</p>
                             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim.   
                             </p>
                         </div>
@@ -228,6 +148,26 @@
                             
                         </p>
                     </div>
+                </div>
+            </div>
+
+            <!-- Description parcours petites tailles ecran-->
+            <div class="container" id="description_pt_ecrans">
+                
+                <div class="jumbotron mx-3 my-3 px-3 py-3" 
+                id="__parcours" 
+                style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
+                    <h1 class="display-3 " id= "presentation">Présentation</h1>
+                    <p class="lead">Qui suis-je ?</p>
+                    <hr class="my-4">
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                         Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+                          Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet
+                           erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.
+                            Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue.
+                            Praesent egestas leo in pede. Praesent blandit odio eu enim.   
+                    </p>
                 </div>
             </div>
             <!-- Parcours professionel -->
@@ -541,7 +481,7 @@
             <!-- CV -->
             <div class="row mt-2 pt-2 mb-2 pb-2 ms-5 ps-5 me-5 pe-5" 
             id="parcoursPro">
-                <div class="col-10 col-md-8 col-lg-6" id="__cv">
+                <div class="col-12 col-md-12 col-lg-6" id="__cv">
                     <div class="jumbotron">
                         <h1 class="display-3">Curriculum vitae</h1>
                         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -550,12 +490,12 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-1 col-md-1 col-lg-1">
+                <div class="col-0 col-md-0 col-lg-1">
                     <p>
                        
                     </p>
                 </div>
-                <div class="col-1 col-md-3 col-lg-5
+                <div class="col-12 col-md-12 col-lg-5
                 d-flex align-items-center justify-content-center">
                     <div class="card text-center">
                         <div class="card-header">
@@ -575,179 +515,7 @@
             <!--CV-->
 
             <!-- Footer -->
-            <footer class="bg-dark text-center text-white">
-                <!-- Grid container -->
-                <div class="container p-4">
-                <!-- Section: Social media -->
-                <section class="mb-4">
-                    <h5>Contacts</h5>
-                    <!-- Google -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                    ><i class="far fa-envelope"></i
-                    ></a>
-                      
-                    <!-- Linkedin -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                    ><i class="fab fa-linkedin-in"></i
-                    ></a>
-            
-                    <!-- Github -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                    ><i class="fab fa-github"></i
-                    ></a>
-                </section>
-                <!-- Section: Social media -->
-
-                <!-- Section: Text -->
-                <section class="mb-4">
-                    <p> 
-                    <i class="fas fa-hand-point-down"></i> Ci-dessous quelques-uns de mes sites favoris, classés par centre d'interêt...</p>
-                    <p>
-                    Merci de votre visite, à bientôt ! 
-                    </p>
-                </section>
-                <!-- Section: Text -->
-            
-                <!-- Section: Links -->
-                <section class="">
-                    <!--Grid row-->
-                    <div class="row">
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Programmation</h5>
-            
-                        <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="https://www.w3schools.com/"
-                            class="text-white">W3Schools</a>
-                            <i class="fab fa-html5"></i>
-                            <i class="fab fa-css3"></i>
-                            <i class="fab fa-js"></i>
-                            <i class="fab fa-python"></i>
-                            <i class="fab fa-php"></i>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/"
-                            class="text-white">Stackoverflow</a>
-                            <i class="fas fa-globe"></i>
-                        </li>
-                        <li>
-                            <a href="https://realpython.com/"
-                            class="text-white">RealPython</a>
-                            <i class="fab fa-python"></i>
-                        </li>
-                        <li>
-                            <a href="https://openclassrooms.com/fr/"
-                            class="text-white">Openclassrooms</a>
-                            <i class="fab fa-python"></i>
-                            <i class="fab fa-php"></i>
-                            <i class="fab fa-js"></i>
-                            
-                        </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-            
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Voyages</h5>
-            
-                        <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="http://kansainobouken.celinelouvel.fr/index.php"
-                            class="text-white">Kansai no Bouken</a>
-                            <i class="flag flag-france"></i>
-                        </li>
-                        <li>
-                            <a href="https://www.skyscanner.fr/" 
-                            class="text-white">Skyscanner</a>
-                            <i class="flag flag-united-kingdom"></i>
-                        </li>
-                        <li>
-                            <a href="https://gaijinpot.com/" 
-                            class="text-white">GaijinPot</a>
-                            <i class="flag flag-japan"></i>
-                            <i class="flag flag-united-kingdom"></i>
-                        </li>
-                        <li>
-                            <a href="https://pvtistes.net/"
-                            class="text-white">Pvtistes</a>
-                            <i class="flag flag-france"></i>
-                        </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-            
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Etude des langues</h5>
-            
-                        <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="https://jisho.org/"
-                            class="text-white">Jisho </a>  
-                            <i class="flag flag-japan"></i>
-                        </li>
-                        <li>
-                            <a href="https://www.wordreference.com/" 
-                            class="text-white">WordReference.com </a> 
-                            <i class="flag flag-united-kingdom"></i>
-                        </li>
-                        <li>
-                            <a href="https://japanesetest4you.com/" 
-                            class="text-white">jtest4you </a>
-                            <i class="flag flag-japan"></i>
-                        </li>
-                        <li>
-                            <a href="http://aqstream.com/jp" 
-                            class="text-white">AQ Stream </a>
-                            <i class="flag flag-japan"></i>
-                        </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-            
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Karate</h5>
-            
-                        <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="https://www.ffkarate.fr/"
-                            class="text-white">FFKAMA</a>
-                            <i class="flag flag-france"></i>
-                        </li>
-                        <li>
-                            <a href="https://www.jkf.ne.jp/"
-                            class="text-white">JKF</a>
-                            <i class="flag flag-japan"></i>
-                        </li>
-                        <li>
-                            <a href="https://www.osaka-karate.jp/dojo-list.html"
-                            class="text-white">Osaka Karatedo Federation</a>
-                            <i class="flag flag-japan"></i>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/RafaelAghayevOfficialYouTubeChannel/playlists" class="text-white">Rafael Aghayev</a>
-                            <i class="fab fa-youtube"></i>
-                        </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-                    </div>
-                    <!--Grid row-->
-                </section>
-                <!-- Section: Links -->
-                </div>
-                <!-- Grid container -->
-            
-                <!-- Copyright -->
-                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2021 Copyright:
-                <a class="text-white" href="https://github.com/J-BT">Jean-Baptiste Theroulde</a>
-                </div>
-                <!-- Copyright -->
-            </footer>
+            <?php include("footer.php");?>
             <!-- Footer -->
         
         </div>
@@ -762,4 +530,3 @@
         <script src="main.js"></script>
     </body>
 </html>
-
