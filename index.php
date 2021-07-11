@@ -132,6 +132,35 @@
                             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim.   
                             </p>
                         </div>
+                    <!--
+                    <div class="jumbotron">
+                        <h1 class="display-3">Objectifs</h1>
+                        <p class="lead my-4 mx-1">This is a simple hero unit,
+                             a simple jumbotron-style component for calling 
+                             extra attention to featured content or information.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed non risus. Suspendisse lectus tortor,
+                            dignissim sit amet, adipiscing nec, ultricies sed,
+                            dolor. Cras elementum ultrices diam. 
+                            Maecenas ligula massa, varius a, semper congue,
+                            euismod non, mi. Proin porttitor,
+                            orci nec nonummy molestie, enim est eleifend mi,
+                            non fermentum diam nisl sit amet erat. Duis semper.
+                            Duis arcu massa, scelerisque vitae,
+                            consequat in, pretium a, enim.
+                            Pellentesque congue. 
+                            Ut in risus volutpat libero pharetra tempor.
+                            Cras vestibulum bibendum augue. 
+                            Praesent egestas leo in pede. 
+                            Praesent blandit odio eu enim. 
+                            Pellentesque sed dui ut augue blandit sodales. 
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae; 
+                            Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+                            Maecenas adipiscing ante non diam sodales hendrerit.  
+                        </p>
+                    </div>
+                    -->
                     </div>
                     <div class="col-1 col-md-1 col-lg-2">
                         <p>
@@ -154,19 +183,31 @@
             <!-- Description parcours petites tailles ecran-->
             <div class="container" id="description_pt_ecrans">
                 
-                <div class="jumbotron mx-3 my-3 px-3 py-3" 
-                id="__parcours" 
-                style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
-                    <h1 class="display-3 " id= "presentation">Présentation</h1>
-                    <p class="lead">Qui suis-je ?</p>
-                    <hr class="my-4">
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-                         Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
-                          Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet
-                           erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.
-                            Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue.
-                            Praesent egestas leo in pede. Praesent blandit odio eu enim.   
+                <div class="jumbotron">
+                    <h1 class="display-3">Présentation</h1>
+                    <p class="lead my-4 mx-1">This is a simple hero unit,
+                            a simple jumbotron-style component for calling 
+                            extra attention to featured content or information.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed non risus. Suspendisse lectus tortor,
+                        dignissim sit amet, adipiscing nec, ultricies sed,
+                        dolor. Cras elementum ultrices diam. 
+                        Maecenas ligula massa, varius a, semper congue,
+                        euismod non, mi. Proin porttitor,
+                        orci nec nonummy molestie, enim est eleifend mi,
+                        non fermentum diam nisl sit amet erat. Duis semper.
+                        Duis arcu massa, scelerisque vitae,
+                        consequat in, pretium a, enim.
+                        Pellentesque congue. 
+                        Ut in risus volutpat libero pharetra tempor.
+                        Cras vestibulum bibendum augue. 
+                        Praesent egestas leo in pede. 
+                        Praesent blandit odio eu enim. 
+                        Pellentesque sed dui ut augue blandit sodales. 
+                        Vestibulum ante ipsum primis in faucibus orci 
+                        luctus et ultrices posuere cubilia Curae; 
+                        Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+                        Maecenas adipiscing ante non diam sodales hendrerit.  
                     </p>
                 </div>
             </div>
@@ -185,11 +226,31 @@
                 
                 <div class="col-12 col-md-12 col-lg-6
                 d-flex align-items-center justify-content-center" id="__centres-interet">
-                    <div class="jumbotron m-4 p-4">
-                        <h1 class="display-3">Mes objectifs</h1>
-                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                        <hr class="my-4">
-                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.  
+                    <div class="jumbotron">
+                        <h1 class="display-3">Objectifs</h1>
+                        <p class="lead my-4 mx-1">This is a simple hero unit,
+                             a simple jumbotron-style component for calling 
+                             extra attention to featured content or information.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed non risus. Suspendisse lectus tortor,
+                            dignissim sit amet, adipiscing nec, ultricies sed,
+                            dolor. Cras elementum ultrices diam. 
+                            Maecenas ligula massa, varius a, semper congue,
+                            euismod non, mi. Proin porttitor,
+                            orci nec nonummy molestie, enim est eleifend mi,
+                            non fermentum diam nisl sit amet erat. Duis semper.
+                            Duis arcu massa, scelerisque vitae,
+                            consequat in, pretium a, enim.
+                            Pellentesque congue. 
+                            Ut in risus volutpat libero pharetra tempor.
+                            Cras vestibulum bibendum augue. 
+                            Praesent egestas leo in pede. 
+                            Praesent blandit odio eu enim. 
+                            Pellentesque sed dui ut augue blandit sodales. 
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae; 
+                            Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+                            Maecenas adipiscing ante non diam sodales hendrerit.  
                         </p>
                     </div>
                 </div>
@@ -362,11 +423,31 @@
                     </p>
                 </div>
                 <div class="col-10 col-md-8 col-lg-6" id="__cv">
-                    <div class="jumbotron">
-                        <h1 class="display-3">Parcours professionel</h1>
-                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                        <hr class="my-4">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.  
+                <div class="jumbotron">
+                        <h1 class="display-3">Parcours Professionnel</h1>
+                        <p class="lead my-4 mx-1">This is a simple hero unit,
+                             a simple jumbotron-style component for calling 
+                             extra attention to featured content or information.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed non risus. Suspendisse lectus tortor,
+                            dignissim sit amet, adipiscing nec, ultricies sed,
+                            dolor. Cras elementum ultrices diam. 
+                            Maecenas ligula massa, varius a, semper congue,
+                            euismod non, mi. Proin porttitor,
+                            orci nec nonummy molestie, enim est eleifend mi,
+                            non fermentum diam nisl sit amet erat. Duis semper.
+                            Duis arcu massa, scelerisque vitae,
+                            consequat in, pretium a, enim.
+                            Pellentesque congue. 
+                            Ut in risus volutpat libero pharetra tempor.
+                            Cras vestibulum bibendum augue. 
+                            Praesent egestas leo in pede. 
+                            Praesent blandit odio eu enim. 
+                            Pellentesque sed dui ut augue blandit sodales. 
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae; 
+                            Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+                            Maecenas adipiscing ante non diam sodales hendrerit.  
                         </p>
                     </div>
                 </div>
@@ -490,8 +571,29 @@
                 <div class="col-12 col-md-12 col-lg-6" id="__cv">
                     <div class="jumbotron">
                         <h1 class="display-3">Curriculum vitae</h1>
-                        <p class="lead my-4 mx-1">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.  
+                        <p class="lead my-4 mx-1">This is a simple hero unit,
+                             a simple jumbotron-style component for calling 
+                             extra attention to featured content or information.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed non risus. Suspendisse lectus tortor,
+                            dignissim sit amet, adipiscing nec, ultricies sed,
+                            dolor. Cras elementum ultrices diam. 
+                            Maecenas ligula massa, varius a, semper congue,
+                            euismod non, mi. Proin porttitor,
+                            orci nec nonummy molestie, enim est eleifend mi,
+                            non fermentum diam nisl sit amet erat. Duis semper.
+                            Duis arcu massa, scelerisque vitae,
+                            consequat in, pretium a, enim.
+                            Pellentesque congue. 
+                            Ut in risus volutpat libero pharetra tempor.
+                            Cras vestibulum bibendum augue. 
+                            Praesent egestas leo in pede. 
+                            Praesent blandit odio eu enim. 
+                            Pellentesque sed dui ut augue blandit sodales. 
+                            Vestibulum ante ipsum primis in faucibus orci 
+                            luctus et ultrices posuere cubilia Curae; 
+                            Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+                            Maecenas adipiscing ante non diam sodales hendrerit.  
                         </p>
                     </div>
                 </div>
