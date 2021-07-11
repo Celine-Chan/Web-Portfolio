@@ -1,21 +1,21 @@
-<footer class="bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white" id="Contacts">
                 <!-- Grid container -->
                 <div class="container p-4">
                 <!-- Section: Social media -->
                 <section class="mb-4">
-                    <h5>Contacts</h5>
+                    <h3>Contacts</h3>
                     <!-- Google -->
                     <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                     ><i class="far fa-envelope"></i
                     ></a>
                       
                     <!-- Linkedin -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/jeanbaptistetheroulde/" role="button"
                     ><i class="fab fa-linkedin-in"></i
                     ></a>
             
                     <!-- Github -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/J-BT" role="button"
                     ><i class="fab fa-github"></i
                     ></a>
                 </section>

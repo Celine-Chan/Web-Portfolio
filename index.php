@@ -68,7 +68,7 @@
             <!-- Sous menu HERO (Parcours - Portfolio - CV) -->
             <div class="row mt-2 mb-5 ms-2 me-2 p-2" id="hero">
                 <div class="col-12 col-md-12 col-lg-3 
-                d-flex align-items-center justify-content-center text-justify" id="__parcours">
+                d-flex align-items-center justify-content-center text-justify" id="__parcours_card">
                     <div class="card " 
                     style="width: 18rem;">
                         <img src="img/ian-schneider-TamMbr4okv4-unsplash.jpg" class="card-img-top" alt="...">
@@ -83,7 +83,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
-                d-flex align-items-center justify-content-center text-justify" id="__portfolio">
+                d-flex align-items-center justify-content-center text-justify" id="__portfolio_card">
                     <div class="card " style="width: 18rem;">
                         <img src="img/markus-spiske-Skf7HxARcoc-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body ">
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
-                d-flex align-items-center justify-content-center text-justify" id="__cv">
+                d-flex align-items-center justify-content-center text-justify" id="__cv_card">
                     <div class="card" style="width: 18rem;">
                         <img src="img/kira-auf-der-heide-8s1wfA6aB-4-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
-                d-flex align-items-center justify-content-center text-justify" id="__contacts">
+                d-flex align-items-center justify-content-center text-justify" id="__contacts_card">
                     <div class="card" style="width: 18rem;">
                         <img src="img/logan-weaver-78iLIC2FUdA-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -123,9 +123,10 @@
                     </div>
                 </div>
             </div>
-
+            <div class="col-12 col-md-12 col-lg-12 mt-5 pt-5" id="__parcours">
+            </div>
             <!-- Description parcours grandes tailles ecran-->
-            <div class="container" id="description_gd_ecrans">
+            <div class="container my-5 py-5" id="description_gd_ecrans">
                 <div class="row m-2 p-2 mx-2 text-justify bg-image"
                 style="
                     background-image: url('img/michael-shannon-iIrB37J5yfA-unsplash.jpg');
@@ -138,7 +139,7 @@
                 " 
                 >
                     
-                    <div class="col-9 col-md-8 col-lg-5 me-3 ms-n4" id="__parcours">
+                    <div class="col-9 col-md-8 col-lg-5 me-3 ms-n4" >
                         <div class="jumbotron mt-n4 mb-n5 me-0 px-3 text-justify" 
                         style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
                             <h1 class="display-3 " id= "presentation">Présentation</h1>
@@ -186,9 +187,9 @@
             </div>
 
             <!-- Description parcours petites tailles ecran-->
-            <div class="container" id="description_pt_ecrans">
+            <div class="container px-3 my-5 py-5 text-justify" id="description_pt_ecrans">
                 
-                <div class="jumbotron text-justify">
+                <div class="jumbotron text-justify ">
                     <h1 class="display-3">Présentation</h1>
                     <p class="lead my-4 mx-1">This is a simple hero unit,
                             a simple jumbotron-style component for calling 
@@ -217,7 +218,7 @@
                 </div>
             </div>
             <!-- Parcours professionel -->
-            <div class="row mb-2 pb-2 ms-2 ps-4 me-2 pe-4" id="centres-interet">
+            <div class="row mb-5 pb-2 ms-2 ps-4 me-2 pe-4" id="centres-interet">
                 <div class="col-12 col-md-12 col-lg-6
                 d-flex align-items-center justify-content-center " 
                 style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0);" 
@@ -263,13 +264,13 @@
             <!--Parcours professionel-->
 
             <!-- Titre portfolio -->
-            <div class="row mt-n5 pt-n5" id="parcoursPro">
+            <div class="row mt-5 pt-5" id="Portfolio">
                 <div class="col-1 col-md-2 col-lg-3">
                     <p>
                         
                     </p>
                 </div>
-                <div class="col-10 col-md-8 col-lg-6" id="__portfolio">
+                <div class="col-10 col-md-8 col-lg-6 pt-5" id="__portfolio">
                     <div class="jumbotron
                     d-flex justify-content-center align-items-center">
                         <h1 class="display-3">Portfolio</h1>
@@ -289,7 +290,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_1">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/andrew-neel-1-29wyvvLJA-unsplash.jpg" class="w-100" />
-                        <a href="#!">
+                        <a href="http://madestination.pandasprojects.com/">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -312,7 +313,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_2">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/chuttersnap-BNBA1h-NgdY-unsplash.jpg" class="w-100" />
-                        <a href="#!">
+                        <a href="http://gestionstocks.pandasprojects.com/">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -356,7 +357,7 @@
             <!-- Portfolio 1 -->
             
             <!-- Portfolio 2 -->
-            <div class="row mt-0 ms-3 me-3 pt-0 ps-3 pe-3" id="portfolio">
+            <div class="row mt-0 ms-3 me-3 pt-0 ps-3 pe-3 mb-5 " id="portfolio">
                 <div class="col-12 portfolio_img col-md-4 col-lg-4 
                 d-flex align-items-center justify-content-center" id="__projet_1">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
@@ -421,14 +422,14 @@
             </div>
             <!-- Portfolio 2 -->
             <!-- Parcours professionel -->
-            <div class="row m-2 p-2" id="parcoursPro">
+            <div class="row mx-2 px-2 pt-5 mt-5" id="parcoursPro">
                 <div class="col-1 col-md-2 col-lg-3">
                     <p>
                         
                     </p>
                 </div>
-                <div class="col-10 col-md-8 col-lg-6 text-justify" id="__cv">
-                <div class="jumbotron text-justify">
+                <div class="col-10 col-md-8 col-lg-6 pt-5 mt-5 text-justify" id="__cv">
+                    <div class="jumbotron text-justify">
                         <h1 class="display-3">Parcours Professionnel</h1>
                         <p class="lead my-4 mx-1 text-justify">This is a simple hero unit,
                              a simple jumbotron-style component for calling 
@@ -467,14 +468,14 @@
             
 
             <!-- Valeurs -->
-            <div class="row my-2 mx-2 px-2 py-2" id="valeurs">
+            <div class="row mt-5 mb-3 mx-2 px-2 pt-4 pb-4" id="valeurs">
                 <div class="jumbotron text-center" >
                         <h5 class="display-6">Les valeurs qui me definissent</h1>
                 </div>
                 <!-- Carousel wrapper -->
                 <div
                 id="carouselBasicExample"
-                class="carousel slide carousel-fade"
+                class="carousel slide carousel-fade mt-3 pt-3"
                 data-mdb-ride="carousel"
                 >
                     <!-- Indicators -->
@@ -571,9 +572,9 @@
             </div>
             <!--Valeurs-->
             <!-- CV -->
-            <div class="row mt-2 pt-2 mb-2 pb-2 ms-1 ps-1 mx-5" 
+            <div class="row mt-2 pt-2 mb-5 pb-5 ms-1 ps-1 mx-5" 
             id="parcoursPro">
-                <div class="col-12 col-md-12 col-lg-6 mx-5" id="__cv">
+                <div class="col-12 col-md-12 col-lg-6 mx-5 mb-0 pb-5" id="__cv">
                     <div class="jumbotron">
                         <h1 class="display-3">Curriculum vitae</h1>
                         <p class="lead my-4 mx-4">This is a simple hero unit,
