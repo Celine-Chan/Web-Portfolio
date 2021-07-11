@@ -68,43 +68,57 @@
             <!-- Sous menu HERO (Parcours - Portfolio - CV) -->
             <div class="row mt-2 mb-5 ms-2 me-2 p-2" id="hero">
                 <div class="col-12 col-md-12 col-lg-3 
-                d-flex align-items-center justify-content-center" id="__parcours">
+                d-flex align-items-center justify-content-center text-justify" id="__parcours">
                     <div class="card " 
                     style="width: 18rem;">
                         <img src="img/ian-schneider-TamMbr4okv4-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Présentation</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+                            <h5 class="card-title">Présentation</h5>
+                            <p class="card-text">
+                                Qui suis-je ? Qu'ai-je fait dans la vie ?
+                                D'où est-ce que je viens ? Si cela vous intéresse rendez-vous
+                                juste en dessous.
+                          </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
-                d-flex align-items-center justify-content-center" id="__portfolio">
+                d-flex align-items-center justify-content-center text-justify" id="__portfolio">
                     <div class="card " style="width: 18rem;">
                         <img src="img/markus-spiske-Skf7HxARcoc-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body ">
-                          <h5 class="card-title">Portfolio</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+                            <h5 class="card-title">Portfolio</h5>
+                            <p class="card-text">
+                                Codés en Python, PHP, C ou C++(Arduino), cette section vous presentera
+                                les projets que j'ai réalisés jusqu'à présent.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
-                d-flex align-items-center justify-content-center" id="__cv">
+                d-flex align-items-center justify-content-center text-justify" id="__cv">
                     <div class="card" style="width: 18rem;">
                         <img src="img/kira-auf-der-heide-8s1wfA6aB-4-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Parcours</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+                            <h5 class="card-title">Parcours Professionnel</h5>
+                            <p class="card-text">
+                                En France ou au Japon, vous allez decouvrir mes
+                                diverses expériences professionnelles
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
-                d-flex align-items-center justify-content-center" id="__contacts">
+                d-flex align-items-center justify-content-center text-justify" id="__contacts">
                     <div class="card" style="width: 18rem;">
                         <img src="img/logan-weaver-78iLIC2FUdA-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Contacts</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+                            <h5 class="card-title">Contacts</h5>
+                            <p class="card-text">
+                                Vous êtes recruteur.se ? Ou vous souhaitez tout
+                                simplement me contacter par email, linkedin ou
+                                github ? C'est par içi !
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -557,12 +571,12 @@
             </div>
             <!--Valeurs-->
             <!-- CV -->
-            <div class="row mt-2 pt-2 mb-2 pb-2 ms-1 ps-1 me-1 pe-1" 
+            <div class="row mt-2 pt-2 mb-2 pb-2 ms-1 ps-1 mx-5" 
             id="parcoursPro">
-                <div class="col-12 col-md-12 col-lg-6" id="__cv">
+                <div class="col-12 col-md-12 col-lg-6 mx-5" id="__cv">
                     <div class="jumbotron">
                         <h1 class="display-3">Curriculum vitae</h1>
-                        <p class="lead my-4 mx-1">This is a simple hero unit,
+                        <p class="lead my-4 mx-4">This is a simple hero unit,
                              a simple jumbotron-style component for calling 
                              extra attention to featured content or information.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -588,7 +602,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-6
+                <div class="col-12 col-md-12 col-lg-5
                 d-flex align-items-center justify-content-center">
                     <div class="card text-center">
                         <div class="card-header">
