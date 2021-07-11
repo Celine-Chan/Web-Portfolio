@@ -112,7 +112,7 @@
 
             <!-- Description parcours grandes tailles ecran-->
             <div class="container" id="description_gd_ecrans">
-                <div class="row m-2 p-2  text-center bg-image"
+                <div class="row m-2 p-2 mx-2 text-justify bg-image"
                 style="
                     background-image: url('img/michael-shannon-iIrB37J5yfA-unsplash.jpg');
                     height: auto;
@@ -124,21 +124,13 @@
                 " 
                 >
                     
-                    <div class="col-9 col-md-8 col-lg-5 ms-n4" id="__parcours">
-                        <div class="jumbotron mt-n4 mb-n5 me-5 pe-5" 
+                    <div class="col-9 col-md-8 col-lg-5 me-3 ms-n4" id="__parcours">
+                        <div class="jumbotron mt-n4 mb-n5 me-0 px-3 text-justify" 
                         style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
                             <h1 class="display-3 " id= "presentation">Présentation</h1>
                             <p class="lead mt-3" >Qui suis-je ?</p>
-                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim.   
-                            </p>
-                        </div>
-                    <!--
-                    <div class="jumbotron">
-                        <h1 class="display-3">Objectifs</h1>
-                        <p class="lead my-4 mx-1">This is a simple hero unit,
-                             a simple jumbotron-style component for calling 
-                             extra attention to featured content or information.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <p class="text-left">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
                             Sed non risus. Suspendisse lectus tortor,
                             dignissim sit amet, adipiscing nec, ultricies sed,
                             dolor. Cras elementum ultrices diam. 
@@ -159,8 +151,7 @@
                             Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
                             Maecenas adipiscing ante non diam sodales hendrerit.  
                         </p>
-                    </div>
-                    -->
+                        </div>
                     </div>
                     <div class="col-1 col-md-1 col-lg-2">
                         <p>
@@ -183,7 +174,7 @@
             <!-- Description parcours petites tailles ecran-->
             <div class="container" id="description_pt_ecrans">
                 
-                <div class="jumbotron">
+                <div class="jumbotron text-justify">
                     <h1 class="display-3">Présentation</h1>
                     <p class="lead my-4 mx-1">This is a simple hero unit,
                             a simple jumbotron-style component for calling 
@@ -225,10 +216,10 @@
                 </div>
                 
                 <div class="col-12 col-md-12 col-lg-6
-                d-flex align-items-center justify-content-center" id="__centres-interet">
+                d-flex align-items-center justify-content-center text-justify" id="__centres-interet">
                     <div class="jumbotron">
                         <h1 class="display-3">Objectifs</h1>
-                        <p class="lead my-4 mx-1">This is a simple hero unit,
+                        <p class="lead my-4 mx-3">This is a simple hero unit,
                              a simple jumbotron-style component for calling 
                              extra attention to featured content or information.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -422,10 +413,10 @@
                         
                     </p>
                 </div>
-                <div class="col-10 col-md-8 col-lg-6" id="__cv">
-                <div class="jumbotron">
+                <div class="col-10 col-md-8 col-lg-6 text-justify" id="__cv">
+                <div class="jumbotron text-justify">
                         <h1 class="display-3">Parcours Professionnel</h1>
-                        <p class="lead my-4 mx-1">This is a simple hero unit,
+                        <p class="lead my-4 mx-1 text-justify">This is a simple hero unit,
                              a simple jumbotron-style component for calling 
                              extra attention to featured content or information.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
