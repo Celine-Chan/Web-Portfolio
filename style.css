@@ -30,6 +30,10 @@ h1, h2 {
     color: white;
 }
 
+.portfolio_img{
+    margin: 2px 0 2px 0;
+    padding: 0 2px 0 2px;
+}
 
 /* Pour les petits ecrans */
 @media screen and (max-width: 768px) {

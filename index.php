@@ -219,14 +219,15 @@
 
             <!-- Portfolio 1 -->
             <div class="row mt-3 ms-3 me-3 pt-3 ps-3 pe-3" id="portfolio">
-                <div class="col-12 col-md-4 col-lg-4 
+                <div class="col-12 portfolio_img col-md-4 col-lg-4 portfolio_img_gd
                 d-flex align-items-center justify-content-center" id="__projet_1">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/andrew-neel-1-29wyvvLJA-unsplash.jpg" class="w-100" />
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100 text-center">
+                            justify-content-center align-items-center h-100 text-center
+                            mt-3 pt-3">
                               <p class="text-white mb-0"><h3>Quelle est ma destination</h3></p>
                               <p class="text-white m-n2 p-n2"><h3>
                                   <i class="fab fa-python"></i>
@@ -241,7 +242,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4
+                <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_2">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/chuttersnap-BNBA1h-NgdY-unsplash.jpg" class="w-100" />
@@ -266,7 +267,7 @@
                     </div>
 
                 </div>
-                <div class="col-12 col-md-4 col-lg-4
+                <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_3">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/michael-dziedzic-dSyhpTGhNHg-unsplash.jpg" class="w-100" />
@@ -289,8 +290,8 @@
             <!-- Portfolio 1 -->
             
             <!-- Portfolio 2 -->
-            <div class="row mt-3 ms-3 me-3 pt-3 ps-3 pe-3" id="portfolio">
-                <div class="col-12 col-md-4 col-lg-4 
+            <div class="row mt-0 ms-3 me-3 pt-0 ps-3 pe-3" id="portfolio">
+                <div class="col-12 portfolio_img col-md-4 col-lg-4 
                 d-flex align-items-center justify-content-center" id="__projet_1">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/lucas-santos-Qdvm-Qr1FYw-unsplash.jpg" class="w-100" />
@@ -309,7 +310,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4
+                <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_2">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/brett-jordan-94GiZLiWD8Y-unsplash.jpg" class="w-100" />
@@ -329,7 +330,7 @@
                     </div>
 
                 </div>
-                <div class="col-12 col-md-4 col-lg-4
+                <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_3">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/anete-lusina-zwsHjakE_iI-unsplash.jpg" class="w-100" />
