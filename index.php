@@ -380,7 +380,10 @@
             
 
             <!-- Valeurs -->
-            <div class="row mt-2 pt-2" id="valeurs">
+            <div class="row my-2 mx-2 px-2 py-2" id="valeurs">
+                <div class="jumbotron text-center" >
+                        <h5 class="display-6">Les valeurs qui me definissent</h1>
+                </div>
                 <!-- Carousel wrapper -->
                 <div
                 id="carouselBasicExample"
@@ -420,9 +423,10 @@
                             class="d-block w-100"
                             alt="..."
                             />
-                            <div class="carousel-caption d-none d-md-block">
-                            <h5>Première valeur</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <div class="carousel-caption d-md-block">
+                            <h5 class="valeurs_carousel">Empathie</h5>
+                            <p class="texte_carousel">Se mettre à la place de ses amis,
+                                 collègues ou clients pour mieux cibler leurs attentes.</p>
                             </div>
                         </div>
 
@@ -433,9 +437,10 @@
                             class="d-block w-100"
                             alt="..."
                             />
-                            <div class="carousel-caption d-none d-md-block">
-                            <h5>Deuxième valeur</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="carousel-caption d-md-block">
+                            <h5 class="valeurs_carousel">Optimisme</h5>
+                            <p class="texte_carousel">Voir le bon côté
+                                 des choses pour ne pas rater d'opportunité.</p>
                             </div>
                         </div>
 
@@ -446,9 +451,10 @@
                             class="d-block w-100"
                             alt="..."
                             />
-                            <div class="carousel-caption d-none d-md-block">
-                            <h5>Troisième valeur</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <div class="carousel-caption d-md-block">
+                            <h5 class="valeurs_carousel">Resilience</h5>
+                            <p class="texte_carousel">Ne pas se laisser abattre 
+                                par les aléas de la vie mais en faire une force.</p>
                             </div>
                         </div>
                     </div>

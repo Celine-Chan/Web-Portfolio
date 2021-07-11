@@ -31,10 +31,16 @@ h1, h2 {
 }
 
 
-/* If the screen size is 768px wide or less, hide the element */
+/* Pour les petits ecrans */
 @media screen and (max-width: 768px) {
     #description_gd_ecrans {
       display: none;
+    }
+    .valeurs_carousel {
+        font-size: 2em;
+    }
+    .texte_carousel {
+        font-size: 0em;
     }
   }
 
@@ -45,13 +51,22 @@ h1, h2 {
   }
   
 
+/* Pour les Grands ecrans */
 @media screen and (min-width: 769px) {
     #description_pt_ecrans {
       display: none;
     }
+    .valeurs_carousel {
+        font-size: 4em;
+    }
+    .texte_carousel {
+        font-size: 1.5em;
+    }
   }
-
-
+/*
+  class="texte_carousel"
+  class="valeurs_carousel"
+  */
 /*
 #hero #__parcours {
     border: 3px rgb(36, 250, 89) ridge;

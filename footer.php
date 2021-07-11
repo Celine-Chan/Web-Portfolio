@@ -24,7 +24,8 @@
                 <!-- Section: Text -->
                 <section class="mb-4">
                     <p> 
-                    <i class="fas fa-hand-point-down"></i> Ci-dessous quelques-uns de mes sites favoris, classés par centre d'interêt...</p>
+                    <i class="fas fa-hand-point-down"></i> Ci-dessous quelques-uns de mes sites favoris,
+                     classés par centres d'interêt...</p>
                     <p>
                     Merci de votre visite, à bientôt ! 
                     </p>
