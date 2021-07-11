@@ -69,24 +69,33 @@
             <div class="row mt-2 mb-5 ms-2 me-2 p-2" id="hero">
                 <div class="col-12 col-md-12 col-lg-3 
                 d-flex align-items-center justify-content-center text-justify" id="__parcours_card">
-                    <div class="card " 
-                    style="width: 18rem;">
-                        <img src="img/ian-schneider-TamMbr4okv4-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card " style="width: 18rem;">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/ian-schneider-TamMbr4okv4-unsplash.jpg" class="card-img-top" alt="...">
+                            <a href="#__parcours">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Présentation</h5>
                             <p class="card-text">
                                 Qui suis-je ? Qu'ai-je fait dans la vie ?
                                 D'où est-ce que je viens ? Si cela vous intéresse rendez-vous
                                 juste en dessous.
-                          </p>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
                 d-flex align-items-center justify-content-center text-justify" id="__portfolio_card">
                     <div class="card " style="width: 18rem;">
-                        <img src="img/markus-spiske-Skf7HxARcoc-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body ">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/markus-spiske-Skf7HxARcoc-unsplash.jpg" class="card-img-top" alt="...">
+                            <a href="#Portfolio">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
                             <h5 class="card-title">Portfolio</h5>
                             <p class="card-text">
                                 Codés en Python, PHP, C ou C++(Arduino), cette section vous presentera
@@ -97,8 +106,13 @@
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
                 d-flex align-items-center justify-content-center text-justify" id="__cv_card">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/kira-auf-der-heide-8s1wfA6aB-4-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card " style="width: 18rem;">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/kira-auf-der-heide-8s1wfA6aB-4-unsplash.jpg" class="card-img-top" alt="...">
+                            <a href="#parcoursPro">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Parcours Professionnel</h5>
                             <p class="card-text">
@@ -110,8 +124,13 @@
                 </div>
                 <div class="col-12 col-md-12 col-lg-3
                 d-flex align-items-center justify-content-center text-justify" id="__contacts_card">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/logan-weaver-78iLIC2FUdA-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card " style="width: 18rem;">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/logan-weaver-78iLIC2FUdA-unsplash.jpg" class="card-img-top" alt="...">
+                            <a href="#Contacts">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Contacts</h5>
                             <p class="card-text">
