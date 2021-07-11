@@ -186,7 +186,7 @@
                 <div class="col-12 col-md-12 col-lg-6
                 d-flex align-items-center justify-content-center" id="__centres-interet">
                     <div class="jumbotron m-4 p-4">
-                        <h1 class="display-3">Pourquoi la programmation?</h1>
+                        <h1 class="display-3">Mes objectifs</h1>
                         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
                         <hr class="my-4">
                         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.  
@@ -419,7 +419,7 @@
                         <!-- Single item -->
                         <div class="carousel-item active">
                             <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+                            src="img/hannah-busing-Zyx1bK9mqmA-unsplash.jpg"
                             class="d-block w-100"
                             alt="..."
                             />
@@ -433,7 +433,7 @@
                         <!-- Single item -->
                         <div class="carousel-item">
                             <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+                            src="img/bady-abbas-XAkPN7aEGJM-unsplash.jpg"
                             class="d-block w-100"
                             alt="..."
                             />
@@ -447,7 +447,7 @@
                         <!-- Single item -->
                         <div class="carousel-item">
                             <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+                            src="img/ozan-safak-1jOQNSc4P-c-unsplash.jpg"
                             class="d-block w-100"
                             alt="..."
                             />

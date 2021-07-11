@@ -38,6 +38,7 @@ h1, h2 {
     }
     .valeurs_carousel {
         font-size: 2em;
+        color:  white ;
     }
     .texte_carousel {
         font-size: 0em;
@@ -58,9 +59,12 @@ h1, h2 {
     }
     .valeurs_carousel {
         font-size: 4em;
+        color:  white ;
+        
     }
     .texte_carousel {
         font-size: 1.5em;
+        color:  white ;
     }
   }
 /*
