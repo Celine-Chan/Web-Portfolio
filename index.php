@@ -57,7 +57,7 @@
                             </h1>
                             <h2>Bienvenue sur mon site !</h2>
                             <a class="btn btn-outline-light btn-lg mt-2" href="#!" role="button"
-                            >Présentation Video <i class="flag flag-france "></i></a
+                            >Visite guidée en video <i class="fab fa-youtube"></i></a
                             >
                         </div>
                     </div>
@@ -252,7 +252,7 @@
                 <div class="col-12 col-md-12 col-lg-6
                 d-flex align-items-center justify-content-center text-justify" id="__centres-interet">
                     <div class="jumbotron">
-                        <h1 class="display-3">Objectifs</h1>
+                        <h1 class="display-3">Mes Objectifs</h1>
                         <p class="lead my-4 mx-3">This is a simple hero unit,
                              a simple jumbotron-style component for calling 
                              extra attention to featured content or information.</p>
@@ -309,7 +309,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_1">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/andrew-neel-1-29wyvvLJA-unsplash.jpg" class="w-100" />
-                        <a href="http://madestination.pandasprojects.com/">
+                        <a href="https://madestination.pandasprojects.com/">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -332,7 +332,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_2">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/chuttersnap-BNBA1h-NgdY-unsplash.jpg" class="w-100" />
-                        <a href="http://gestionstocks.pandasprojects.com/">
+                        <a href="https://gestionstocks.pandasprojects.com/">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -357,7 +357,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_3">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/michael-dziedzic-dSyhpTGhNHg-unsplash.jpg" class="w-100" />
-                        <a href="#!">
+                        <a href="https://pi.jeanbaptistetheroulde.com/">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -381,7 +381,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_1">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/lucas-santos-Qdvm-Qr1FYw-unsplash.jpg" class="w-100" />
-                        <a href="#!">
+                        <a href="https://github.com/J-BT/huitLED--Arduino--">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -400,7 +400,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_2">
                     <div class="bg-image ripple" data-mdb-ripple-color="light">
                         <img src="img/brett-jordan-94GiZLiWD8Y-unsplash.jpg" class="w-100" />
-                        <a href="#!">
+                        <a href="https://lependu.jeanbaptistetheroulde.com/">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -487,14 +487,14 @@
             
 
             <!-- Valeurs -->
-            <div class="row mt-5 mb-3 mx-2 px-2 pt-4 pb-4" id="valeurs">
+            <div class="row mt-5 mb-5 mx-2 px-2 pt-5 pb-5" id="valeurs">
                 <div class="jumbotron text-center" >
                         <h5 class="display-6">Les valeurs qui me definissent</h1>
                 </div>
                 <!-- Carousel wrapper -->
                 <div
                 id="carouselBasicExample"
-                class="carousel slide carousel-fade mt-3 pt-3"
+                class="carousel slide carousel-fade mt-3 pt-3 mb-5 "
                 data-mdb-ride="carousel"
                 >
                     <!-- Indicators -->
@@ -591,9 +591,9 @@
             </div>
             <!--Valeurs-->
             <!-- CV -->
-            <div class="row mt-2 pt-2 mb-5 pb-5 ms-1 ps-1 mx-5" 
-            id="parcoursPro">
-                <div class="col-12 col-md-12 col-lg-6 mx-5 mb-0 pb-5" id="__cv">
+            <div class="row mt-5 pt-5 mb-5 pt-5 pb-5 ms-1 ps-1 mx-5" 
+            id="CV">
+                <div class="col-12 col-md-12 col-lg-6 mx-5 mb-0 pb-5 pt-5" id="__cv">
                     <div class="jumbotron">
                         <h1 class="display-3">Curriculum vitae</h1>
                         <p class="lead my-4 mx-4">This is a simple hero unit,

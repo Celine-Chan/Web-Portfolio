@@ -60,6 +60,12 @@
                                             font-size: 1.5em;">PARCOURS</a>
                                         </li>
                                         <li class="nav-item">
+                                            <a class="nav-link" href="#CV" 
+                                            style="font-weight: bold;
+                                            font-family: Courier;
+                                            font-size: 1.5em;">CV</a>
+                                        </li>
+                                        <li class="nav-item">
                                             <a class="nav-link" href="#Contacts" 
                                             style="font-weight: bold;
                                             font-family: Courier;
