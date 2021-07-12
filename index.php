@@ -252,7 +252,7 @@
                 <div class="col-12 col-md-12 col-lg-6
                 d-flex align-items-center justify-content-center text-justify" id="__centres-interet">
                     <div class="jumbotron">
-                        <h1 class="display-3">Mes Objectifs</h1>
+                        <h1 class="display-3">Langages de Programmation</h1>
                         <p class="lead my-4 mx-3">This is a simple hero unit,
                              a simple jumbotron-style component for calling 
                              extra attention to featured content or information.</p>
@@ -340,9 +340,9 @@
                                 <p class="text-white mb-0"><h3>Gestion des Stocks</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3> 
                                     <i class="fab fa-python"></i>
+                                    <i class="fab fa-js"></i>
                                     <i class="fab fa-html5"></i>
                                     <i class="fab fa-css3-alt"></i>
-                                    <i class="fab fa-js"></i>
                                 </h3></p>
                             </div>
                           </div>
@@ -363,7 +363,10 @@
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Approximation de Pi</h3></p>
-                                <p class="text-white m-n2 p-n2"><h3><i class="fab fa-python"></i></h3></p>
+                                <p class="text-white m-n2 p-n2">
+                                <h3><i class="fab fa-python"></i>
+                                <i class="fab fa-php"></i>
+                                <i class="fab fa-js"></i></h3></p>
                             </div>
                           </div>
                           <div class="hover-overlay">
@@ -387,7 +390,7 @@
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Projets Arduino</h3></p>
-                                <p class="text-white m-n2 p-n2"><h3>C/C++</h3></p>
+                                <p class="text-white m-n2 p-n2"><h3>C++</h3></p>
                             </div>
                           </div>
                           <div class="hover-overlay">
@@ -406,7 +409,8 @@
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Le Pendu</h3></p>
-                                <p class="text-white m-n2 p-n2"><h3>C</h3></p>
+                                <p class="text-white m-n2 p-n2"><h3>C
+                                <i class="fab fa-php"></i></h3></p>
                             </div>
                           </div>
                           <div class="hover-overlay">
@@ -425,10 +429,11 @@
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
-                                <p class="text-white mb-0"><h3>A venir</h3></p>
+                                <p class="text-white mb-0"><h3>jeanbaptistetheroulde.com</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3>
-                                    <i class="fab fa-react"></i>
-                                    <i class="fab fa-python"></i>
+                                <i class="fab fa-php"></i>
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
                                 </h3></p>
                             </div>
                           </div>
