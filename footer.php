@@ -1,3 +1,18 @@
+<?php
+require_once 'controller/controller_index.php';
+
+header('Content-type: text/html; charset=UTF-8');
+$errors = [];
+
+$name = 'Formulaire de contact ' . $_POST['lastname'] . ' ' . $_POST['firstname'];
+$message = $_POST['message'];
+$headers = 'FROM : ' . $_POST['mail'];
+$headers .= "\nContent-Type: text/plain; charset=iso-8859-1"; // Type MIME
+
+mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
+
+?>
+
 <footer class="bg-dark text-center text-white" id="Contacts">
                 <!-- Grid container -->
                 <div class="container p-4">
@@ -20,6 +35,56 @@
                     ></a>
                 </section>
                 <!-- Section: Social media -->
+
+                <!-- Formulaire contact -->
+
+                <div id="contactAnchor"></div>
+
+                <div class="contact mt-5 pb-5 d-flex justify-content-center">
+
+                    <div class="container col-10 col-md-10 col-xl-6">
+
+                        <h2 class="text-light pt-5 titleh2 text-center">contactez-moi</h2>
+
+                            <form action="index.php" method="POST" class="mt-5">
+
+                                <div class="mb-3">
+                                    <label for="lastname" class="form-label text-light">Votre nom :</label>
+                                    <input type="text" name="lastname" id="lastname" class="form-control" placeholder="ex : Doe" value="<?= isset($_POST['lastname']) ? $_POST['lastname'] : '' ?>">
+                                    <div class="text-danger">
+                                        <span><?= isset($errorMessages['lastname']) ? $errorMessages['lastname'] : '' ?></span>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="firstname" class="form-label text-light">Votre prénom :</label>
+                                    <input type="text" name="firstname" id="firstname" class="form-control" placeholder="ex : John" value="<?= isset($_POST['firstname']) ? $_POST['firstname'] : '' ?>">
+                                    <div class="text-danger">
+                                        <span><?= isset($errorMessages['firstname']) ? $errorMessages['firstname'] : '' ?></span>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mail" class="form-label text-light">Votre adresse mail :</label>
+                                    <input type="email" id="mail" name="mail" class="form-control" placeholder="name@gmail.com" value="<?= isset($_POST['mail']) ? $_POST['mail'] : '' ?>">
+                                    <div class="text-danger">
+                                        <span><?= isset($errorMessages['mail']) ? $errorMessages['mail'] : '' ?></span>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label text-light">Votre message</label>
+                                    <textarea class="form-control" id="message" rows="6" name="message"><?= isset($_POST['message']) ? $_POST['message'] : '' ?></textarea>
+                                    <div class="text-danger">
+                                        <span><?= isset($errorMessages['message']) ? $errorMessages['message'] : '' ?></span>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <button class="btn btn-primary" type="submit" name="submit" id="buttonSubmit">Envoyer</button>
+                                </div>
+
+                            </form>
+                    </div>
+                </div>
+
+                <!-- Formulaire contact -->
 
             
                 <!-- Section: Links -->
