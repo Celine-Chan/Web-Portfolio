@@ -45,9 +45,7 @@ if (isset($_POST['submit'])) {
     ?>
 
         <script>
-            alertify.alert("Merci ! Votre email a bien été envoyé !", function(){
-                    alertify.message('OK');
-                });
+            alert("Votre email a bienété envoyé");
         </script>
 
     <?php
