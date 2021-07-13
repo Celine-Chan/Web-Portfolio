@@ -12,20 +12,7 @@ $headers .= "\nContent-Type: text/plain; charset=iso-8859-1"; // Type MIME
 mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
 
 ?>
-        <script>
-
-                function effaceInputs(id_a_effacer) {
-                    document.querySelector(a_effacer).value = '';
-                }
-                
-
-                effaceInputs('#lastname');
-                effaceInputs('#firstname');
-                effaceInputs('#mail');
-                effaceInputs('#message');
-
-        </script>
-
+        
 <footer class="bg-dark text-center text-white" id="Contacts">
                 <!-- Grid container -->
                 <div class="container p-4">
