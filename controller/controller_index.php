@@ -51,14 +51,17 @@ if (isset($_POST['submit'])) {
         <script>
             alert("Merci ! Votre email a bien été envoyé !");
 
-            function myFunction(id_a_effacer) {
-                document.getElementById(id_a_effacer).innerHTML.reset();
+            function effaceInputs(id_a_effacer) {
+                document.querySelector(a_effacer).value = '';
             }
-
-            myFunction('lastname');
-            myFunction('firstname');
-            myFunction('mail');
-            myFunction('message');
+            
+            function effaceTout(){
+                effaceInputs('#lastname');
+                effaceInputs('#firstname');
+                effaceInputs('#mail');
+                effaceInputs('#message');
+            }
+            
 
         </script>
 
