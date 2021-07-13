@@ -43,8 +43,8 @@ if (isset($_POST['submit'])) {
         }
     }
 
-    if (isset($_POST['lastname']) && isset($_POST['firstname']) &&
-     isset($_POST['mail']) && isset($_POST['message'])) {
+    if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
+    $_POST['mail']!= "" && $_POST['message']!= "") {
 
     ?>
 
