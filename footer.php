@@ -51,7 +51,7 @@ mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
                                 <div class="mb-3">
                                     <label for="lastname" class="form-label text-light">Votre nom :</label>
                                     <input type="text" name="lastname" id="lastname" class="form-control" 
-                                    placeholder="ex : Doe" value="<?= isset($_POST['lastname']) ? $_POST['lastname'] : '' ?>"
+                                    placeholder="ex : Doe" value=""
                                     onfocus="this.value=''">
                                     <div class="text-danger">
                                         <span><?= isset($errorMessages['lastname']) ? $errorMessages['lastname'] : '' ?></span>
@@ -60,7 +60,7 @@ mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
                                 <div class="mb-3">
                                     <label for="firstname" class="form-label text-light">Votre prénom :</label>
                                     <input type="text" name="firstname" id="firstname" class="form-control" 
-                                    placeholder="ex : John" value="<?= isset($_POST['firstname']) ? $_POST['firstname'] : '' ?>"
+                                    placeholder="ex : John" value=""
                                     onfocus="this.value=''">
                                     <div class="text-danger">
                                         <span><?= isset($errorMessages['firstname']) ? $errorMessages['firstname'] : '' ?></span>
@@ -69,7 +69,7 @@ mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
                                 <div class="mb-3">
                                     <label for="mail" class="form-label text-light">Votre adresse mail :</label>
                                     <input type="email" id="mail" name="mail" class="form-control" 
-                                    placeholder="name@gmail.com" value="<?= isset($_POST['mail']) ? $_POST['mail'] : '' ?>"
+                                    placeholder="name@gmail.com" value=""
                                     onfocus="this.value=''">
                                     <div class="text-danger">
                                         <span><?= isset($errorMessages['mail']) ? $errorMessages['mail'] : '' ?></span>
@@ -78,7 +78,7 @@ mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
                                 <div class="mb-3">
                                     <label for="message" class="form-label text-light">Votre message</label>
                                     <textarea class="form-control" id="message" rows="6" 
-                                    name="message"><?= isset($_POST['message']) ? $_POST['message'] : '' ?></textarea
+                                    name="message"></textarea
                                     onfocus="this.value=''">
                                     <div class="text-danger">
                                         <span><?= isset($errorMessages['message']) ? $errorMessages['message'] : '' ?></span>
