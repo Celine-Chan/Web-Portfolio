@@ -74,6 +74,7 @@ h1, h2 {
   .logoLanguages {
     height: 8rem;
     width: 8rem;
+    
 }
 
 .minilogoLanguages {
@@ -85,3 +86,8 @@ p {
    text-align: justify;
    text-justify: inter-word;
    }
+
+#langues{
+  border: 0.1px solid rgba(62, 58, 75, 0.657);
+  border-radius: 50%; 
+}

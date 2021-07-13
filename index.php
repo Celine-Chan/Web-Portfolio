@@ -259,14 +259,22 @@
                     <div class="jumbotron ">
                         <h1 class="d-flex align-items-center
                         justify-content-center text-justifydisplay-3 my-5 py-5">
-                        Langages & Outils</h1>
+                        Langages & Technologies</h1>
                         
                         <div class="d-flex flex-wrap align-items-center
                          justify-content-center text-justify mx-3">
-                           
+                            <img src="img/languages_tools/france-svgrepo-com.svg" 
+                                     alt="français" class="logoLanguages" title="français">
+                            
+                            <img src="img/languages_tools/united-kingdom-svgrepo-com.svg" 
+                                     alt="anglais" class="logoLanguages" title="anglais">
+
+                            <img src="img/languages_tools/japan-svgrepo-com.svg" 
+                                    id = "langues"alt="japonais" class="logoLanguages" title="japonais">
+
                             <img src="img/languages_tools/python-original-wordmark.svg" 
                                 alt="python" class="logoLanguages" title="python">
-                            
+
                             <img src="img/languages_tools/php-original.svg" 
                             alt="php" class="logoLanguages" title="php">
 
