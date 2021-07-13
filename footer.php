@@ -11,6 +11,11 @@ $headers .= "\nContent-Type: text/plain; charset=iso-8859-1"; // Type MIME
 
 mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
 
+$_POST['lastname']="";
+$_POST['firstname']="";
+$_POST['mail']="";
+$_POST['message']="";
+
 ?>
         
 <footer class="bg-dark text-center text-white" id="Contacts">
