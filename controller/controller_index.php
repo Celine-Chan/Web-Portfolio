@@ -57,6 +57,10 @@ if (isset($_POST['submit'])) {
 
     <?php
     }
+    $_POST['lastname']="";
+    $_POST['firstname']="";
+    $_POST['mail']="";
+    $_POST['message']="";
 
        
 }
