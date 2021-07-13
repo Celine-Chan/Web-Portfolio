@@ -71,59 +71,12 @@ h1, h2 {
         color:  white ;
     }
   }
-/*
-  class="texte_carousel"
-  class="valeurs_carousel"
-  */
-/*
-#hero #__parcours {
-    border: 3px rgb(36, 250, 89) ridge;
-}
-#hero #__portfolio {
-    border: 3px rgb(36, 250, 89) ridge;
-}
-#hero #__cv {
-    border: 3px rgb(36, 250, 89) ridge;
+  .logoLanguages {
+    height: 8rem;
+    width: 8rem;
 }
 
-
-#description #__parcours {
-    border: 3px rgb(185, 9, 47) ridge;
+.minilogoLanguages {
+  height: 3rem;
+  width: 3rem;
 }
-
-#parcoursPro #__cv{
-    border: 3px rgb(42, 153, 156) ridge;
-}
-
-#valeurs #__1 {
-    border: 3px rgb(185, 9, 132) ridge;
-}
-#valeurs #__2 {
-    border: 3px rgb(185, 9, 132) ridge;
-}
-#valeurs #__3 {
-    border: 3px rgb(185, 9, 132) ridge;
-}
-#valeurs #__4 {
-    border: 3px rgb(185, 9, 132) ridge;
-}
-
-#portfolio #__projet_1 {
-    border: 3px rgb(6, 116, 6) ridge;
-}
-#portfolio #__projet_2 {
-    border: 3px rgb(6, 116, 6) ridge;
-}
-#portfolio #__projet_3 {
-    border: 3px rgb(6, 116, 6) ridge;
-}
-
-
-#footer #__liens {
-    border: 3px rgb(133, 238, 224) ridge;
-}
-
-#centres-interet{
-    border: 3px rgb(133, 238, 224) ridge;
-}
-*/

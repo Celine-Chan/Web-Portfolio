@@ -23,6 +23,9 @@
         rel="stylesheet"
         />
         
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+
+        <!-- Devicon -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         
         <link rel="stylesheet" href="style.css" />
@@ -237,8 +240,8 @@
                 </div>
             </div>
             <!-- Parcours professionel -->
-            <div class="row mb-5 pb-2 ms-2 ps-4 me-2 pe-4" id="centres-interet">
-                <div class="col-12 col-md-12 col-lg-6
+            <div class="row mb-5 mx-2 pb-2 px-2" id="centres-interet">
+                <div class="col-12 col-md-12 col-lg-5
                 d-flex align-items-center justify-content-center " 
                 style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0);" 
                 id="__centres-interet_tg_gd_md">
@@ -249,34 +252,62 @@
                         style="height: auto; width: 75%;">
                 </div>
                 
-                <div class="col-12 col-md-12 col-lg-6
-                d-flex align-items-center justify-content-center text-justify" id="__centres-interet">
-                    <div class="jumbotron">
-                        <h1 class="display-3">Langages de Programmation</h1>
-                        <p class="lead my-4 mx-3">This is a simple hero unit,
-                             a simple jumbotron-style component for calling 
-                             extra attention to featured content or information.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed non risus. Suspendisse lectus tortor,
-                            dignissim sit amet, adipiscing nec, ultricies sed,
-                            dolor. Cras elementum ultrices diam. 
-                            Maecenas ligula massa, varius a, semper congue,
-                            euismod non, mi. Proin porttitor,
-                            orci nec nonummy molestie, enim est eleifend mi,
-                            non fermentum diam nisl sit amet erat. Duis semper.
-                            Duis arcu massa, scelerisque vitae,
-                            consequat in, pretium a, enim.
-                            Pellentesque congue. 
-                            Ut in risus volutpat libero pharetra tempor.
-                            Cras vestibulum bibendum augue. 
-                            Praesent egestas leo in pede. 
-                            Praesent blandit odio eu enim. 
-                            Pellentesque sed dui ut augue blandit sodales. 
-                            Vestibulum ante ipsum primis in faucibus orci 
-                            luctus et ultrices posuere cubilia Curae; 
-                            Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
-                            Maecenas adipiscing ante non diam sodales hendrerit.  
-                        </p>
+                <div class="col-12 col-md-12 col-lg-7
+                d-flex align-items-center justify-content-center text-justify
+                px-5" 
+                id="__centres-interet">
+                    <div class="jumbotron ">
+                        <h1 class="d-flex align-items-center
+                        justify-content-center text-justifydisplay-3 my-5 py-5">
+                        Langages & Outils</h1>
+                        
+                        <div class="d-flex flex-wrap align-items-center
+                         justify-content-center text-justify mx-3">
+                           
+                            <img src="img/languages_tools/python-original-wordmark.svg" 
+                                alt="python" class="logoLanguages" title="python">
+                            
+                            <img src="img/languages_tools/php-original.svg" 
+                            alt="php" class="logoLanguages" title="php">
+
+                            <img src="img/languages_tools/html5-original-wordmark.svg" 
+                            alt="html5" class="logoLanguages" title="html5">
+
+                            <img src="img/languages_tools/css3-original-wordmark.svg" 
+                                alt="css3" class="logoLanguages" title="css3">
+
+                            <img src="img/languages_tools/javascript-original.svg" 
+                                alt="javascript" class="logoLanguages" title="javascript">
+                            
+                            <img src="img/languages_tools/c-original.svg" 
+                            alt="c" class="logoLanguages" title="c">
+
+                            <img src="img/languages_tools/arduino-original-wordmark.svg" 
+                                alt="arduino" class="logoLanguages" title="arduino">
+
+                            <img src="img/languages_tools/flask-original-wordmark.svg" 
+                            alt="flask" class="logoLanguages" title="flask">
+                            
+                            <img src="img/languages_tools/bootstrap-plain-wordmark.svg" 
+                            alt="bootstrap" class="logoLanguages" title="bootstrap">
+                            
+                            <img src="img/languages_tools/apache-original-wordmark.svg" 
+                            alt="apache" class="logoLanguages" title="apache">
+
+                            <img src="img/languages_tools/nginx-original.svg" 
+                                alt="ngix" class="logoLanguages" title="ngix">
+                            
+                            <img src="img/languages_tools/ubuntu-plain-wordmark.svg" 
+                            alt="ubuntu" class="logoLanguages" title="ubuntu">
+
+                            <img src="img/languages_tools/bash-original.svg" 
+                                alt="bash" class="logoLanguages" title="bash">
+                            
+                            <img src="img/languages_tools/git-original-wordmark.svg" 
+                            alt="git" class="logoLanguages" title="git">
+
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -316,9 +347,12 @@
                             mt-3 pt-3">
                               <p class="text-white mb-0"><h3>Quelle est ma destination</h3></p>
                               <p class="text-white m-n2 p-n2"><h3>
-                                  <i class="fab fa-python"></i>
-                                  <i class="fab fa-html5"></i>
-                                  <i class="fab fa-css3-alt"></i>
+                                <img src="img/languages_tools/python-original.svg" 
+                                alt="logo_python" class="minilogoLanguages" title="logo_python">
+                                <img src="img/languages_tools/html5-original.svg" 
+                                alt="logo_html5" class="minilogoLanguages" title="logo_html5">
+                                <img src="img/languages_tools/css3-original.svg" 
+                                alt="logo_css3" class="minilogoLanguages" title="logo_css3">
                                 </h3></p>
                             </div>
                           </div>
@@ -339,10 +373,14 @@
                             mt-3 pt-3 ">
                                 <p class="text-white mb-0"><h3>Gestion des Stocks</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3> 
-                                    <i class="fab fa-python"></i>
-                                    <i class="fab fa-js"></i>
-                                    <i class="fab fa-html5"></i>
-                                    <i class="fab fa-css3-alt"></i>
+                                <img src="img/languages_tools/python-original.svg" 
+                                alt="logo_python" class="minilogoLanguages" title="logo_python">
+                                <img src="img/languages_tools/javascript-plain.svg" 
+                                alt="logo_js" class="minilogoLanguages" title="logo_js">
+                                <img src="img/languages_tools/html5-original.svg" 
+                                alt="logo_html5" class="minilogoLanguages" title="logo_html5">
+                                <img src="img/languages_tools/css3-original.svg" 
+                                alt="logo_css3" class="minilogoLanguages" title="logo_css3">
                                 </h3></p>
                             </div>
                           </div>
@@ -364,9 +402,16 @@
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Approximation de Pi</h3></p>
                                 <p class="text-white m-n2 p-n2">
-                                <h3><i class="fab fa-python"></i>
-                                <i class="fab fa-php"></i>
-                                <i class="fab fa-js"></i></h3></p>
+                                <h3>
+                                <img src="img/languages_tools/python-original.svg" 
+                                alt="logo_python" class="minilogoLanguages" title="logo_python">
+                                <img src="img/languages_tools/php-plain.svg" 
+                                alt="logo_php" class="minilogoLanguages" title="logo_php">
+                                <img src="img/languages_tools/javascript-plain.svg" 
+                                alt="logo_js" class="minilogoLanguages" title="logo_js">
+                                <img src="img/languages_tools/html5-original.svg" 
+                                alt="logo_html5" class="minilogoLanguages" title="logo_html5">
+                                </h3></p>
                             </div>
                           </div>
                           <div class="hover-overlay">
@@ -390,7 +435,8 @@
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Projets Arduino</h3></p>
-                                <p class="text-white m-n2 p-n2"><h3>C++</h3></p>
+                                <img src="img/languages_tools/arduino-original.svg" 
+                                alt="logo_arduino" class="minilogoLanguages" title="logo_arduino">
                             </div>
                           </div>
                           <div class="hover-overlay">
@@ -409,8 +455,12 @@
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0"><h3>Le Pendu</h3></p>
-                                <p class="text-white m-n2 p-n2"><h3>C
-                                <i class="fab fa-php"></i></h3></p>
+                                <p class="text-white m-n2 p-n2"><h3>
+                                    <img src="img/languages_tools/c-line.svg" 
+                                    alt="logo_c" class="minilogoLanguages" title="logo_c">
+                                    <img src="img/languages_tools/php-plain.svg" 
+                                    alt="logo_php" class="minilogoLanguages" title="logo_php">
+                                </h3></p>
                             </div>
                           </div>
                           <div class="hover-overlay">
@@ -426,14 +476,19 @@
                         <img src="img/anete-lusina-zwsHjakE_iI-unsplash.jpg" class="w-100" />
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                            <div class="d-flex flex-column 
+                            <div class="d-flex flex-column  
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
-                                <p class="text-white mb-0"><h3>jeanbaptistetheroulde.com</h3></p>
+                                <p class="text-white mb-0 "><h3>Mon Site Web / Portfolio</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3>
-                                <i class="fab fa-php"></i>
-                                <i class="fab fa-html5"></i>
-                                <i class="fab fa-css3-alt"></i>
+                                    <img src="img/languages_tools/php-plain.svg" 
+                                    alt="logo_php" class="minilogoLanguages" title="logo_php">
+                                    <img src="img/languages_tools/html5-original.svg" 
+                                    alt="logo_html5" class="minilogoLanguages" title="logo_html5">
+                                    <img src="img/languages_tools/css3-original.svg" 
+                                    alt="logo_css3" class="minilogoLanguages" title="logo_css3">
+                                    <img src="img/languages_tools/javascript-plain.svg" 
+                                    alt="logo_js" class="minilogoLanguages" title="logo_js">
                                 </h3></p>
                             </div>
                           </div>
