@@ -1,7 +1,7 @@
 
 <?php
 require_once 'controller/controller_index.php';
-/*
+
 header('Content-type: text/html; charset=UTF-8');
 $errors = [];
 
@@ -24,7 +24,7 @@ if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
 
     <?php
     }
-*/
+
 ?>
       
 <footer class="bg-dark text-center text-white" id="Contacts">
