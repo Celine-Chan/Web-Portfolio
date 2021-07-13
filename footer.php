@@ -11,6 +11,18 @@ $headers .= "\nContent-Type: text/plain; charset=iso-8859-1"; // Type MIME
 
 mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
 
+if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
+    $_POST['mail']!= "" && $_POST['message']!= "") {
+
+    ?>
+
+        <script>
+            alert("Merci ! Votre email a bien été envoyé !");
+        </script>
+
+    <?php
+    }
+
 ?>
         
 <footer class="bg-dark text-center text-white" id="Contacts">
@@ -86,8 +98,7 @@ mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
                                 </div>
                                 <div class="mb-3">
                                     <button class="btn btn-primary" type="submit" 
-                                    name="submit" id="buttonSubmit"
-                                    onclinck="effaceLesInputs()">Envoyer</button>
+                                    name="submit" id="buttonSubmit">Envoyer</button>
                                 </div>
 
                             </form>

@@ -42,17 +42,5 @@ if (isset($_POST['submit'])) {
             $errorMessages['message'] = 'Veuillez remplir le champ.';
         }
     }
-
-    if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
-    $_POST['mail']!= "" && $_POST['message']!= "") {
-
-    ?>
-
-        <script>
-            alert("Merci ! Votre email a bien été envoyé !");
-        </script>
-
-    <?php
-    }
        
 }
