@@ -50,19 +50,6 @@ if (isset($_POST['submit'])) {
 
         <script>
             alert("Merci ! Votre email a bien été envoyé !");
-
-            function effaceInputs(id_a_effacer) {
-                document.querySelector(a_effacer).value = '';
-            }
-            
-            function effaceTout(){
-                effaceInputs('#lastname');
-                effaceInputs('#firstname');
-                effaceInputs('#mail');
-                effaceInputs('#message');
-            }
-            
-
         </script>
 
     <?php

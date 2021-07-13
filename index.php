@@ -30,6 +30,21 @@
         
         <link rel="stylesheet" href="style.css" />
 
+        <script>
+            alert("Merci ! Votre email a bien été envoyé !");
+
+            function effaceInputs(id_a_effacer) {
+                document.querySelector(a_effacer).value = '';
+            }
+            
+
+            effaceInputs('#lastname');
+            effaceInputs('#firstname');
+            effaceInputs('#mail');
+            effaceInputs('#message');
+
+        </script>
+
         <title>Jean-Baptiste Theroulde</title>
 
     </head>

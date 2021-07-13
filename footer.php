@@ -85,8 +85,7 @@ mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
                                     </div>
                                 </div>
                                 <div class="mb-3">
-                                    <button class="btn btn-primary" type="submit" name="submit" id="buttonSubmit"
-                                    onclick="effaceTout()">Envoyer</button>
+                                    <button class="btn btn-primary" type="submit" name="submit" id="buttonSubmit">Envoyer</button>
                                 </div>
 
                             </form>
