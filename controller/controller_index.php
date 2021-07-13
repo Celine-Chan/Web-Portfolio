@@ -42,4 +42,13 @@ if (isset($_POST['submit'])) {
             $errorMessages['message'] = 'Veuillez remplir le champ.';
         }
     }
+    ?>
+
+        <script>
+            alertify.alert("Merci ! Votre email a bien été envoyé !", function(){
+                    alertify.message('OK');
+                });
+        </script>
+
+    <?php
 }
