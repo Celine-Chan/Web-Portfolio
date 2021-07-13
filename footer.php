@@ -1,8 +1,8 @@
-<footer class="bg-dark text-center text-white" id="Contacts">
+<footer class="bg-dark text-center text-white mb-5 pb-5" id="Contacts">
                 <!-- Grid container -->
                 <div class="container p-4">
                 <!-- Section: Social media -->
-                <section class="mb-4">
+                <section class="mb-5">
                     <h3>Contacts</h3>
                     <!-- Google -->
                     <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
@@ -21,19 +21,9 @@
                 </section>
                 <!-- Section: Social media -->
 
-                <!-- Section: Text -->
-                <section class="mb-4">
-                    <p> 
-                    <i class="fas fa-hand-point-down"></i> Ci-dessous quelques-uns de mes sites favoris,
-                     classés par centres d'interêt...</p>
-                    <p>
-                    Merci de votre visite, à bientôt ! 
-                    </p>
-                </section>
-                <!-- Section: Text -->
             
                 <!-- Section: Links -->
-                <section class="">
+                <section class="liens_utiles mt-5">
                     <!--Grid row-->
                     <div class="row">
                     <!--Grid column-->
