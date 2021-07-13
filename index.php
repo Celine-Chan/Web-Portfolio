@@ -161,12 +161,12 @@
                 " 
                 >
                     
-                    <div class="col-9 col-md-8 col-lg-5 me-3 ms-n4" >
+                    <div class="col-9 col-md-8 col-lg-5 ms-n4 me-3" >
                         <div class="jumbotron mt-n4 mb-n5 me-0 px-3 text-justify" 
                         style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
                             <h1 class="display-3 " id= "presentation">Présentation</h1>
                             <p class="lead mt-3" >Qui suis-je ?</p>
-                            <p class="text-left">Lorem ipsum dolor sit amet,
+                            <p class="text-left me-5">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit.
                             Sed non risus. Suspendisse lectus tortor,
                             dignissim sit amet, adipiscing nec, ultricies sed,
@@ -477,9 +477,9 @@
                         <a href="#!">
                           <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column  
-                            justify-content-center align-items-center h-100 text-center
+                            justify-content-center align-items-center h-100 text-center text-break
                             mt-3 pt-3">
-                                <p class="text-white mb-0 "><h3>Mon Site Web / Portfolio</h3></p>
+                                <p class="text-white mb-0 "><h3>jeanbaptistetheroulde.com</h3></p>
                                 <p class="text-white m-n2 p-n2"><h3>
                                     <img src="img/languages_tools/php-plain.svg" 
                                     alt="logo_php" class="minilogoLanguages" title="logo_php">

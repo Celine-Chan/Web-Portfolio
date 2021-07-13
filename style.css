@@ -80,3 +80,8 @@ h1, h2 {
   height: 3rem;
   width: 3rem;
 }
+
+p {
+   text-align: justify;
+   text-justify: inter-word;
+   }
