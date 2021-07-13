@@ -83,3 +83,13 @@ class TypeWriter {
     });
   }); 
 
+  function effaceInputs(a_effacer) {
+    document.querySelector(a_effacer).reset();
+}
+        
+  function effaceLesInputs(){
+    effaceInputs('#lastname');
+    effaceInputs('#firstname');
+    effaceInputs('#mail');
+    effaceInputs('#message');
+}

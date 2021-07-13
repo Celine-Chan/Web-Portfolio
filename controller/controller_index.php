@@ -52,8 +52,11 @@ if (isset($_POST['submit'])) {
             alert("Merci ! Votre email a bien été envoyé !");
         </script>
 
+
+        
+
     <?php
     }
-    header('Location: index.php');
 
+       
 }
