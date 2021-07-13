@@ -51,10 +51,15 @@ if (isset($_POST['submit'])) {
         <script>
             alert("Merci ! Votre email a bien été envoyé !");
 
-            document.getElementById('lastname').value = '';
-            document.getElementById('firstname').value = '';
-            document.getElementById('mail').value = '';
-            document.getElementById('message').value = '';
+            function myFunction(id_a_effacer) {
+                document.getElementById(id_a_effacer).innerHTML.reset();
+            }
+
+            myFunction('lastname');
+            myFunction('firstname');
+            myFunction('mail');
+            myFunction('message');
+
         </script>
 
     <?php
