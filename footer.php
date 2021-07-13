@@ -13,17 +13,16 @@ mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
 
 ?>
         <script>
-                    alert("Merci ! Votre email a bien été envoyé !");
 
-                    function effaceInputs(id_a_effacer) {
-                        document.querySelector(a_effacer).value = '';
-                    }
-                    
+                function effaceInputs(id_a_effacer) {
+                    document.querySelector(a_effacer).value = '';
+                }
+                
 
-                    effaceInputs('#lastname');
-                    effaceInputs('#firstname');
-                    effaceInputs('#mail');
-                    effaceInputs('#message');
+                effaceInputs('#lastname');
+                effaceInputs('#firstname');
+                effaceInputs('#mail');
+                effaceInputs('#message');
 
         </script>
 
