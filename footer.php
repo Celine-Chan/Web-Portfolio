@@ -1,4 +1,4 @@
-<footer class="bg-dark text-center text-white mb-5 pb-5" id="Contacts">
+<footer class="bg-dark text-center text-white" id="Contacts">
                 <!-- Grid container -->
                 <div class="container p-4">
                 <!-- Section: Social media -->
