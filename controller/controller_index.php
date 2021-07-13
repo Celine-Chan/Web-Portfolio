@@ -42,11 +42,16 @@ if (isset($_POST['submit'])) {
             $errorMessages['message'] = 'Veuillez remplir le champ.';
         }
     }
+
+    if (isset($_POST['lastname']) && isset($_POST['firstname']) &&
+     isset($_POST['mail']) && isset($_POST['message'])) {
+
     ?>
 
         <script>
-            alert("Votre email a bienété envoyé");
+            alert("Merci ! Votre email a bien été envoyé !");
         </script>
 
     <?php
+    }
 }
