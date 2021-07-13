@@ -1,8 +1,10 @@
+
 <?php
 require_once 'controller/controller_index.php';
-
+/*
 header('Content-type: text/html; charset=UTF-8');
 $errors = [];
+
 
 $name = 'Formulaire de contact ' . $_POST['lastname'] . ' ' . $_POST['firstname'];
 $message = $_POST['message'];
@@ -22,9 +24,9 @@ if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
 
     <?php
     }
-
+*/
 ?>
-        
+      
 <footer class="bg-dark text-center text-white" id="Contacts">
                 <!-- Grid container -->
                 <div class="container p-4">
@@ -32,9 +34,9 @@ if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
                 <section class="mb-5">
                     <h3>Contacts</h3>
                     <!-- Google -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                    ><i class="far fa-envelope"></i
-                    ></a>
+                    <button class="btn btn-outline-light btn-floating m-1 " role="button"
+                    id="toggle"><i class="far fa-envelope"></i
+                    ></button>
                       
                     <!-- Linkedin -->
                     <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/jeanbaptistetheroulde/" role="button"
@@ -52,11 +54,12 @@ if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
 
                 <div id="contactAnchor"></div>
 
-                <div class="contact mt-5 pb-5 d-flex justify-content-center">
+                <div class="contact mt-5 pb-5 d-flex justify-content-center" >
 
-                    <div class="container col-10 col-md-10 col-xl-6">
+                    <div class="container col-10 col-md-10 col-xl-6" id="formulaireContact"
+                    >
 
-                        <h2 class="text-light pt-5 titleh2 text-center">contactez-moi</h2>
+                        <h2 class="text-light pt-5 titleh2 text-center">Contactez-moi</h2>
 
                             <form action="index.php" method="POST" class="mt-5">
 

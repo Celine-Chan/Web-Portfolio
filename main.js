@@ -87,9 +87,17 @@ class TypeWriter {
     document.querySelector(a_effacer).reset();
 }
         
-  function effaceLesInputs(){
-    effaceInputs('#lastname');
-    effaceInputs('#firstname');
-    effaceInputs('#mail');
-    effaceInputs('#message');
+
+/* Fait apparaitre ou non formulaire contact*/
+const targetDiv = document.querySelector("#formulaireContact");
+const btn = document.querySelector("#toggle");
+
+btn.onclick = function () {
+  if (targetDiv.style.display == "none"){
+    targetDiv.style.display = "block";
+  }
+  else{
+    targetDiv.style.display = "none";
+  }
+
 }
