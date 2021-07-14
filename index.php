@@ -703,8 +703,8 @@
                             <a href="pdf/cv_jbtheroulde_simulation_entretien.pdf" 
                                 class="btn btn-success">Afficher</a>
                     
-                            <a href="pdf/cv_jbtheroulde_simulation_entretien.pdf" 
-                            class="btn btn-primary">Télécharger</a>
+                            <a href="download.php?file=cv_jbtheroulde_simulation_entretien.pdf" 
+                            class="btn btn-primary" target="_new">Télécharger</a>
                         
                         </div>
                         <div class="card-footer text-muted">
