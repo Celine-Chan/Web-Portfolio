@@ -263,14 +263,14 @@
                         
                         <div class="d-flex flex-wrap align-items-center
                          justify-content-center text-justify mx-3">
-                            <img src="img/languages_tools/france-svgrepo-com.svg" 
+                            <img src="img/languages_tools/france-svgrepo-com.svg"
                                      alt="français" class="logoLanguages" title="français">
                             
                             <img src="img/languages_tools/united-kingdom-svgrepo-com.svg" 
                                      alt="anglais" class="logoLanguages" title="anglais">
 
                             <img src="img/languages_tools/japan-svgrepo-com.svg" 
-                                    id = "langues"alt="japonais" class="logoLanguages" title="japonais">
+                                id ="japan_flag" alt="japonais" class="logoLanguages" title="japonais">
 
                             <img src="img/languages_tools/python-original-wordmark.svg" 
                                 alt="python" class="logoLanguages" title="python">
@@ -328,7 +328,7 @@
                         
                     </p>
                 </div>
-                <div class="col-10 col-md-8 col-lg-6 pt-5" id="__portfolio">
+                <div class="col-10 col-md-8 col-lg-6 mt-5" id="__portfolio">
                     <div class="jumbotron
                     d-flex justify-content-center align-items-center">
                         <h1 class="display-3">Portfolio</h1>
@@ -515,7 +515,7 @@
                         
                     </p>
                 </div>
-                <div class="col-10 col-md-8 col-lg-6 pt-5 mt-5 text-justify" id="__cv">
+                <div class="col-10 col-md-8 col-lg-6 pt-3 mt-5 text-justify" id="__cv">
                     <div class="jumbotron text-justify">
                         <h1 class="display-3">Parcours Professionnel</h1>
                         <p class="lead my-4 mx-1 text-justify">This is a simple hero unit,
@@ -555,7 +555,7 @@
             
 
             <!-- Valeurs -->
-            <div class="row mt-5 mb-5 mx-2 px-2 pt-5 pb-5" id="valeurs">
+            <div class="row mt-5 mb-5 mx-2 px-0 pt-5 pb-5" id="valeurs">
                 <div class="jumbotron text-center" >
                         <h5 class="display-6">Les valeurs qui me definissent</h1>
                 </div>
@@ -641,7 +641,7 @@
                     type="button"
                     data-mdb-target="#carouselBasicExample"
                     data-mdb-slide="prev"
-                    >pdf/
+                    >
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                     </button>

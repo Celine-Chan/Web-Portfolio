@@ -92,11 +92,20 @@ p {
    text-justify: inter-word;
    }
 
-#langues{
-  border: 0.1px solid rgba(62, 58, 75, 0.657);
+#japan_flag{
+  border: 0.01px solid rgba(62, 58, 75, 0.657);
   border-radius: 50%; 
 }
 
 #formulaireContact{
   display:none;
+}
+
+
+.logoLanguages{
+  margin: 3px;
+}
+
+.carousel .carousel-inner #carouselBasicExample #valeurs{
+  width: 100%;
 }
