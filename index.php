@@ -700,13 +700,13 @@
                           <h5 class="card-title">Afficher ou télécharger mon CV...</h5>
                           <p class="card-text">En cliquant sur l'un des boutons ci-dessous:</p>
 
-                            <div class="d-flex flex-row justify-content-between boutons_cv ">
+                            <div class="d-flex flex-row align-items-center justify-content-center">
 
                                 <a href="pdf/cv_jbtheroulde_simulation_entretien.pdf" 
-                                    class="btn btn-success">Afficher</a>
+                                    class="btn btn-success mx-1">Afficher</a>
                         
                                 <a href="download.php?file=cv_jbtheroulde_simulation_entretien.pdf" 
-                                class="btn btn-primary" target="_new">Télécharger</a>
+                                class="btn btn-primary mx-1" target="_new">Télécharger</a>
                 
                             </div>
                             
