@@ -641,7 +641,7 @@
                     type="button"
                     data-mdb-target="#carouselBasicExample"
                     data-mdb-slide="prev"
-                    >
+                    >pdf/
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                     </button>
@@ -697,9 +697,15 @@
                             Si vous le souhaitez, vous pouvez...
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Télécharger mon Curriculum vitae</h5>
-                          <p class="card-text">En cliquant sur le bouton ci-dessous:</p>
-                          <a href="#" class="btn btn-primary">Télécharger</a>
+                          <h5 class="card-title">Afficher ou télécharger mon CV...</h5>
+                          <p class="card-text">En cliquant sur l'un des boutons ci-dessous:</p>
+
+                            <a href="pdf/cv_jbtheroulde_simulation_entretien.pdf" 
+                                class="btn btn-success">Afficher</a>
+                    
+                            <a href="pdf/cv_jbtheroulde_simulation_entretien.pdf" 
+                            class="btn btn-primary">Télécharger</a>
+                        
                         </div>
                         <div class="card-footer text-muted">
                           Mis à jour le 28/11/2021
