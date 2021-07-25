@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.2.1/dist/svgMap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -165,15 +166,7 @@
                             ayant vécu principalement en France et au Japon
                             (mais surtout en France), passionné par
                             les langues étrangères et les nouvelles technologies.
-                            Sur le long terme (>= 8 ans), ma compagne et moi avons
-                            pour objectif de créer une société qui nous
-                            permettrait de proposer nos services en développement
-                            d’application ainsi qu’en traduction.
-                            Sur le court-moyen terme (1 mois ~ 8 ans) il sera 
-                            ainsi question de continuer à se former via une alternance 
-                            puis un CDD/ CDI au sein d’une Entreprise de Services
-                            du Numérique ou tout autre société qui souhaiterait
-                            développer une application web et/ou mobile.
+                            
                         </p>
                     </div>
                 </div>
@@ -219,11 +212,7 @@
                     pour objectif de créer une société qui nous
                     permettrait de proposer nos services en développement
                     d’application ainsi qu’en traduction.
-                    Sur le court-moyen terme (1 mois ~ 8 ans) il sera 
-                    ainsi question de continuer à se former via une alternance 
-                    puis un CDD/ CDI au sein d’une Entreprise de Services
-                    du Numérique ou tout autre société qui souhaiterait
-                    développer une application web et/ou mobile.
+                    
                 </p>
             </div>
         </div>
@@ -476,47 +465,24 @@
         </div>
         <!-- Portfolio 2 -->
         <!-- Parcours professionel -->
-        <div class="row mx-2 px-2 pt-5 mt-5" id="parcoursPro">
-            <div class="col-1 col-md-2 col-lg-3">
-                <p>
-
-                </p>
-            </div>
-            <div class="col-10 col-md-8 col-lg-6 pt-3 mt-5 text-justify" id="__cv">
-                <div class="jumbotron text-justify">
-                    <h1 class="display-3">Parcours Professionnel</h1>
-                    <p class="lead my-4 mx-1 text-justify">This is a simple hero unit,
-                        a simple jumbotron-style component for calling
-                        extra attention to featured content or information.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed non risus. Suspendisse lectus tortor,
-                        dignissim sit amet, adipiscing nec, ultricies sed,
-                        dolor. Cras elementum ultrices diam.
-                        Maecenas ligula massa, varius a, semper congue,
-                        euismod non, mi. Proin porttitor,
-                        orci nec nonummy molestie, enim est eleifend mi,
-                        non fermentum diam nisl sit amet erat. Duis semper.
-                        Duis arcu massa, scelerisque vitae,
-                        consequat in, pretium a, enim.
-                        Pellentesque congue.
-                        Ut in risus volutpat libero pharetra tempor.
-                        Cras vestibulum bibendum augue.
-                        Praesent egestas leo in pede.
-                        Praesent blandit odio eu enim.
-                        Pellentesque sed dui ut augue blandit sodales.
-                        Vestibulum ante ipsum primis in faucibus orci
-                        luctus et ultrices posuere cubilia Curae;
-                        Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
-                        Maecenas adipiscing ante non diam sodales hendrerit.
+        <div class="row mx-2 px-2 pt-5 mt-5 d-flex align-items-center 
+        justify-content-center col-10 col-md-10 col-lg-10" id="parcoursPro">
+            
+                <div class="jumbotron text-justify ">
+                    <h1 class="display-3">Mon parcours...en carte</h1>
+                    <p class="lead mt-3 d-flex flex-wrap align-items-center">
+                        <span class="legende d-flex flex-wrap"><span id="vert_map">Vert</span> = Naissance</span>
+                        <span class="legende d-flex flex-wrap"><span id="bleu_map">Bleu</span> = Travail</span> 
+                        <span class="legende d-flex flex-wrap"><span id="orange_map">Orange</span> = Séjour linguistique</span>
+                        <span class="legende d-flex flex-wrap"><span id="rouge_map">Rouge</span> = Tourisme  </span>
                     </p>
+                    <div id="svgMap"></div>
+               
                 </div>
-            </div>
-            <div class="col-1 col-md-2 col-lg-3">
-                <p>
-
-                </p>
-            </div>
+            
         </div>
+
+        
         <!--Parcours professionel-->
 
 
@@ -648,7 +614,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.2.1/dist/svgMap.min.js"></script>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
     <script src="main.js"></script>

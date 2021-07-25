@@ -101,3 +101,73 @@ btn.onclick = function () {
   }
 
 }
+
+
+new svgMap({
+  targetElementID: 'svgMap',
+  data: {
+    data: {
+
+      date: {
+        name: 'Année d\'arrivée',
+        format: '{0}'
+      },
+      objetSejour:{
+        name:'Motif(s) principal(aux)',
+        format:'{0}'
+        
+      },
+      jobs:{
+        name:'Activitées professionnelles',
+        format:'{0}'
+      },
+      dureeTotale:{
+        name: 'Durée totale du séjour',
+        format: '{0}'
+      }
+
+    },
+    applyData: 'objetSejour',
+    values: {
+      BR: {date: 1989, objetSejour: "Naissance", dureeTotale:"2 mois" },
+      FR: {
+          date: 1990,
+          objetSejour: "Travail / Etudes ",
+          jobs: ["Développeur (stage), Conseiller pédagogique, Tuteur de japonais",
+                " Commercial, Téléconseiller, Receptionniste, Bartender",
+                " Serveur, Manutentionnaire, Bibliothécaire, Professeur particulier",
+                " Bénévole, Surveillant"
+          ],
+          dureeTotale:"> 28 ans"
+        },
+      ES: {date: 2004, objetSejour: "Séjour Linguistique", dureeTotale:"2 semaines"},
+      GB: {date: 2006, objetSejour: "Séjour Linguistique", dureeTotale:"3 semaines"},
+      IE: {date: 2006, objetSejour: "Tourisme"},
+      TR: {date: 2011, objetSejour: "Tourisme"},
+      TN: {date: 2002, objetSejour: "Tourisme"},
+      MA: {date: 2005, objetSejour: "Tourisme"},
+      BE: {date: 2000, objetSejour: "Tourisme"},
+      NL: {date: 2000, objetSejour: "Tourisme"},
+      PL: {date: 2017, objetSejour: "Tourisme"},
+      TH: {date: 2014, objetSejour: "Tourisme"},
+      CN: {date: 2016, objetSejour: "Tourisme"},
+      KH: {date: 2015, objetSejour: "Tourisme"},
+      JP: {
+          date: 2010, objetSejour: "Travail / Séjour Linguistique",
+          jobs: ["Assistant de direction (stage), Professeur de français",
+                " Bartender, Receptionniste, Housekeeper, Serveur",
+                " Manœuvre du bâtiment, Vendeur"
+          
+          ],
+          dureeTotale:"2 ans"
+
+    },
+      MY: {date: 2018, objetSejour: "Tourisme"},
+      KR: {date: 2014, objetSejour: "Tourisme"}
+    }
+  },
+  colorNoData: "#bdbdbd",
+  maxZoom: 3
+  
+  
+});
