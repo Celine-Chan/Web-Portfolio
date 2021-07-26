@@ -29,7 +29,7 @@
 
 <body>
     <?php include("menu.php"); ?>
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <!-- Background image -->
         <div class="p-5 text-center bg-image mb-5" style="
                 background-image: url('img/geejay-sabordo-GpJ9p1QH7O4-unsplash.jpg');
@@ -208,10 +208,6 @@
                     ayant vécu principalement en France et au Japon
                     (mais surtout en France), passionné par
                     les langues étrangères et les nouvelles technologies.
-                    Sur le long terme (>= 8 ans), ma compagne et moi avons
-                    pour objectif de créer une société qui nous
-                    permettrait de proposer nos services en développement
-                    d’application ainsi qu’en traduction.
                     
                 </p>
             </div>
@@ -465,21 +461,22 @@
         </div>
         <!-- Portfolio 2 -->
         <!-- Parcours professionel -->
-        <div class="row mx-2 px-2 pt-5 mt-5 d-flex align-items-center 
-        justify-content-center col-10 col-md-10 col-lg-10" id="parcoursPro">
+        <div class="py-5 mt-5" id="parcoursPro"></div>
+
+        <div id="carte_legende" class="mx-2 px-2 d-flex flex-column align-items-center 
+        justify-content-center col-0 col-md-10 col-lg-12">
             
-                <div class="jumbotron text-justify ">
+                <div class="jumbotron text-justify d-flex flex-column align-items-center 
+                justify-content-center" style="width: 100%;">
                     <h1 class="display-3">Mon parcours...en carte</h1>
-                    <p class="lead mt-3 d-flex flex-wrap align-items-center">
+                    <p class="d-flex flex-row flex-wrap lead mt-3">
                         <span class="legende d-flex flex-wrap"><span id="vert_map">Vert</span> = Naissance</span>
                         <span class="legende d-flex flex-wrap"><span id="bleu_map">Bleu</span> = Travail</span> 
                         <span class="legende d-flex flex-wrap"><span id="orange_map">Orange</span> = Séjour linguistique</span>
                         <span class="legende d-flex flex-wrap"><span id="rouge_map">Rouge</span> = Tourisme  </span>
                     </p>
-                    <div id="svgMap"></div>
-               
+                    <div class="d-flex flex-row align-items-center justify-content-center" id="svgMap"></div>
                 </div>
-            
         </div>
 
         

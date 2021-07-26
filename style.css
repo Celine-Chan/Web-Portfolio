@@ -55,8 +55,15 @@ h1, h2 {
     .legende{
       font-size: 1em;
     }
+    /*
+    #carte_legende{
+      display:none;
+    }
+    */
   }
 
+
+  
 @media screen and (min-width: 900px) and (max-width: 1200px) {
     #presentation {
         font-size: 3em;
