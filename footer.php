@@ -34,9 +34,10 @@ if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
                 <!-- Section: Social media -->
                 <section class="mb-5">
                     <h1 id = "titresParties">Contacts</h1>
+
                     <!-- Google -->
-                    <button class="btn btn-outline-light btn-floating m-1 " role="button"
-                    id="toggle"><i class="far fa-envelope"></i
+                    <button onclick="afficheFormulaire()" class="btn btn-outline-light btn-floating m-1 " role="button"
+                    ><i class="far fa-envelope"></i
                     ></button>
                       
                     <!-- Linkedin -->

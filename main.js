@@ -100,10 +100,11 @@ class TypeWriter {
         
 
 /* Fait apparaitre ou non formulaire contact*/
-const targetDiv = document.querySelector("#formulaireContact");
-const btn = document.querySelector("#toggle");
 
-btn.onclick = function () {
+const targetDiv = document.querySelector("#formulaireContact");
+document.addEventListener("DOMContentLoaded", afficheFormulaire);
+
+function afficheFormulaire () {
   if (targetDiv.style.display == "none"){
     targetDiv.style.display = "block";
   }
