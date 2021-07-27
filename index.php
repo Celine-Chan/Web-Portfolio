@@ -588,13 +588,13 @@
         <!--Valeurs-->
         <!-- CV -->
         <div class="text-justify d-flex flex-row align-items-center 
-            justify-content-around flex-wrap py-5 my-5 px-1 mx-1" id="CV">
+            justify-content-around flex-wrap py-5 my-5 px-2 mx-2" id="CV">
 
             <div class="col-12 col-md-12 col-lg-6" id="__cv">
                 <div class="jumbotron">
                     <h1 class="display-3">Curriculum vitae</h1>
                     
-                    <p class="my-3 py-3">
+                    <p class="my-2 py-2">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed non risus. Suspendisse lectus tortor,
                         dignissim sit amet, adipiscing nec, ultricies sed,
