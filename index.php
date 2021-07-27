@@ -526,7 +526,7 @@
 
 
         <!-- Valeurs -->
-        <div class="row mt-5 mb-5 mx-2 px-0 pt-5 pb-5" id="valeurs">
+        <div class="row mt-5 mb-5 mx-2 px-0 pt-3 pb-3" id="valeurs">
             <div class="jumbotron text-center">
                 <h5 id="titresValeurs">Les valeurs qui me definissent</h5>
             </div>
@@ -590,12 +590,12 @@
         <div class="py-3 my-3 text-center" id="rubriqueCV"></div>
         <h1 class="text-center" id = "titresParties" >Curriculum vitae</h1>
         <div class="text-justify d-flex flex-row align-items-center 
-            justify-content-around flex-wrap" id="CV">
+            justify-content-around flex-wrap py-3 my-3" id="CV">
 
             <div class="col-12 col-md-12 col-lg-6 d-flex flex-row align-items-center 
             justify-content-around" id="__cv">
                 <div class="jumbotron">
-                    <h4 class="my-2 py-2">
+                    <h4 class="my-0 py-0">
                         Si vous le souhaitez vous pouvez 
                             <span class="txt-type2" 
                             data-wait2="1000" 
