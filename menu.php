@@ -60,7 +60,7 @@
                                             font-size: 1.5em;">PARCOURS</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#CV" 
+                                            <a class="nav-link" href="#rubriqueCV" 
                                             style="font-weight: bold;
                                             font-family: Courier;
                                             font-size: 1.5em;">CV</a>

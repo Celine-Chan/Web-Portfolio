@@ -587,22 +587,22 @@
         </div>
         <!--Valeurs-->
         <!-- CV -->
+        <div class="py-3 my-3 text-center" id="rubriqueCV"></div>
+        <h1 class="text-center" id = "titresParties" >Curriculum vitae</h1>
         <div class="text-justify d-flex flex-row align-items-center 
-            justify-content-around flex-wrap py-5 my-5" id="CV">
+            justify-content-around flex-wrap" id="CV">
 
             <div class="col-12 col-md-12 col-lg-6 d-flex flex-row align-items-center 
             justify-content-around" id="__cv">
                 <div class="jumbotron">
-                    <h1 class="" id = "titresParties" >Curriculum vitae</h1>
-                    
-                    <h3 class="my-2 py-2">
-                        Si vous le souhaitez vous pouvez...
+                    <h4 class="my-2 py-2">
+                        Si vous le souhaitez vous pouvez 
                             <span class="txt-type2" 
                             data-wait2="1000" 
-                            data-words2='["consulter mon CV",
-                                 "télécharger mon CV"]'></span>
+                            data-words2='["consulter mon CV...",
+                                 "télécharger mon CV.."]'></span>
                         
-                    </h3>
+                    </h4>
                 </div>
             </div>
             <div id="rubriqueCVDDL" class="col-12 col-md-12 col-lg-5
