@@ -26,8 +26,9 @@ if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
     }
 
 ?>
-      
-<footer class="bg-dark text-center text-white" id="Contacts">
+<div id="Contacts"></div>
+
+<footer class="bg-dark text-center text-white">
                 <!-- Grid container -->
                 <div class="container p-4">
                 <!-- Section: Social media -->
@@ -51,8 +52,6 @@ if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
                 <!-- Section: Social media -->
 
                 <!-- Formulaire contact -->
-
-                <div id="contactAnchor"></div>
 
                 <div class="contact mt-5 pb-5 d-flex justify-content-center" >
 

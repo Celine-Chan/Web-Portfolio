@@ -193,7 +193,7 @@
 
             <div class="jumbotron text-justify ">
                 <h1 class="display-3">Présentation</h1>
-                <p class="text-left me-5" id="texte_presentation">
+                <p class="text-left mx-2 my-3 py-3" id="texte_presentation">
                     Bonjour, enchanté moi c’est Jean-Baptiste !
                     Tout d’abord, je vous remercie de prendre un peu de
                     votre temps pour visiter mon site internet...
@@ -473,10 +473,10 @@
                 justify-content-center" id="carte_legende">
                     <h1 class="display-3">Mon parcours...en carte</h1>
                     <p class="d-flex flex-row flex-wrap lead mt-3">
-                        <span class="legende d-flex flex-wrap"><span id="vert_map">Vert</span> = Naissance</span>
-                        <span class="legende d-flex flex-wrap"><span id="bleu_map">Bleu</span> = Travail</span> 
-                        <span class="legende d-flex flex-wrap"><span id="orange_map">Orange</span> = Séjour linguistique</span>
-                        <span class="legende d-flex flex-wrap"><span id="rouge_map">Rouge</span> = Tourisme  </span>
+                        <span class="legende d-flex flex-wrap"><span id="vert_map">Vert </span> = Naissance</span>
+                        <span class="legende d-flex flex-wrap"><span id="bleu_map">Bleu </span> = Travail</span> 
+                        <span class="legende d-flex flex-wrap"><span id="orange_map">Orange </span> = Séjour linguistique</span>
+                        <span class="legende d-flex flex-wrap"><span id="rouge_map">Rouge </span> = Tourisme  </span>
                     </p>
                     <div class="d-flex flex-row align-items-center justify-content-center" id="svgMap"></div>
                 </div>
@@ -493,7 +493,7 @@
                         <h1 class="display-3">Mon parcours...</h1>
                         <p class="indicationPetitsEcrans">(RDV sur grand écran pour le voir en carte)</p>
 
-                        <p class="mx-2 px-2 text-justify d-flex flex-column align-items-center 
+                        <p class="mx-2 px-2 my-3 py-3 text-justify d-flex flex-column align-items-center 
                         justify-content-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Sed non risus. Suspendisse lectus tortor,
@@ -594,7 +594,7 @@
                 <div class="jumbotron">
                     <h1 class="display-3">Curriculum vitae</h1>
                     
-                    <p class="my-2 py-2">
+                    <p class="my-3 py-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed non risus. Suspendisse lectus tortor,
                         dignissim sit amet, adipiscing nec, ultricies sed,
