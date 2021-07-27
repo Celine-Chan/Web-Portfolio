@@ -191,3 +191,7 @@ p {
 #carte_legende{
   width: 90%;
 }
+
+#titresParties{
+  font-weight: 400;
+}
