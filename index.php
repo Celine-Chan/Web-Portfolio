@@ -588,9 +588,10 @@
         <!--Valeurs-->
         <!-- CV -->
         <div class="text-justify d-flex flex-row align-items-center 
-            justify-content-around flex-wrap py-5 my-5 px-5 mx-5" id="CV">
+            justify-content-around flex-wrap py-5 my-5" id="CV">
 
-            <div class="col-12 col-md-12 col-lg-6" id="__cv">
+            <div class="col-12 col-md-12 col-lg-6 d-flex flex-row align-items-center 
+            justify-content-around" id="__cv">
                 <div class="jumbotron">
                     <h1 class="" id = "titresParties" >Curriculum vitae</h1>
                     
