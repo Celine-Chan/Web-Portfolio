@@ -463,7 +463,8 @@
         <!-- Parcours professionel -->
         <div class="py-5 mt-5" id="parcoursPro"></div>
 
-        <div class="parcoursCarteOuPas">
+        <div class="parcoursCarteOuPas d-flex flex-column align-items-center 
+                justify-content-center text-justify">
 
             <div id="parcoursGdMoyensEcrans" 
             class="container mx-2 px-2 ">
@@ -490,9 +491,9 @@
                     <div class="jumbotron text-justify d-flex flex-column align-items-center 
                     justify-content-center" id="descriptionParcours">
                         <h1 class="display-3">Mon parcours...</h1>
-                        <p class="indicationPetitsEcrans">(Sur grand écran pour le voir en carte)</p>
+                        <p class="indicationPetitsEcrans">(RDV sur grand écran pour le voir en carte)</p>
 
-                        <p class="mx-2 px-2text-justify d-flex flex-column align-items-center 
+                        <p class="mx-2 px-2 text-justify d-flex flex-column align-items-center 
                         justify-content-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Sed non risus. Suspendisse lectus tortor,

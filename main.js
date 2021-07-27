@@ -164,15 +164,8 @@ new svgMap({
     }
   },
   colorNoData: "#bdbdbd",
-  maxZoom: 3
+  maxZoom: 6
   
   
 });
 
-/*
-jobs: ["Développeur (stage), Conseiller pédagogique, Tuteur de japonais",
-                " Commercial, Téléconseiller, Receptionniste, Bartender",
-                " Serveur, Manutentionnaire, Bibliothécaire, Professeur particulier",
-                " Bénévole, Surveillant"
-          ]
-*/
