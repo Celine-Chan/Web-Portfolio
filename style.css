@@ -58,6 +58,12 @@ h1, h2 {
     #parcoursGdMoyensEcrans{
       display: none;
     }
+    #rubriqueCVDDL{
+      margin-top: 10px;
+    }
+    #boutonsCV{
+      font-size: 0.8em;
+    }
   }
 
 
@@ -87,7 +93,7 @@ h1, h2 {
     #parcoursPetitsEcrans{
       display: none;
     }
-    
+
     #parcoursGdMoyensEcrans{
       display: flex;
       justify-content: center;

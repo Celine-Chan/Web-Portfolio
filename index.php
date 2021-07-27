@@ -587,14 +587,15 @@
         </div>
         <!--Valeurs-->
         <!-- CV -->
-        <div class="row mt-5 pt-5 mb-5 pt-5 pb-5 ms-1 ps-1 mx-5" id="CV">
-            <div class="col-12 col-md-12 col-lg-6 mx-5 mb-0 pb-5 pt-5" id="__cv">
+        <div class="text-justify d-flex flex-row align-items-center 
+            justify-content-around flex-wrap py-5 my-5 px-1 mx-1" id="CV">
+
+            <div class="col-12 col-md-12 col-lg-6" id="__cv">
                 <div class="jumbotron">
                     <h1 class="display-3">Curriculum vitae</h1>
-                    <p class="lead my-4 mx-4">This is a simple hero unit,
-                        a simple jumbotron-style component for calling
-                        extra attention to featured content or information.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    
+                    <p class="my-2 py-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed non risus. Suspendisse lectus tortor,
                         dignissim sit amet, adipiscing nec, ultricies sed,
                         dolor. Cras elementum ultrices diam.
@@ -605,33 +606,26 @@
                         Duis arcu massa, scelerisque vitae,
                         consequat in, pretium a, enim.
                         Pellentesque congue.
-                        Ut in risus volutpat libero pharetra tempor.
-                        Cras vestibulum bibendum augue.
-                        Praesent egestas leo in pede.
-                        Praesent blandit odio eu enim.
-                        Pellentesque sed dui ut augue blandit sodales.
-                        Vestibulum ante ipsum primis in faucibus orci
-                        luctus et ultrices posuere cubilia Curae;
-                        Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
-                        Maecenas adipiscing ante non diam sodales hendrerit.
                     </p>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-5
+            <div id="rubriqueCVDDL" class="col-12 col-md-12 col-lg-5
                 d-flex align-items-center justify-content-center">
                 <div class="card text-center">
                     <div class="card-header">
                         Si vous le souhaitez, vous pouvez...
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Afficher ou télécharger mon CV...</h5>
+                        <h5 class="card-title">Consulter mon CV...</h5>
                         <p class="card-text">En cliquant sur l'un des boutons ci-dessous:</p>
 
                         <div class="d-flex flex-row align-items-center justify-content-center">
 
-                            <a href="pdf/cv_jbtheroulde_simulation_entretien.pdf" class="btn btn-success mx-1">Afficher</a>
+                            <a href="pdf/cv_jbtheroulde_simulation_entretien.pdf" 
+                            class="btn btn-success mx-1" id="boutonsCV">Afficher</a>
 
-                            <a href="download.php?file=cv_jbtheroulde_simulation_entretien.pdf" class="btn btn-primary mx-1" target="_new">Télécharger</a>
+                            <a href="download.php?file=cv_jbtheroulde_simulation_entretien.pdf" 
+                            class="btn btn-primary mx-1" target="_new" id="boutonsCV">Télécharger</a>
 
                         </div>
 
