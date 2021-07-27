@@ -151,7 +151,7 @@
                     style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
                         <h1 class="display-3 " id="presentation">Présentation</h1>
                         <p class="lead mt-3">Qui suis-je ?</p>
-                        <p class="text-left me-5" id="texte_presentation">
+                        <p class="text-left me-5 pe-5" id="texte_presentation">
                             Bonjour, enchanté moi c’est Jean-Baptiste !
                             Tout d’abord, je vous remercie de prendre un peu de
                             votre temps pour visiter mon site internet...
@@ -192,7 +192,7 @@
         <div class="container px-3 my-5 py-5 text-justify" id="description_pt_ecrans">
 
             <div class="jumbotron text-justify ">
-                <h1 class="display-3">Présentation</h1>
+                <h1 class="d-flex justify-content-center display-3">Présentation</h1>
                 <p class="text-left mx-2 my-3 py-3" id="texte_presentation">
                     Bonjour, enchanté moi c’est Jean-Baptiste !
                     Tout d’abord, je vous remercie de prendre un peu de
