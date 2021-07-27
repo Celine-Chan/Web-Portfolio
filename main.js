@@ -66,6 +66,16 @@ class TypeWriter {
     // Init TypeWriter
     new TypeWriter(txtElement, words, wait);
   }
+
+  // Init App 2
+  function init() {
+    const txtElement = document.querySelector('.txt-type2');
+    const words = JSON.parse(txtElement.getAttribute('data-words2'));
+    const wait = txtElement.getAttribute('data-wait2');
+    
+    // Init TypeWriter
+    new TypeWriter(txtElement, words, wait);
+  }
   
   //Pour Navbar fixe en haut de l'écran quand scroll
   document.addEventListener("DOMContentLoaded", function(){

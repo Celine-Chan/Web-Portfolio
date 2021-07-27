@@ -588,35 +588,27 @@
         <!--Valeurs-->
         <!-- CV -->
         <div class="text-justify d-flex flex-row align-items-center 
-            justify-content-around flex-wrap py-5 my-5 px-2 mx-2" id="CV">
+            justify-content-around flex-wrap py-5 my-5 px-5 mx-5" id="CV">
 
             <div class="col-12 col-md-12 col-lg-6" id="__cv">
                 <div class="jumbotron">
                     <h1 class="" id = "titresParties" >Curriculum vitae</h1>
                     
-                    <p class="my-2 py-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed non risus. Suspendisse lectus tortor,
-                        dignissim sit amet, adipiscing nec, ultricies sed,
-                        dolor. Cras elementum ultrices diam.
-                        Maecenas ligula massa, varius a, semper congue,
-                        euismod non, mi. Proin porttitor,
-                        orci nec nonummy molestie, enim est eleifend mi,
-                        non fermentum diam nisl sit amet erat. Duis semper.
-                        Duis arcu massa, scelerisque vitae,
-                        consequat in, pretium a, enim.
-                        Pellentesque congue.
-                    </p>
+                    <h3 class="my-2 py-2">
+                        Si vous le souhaitez vous pouvez...
+                            <span class="txt-type2" 
+                            data-wait2="1000" 
+                            data-words2='["consulter mon CV",
+                                 "télécharger mon CV"]'></span>
+                        
+                    </h3>
                 </div>
             </div>
             <div id="rubriqueCVDDL" class="col-12 col-md-12 col-lg-5
                 d-flex align-items-center justify-content-center">
                 <div class="card text-center">
-                    <div class="card-header">
-                        Si vous le souhaitez, vous pouvez...
-                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">Consulter mon CV...</h5>
+                        <h5 class="card-title">Afficher ou Télécharger</h5>
                         <p class="card-text">En cliquant sur l'un des boutons ci-dessous:</p>
 
                         <div class="d-flex flex-row align-items-center justify-content-center">
