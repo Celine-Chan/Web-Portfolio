@@ -33,7 +33,7 @@ if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
                 <div class="container p-4">
                 <!-- Section: Social media -->
                 <section class="mb-5">
-                    <h3>Contacts</h3>
+                    <h1 id = "titresParties">Contacts</h1>
                     <!-- Google -->
                     <button class="btn btn-outline-light btn-floating m-1 " role="button"
                     id="toggle"><i class="far fa-envelope"></i

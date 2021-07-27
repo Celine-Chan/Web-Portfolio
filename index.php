@@ -149,7 +149,7 @@
                 <div class="col-9 col-md-8 col-lg-5 ms-n4 me-3">
                     <div class="jumbotron mt-n4 mb-n4 me-0 px-3 text-justify"
                     style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
-                        <h1 class="display-3 " id="presentation">Présentation</h1>
+                        <h1 id = "titresParties" class="" id="presentation">Présentation</h1>
                         <p class="lead mt-3">Qui suis-je ?</p>
                         <p class="text-left me-5 pe-5" id="texte_presentation">
                             Bonjour, enchanté moi c’est Jean-Baptiste !
@@ -192,7 +192,7 @@
         <div class="container px-3 my-5 py-5 text-justify" id="description_pt_ecrans">
 
             <div class="jumbotron text-justify ">
-                <h1 class="d-flex justify-content-center display-3">Présentation</h1>
+                <h1 class="d-flex justify-content-center " id = "titresParties">Présentation</h1>
                 <p class="text-left mx-2 my-3 py-3" id="texte_presentation">
                     Bonjour, enchanté moi c’est Jean-Baptiste !
                     Tout d’abord, je vous remercie de prendre un peu de
@@ -220,15 +220,15 @@
             </div>
 
             <div class="col-12 col-md-12 col-lg-7
-                d-flex align-items-center justify-content-center text-justify
-                px-5" id="__centres-interet">
-                <div class="jumbotron ">
+                d-flex align-items-center justify-content-around text-justify
+                px-2" id="__centres-interet">
+                <div class="jumbotron">
                     <h1 class="d-flex align-items-center
-                        justify-content-center text-justifydisplay-3 my-5 py-5">
+                        justify-content-center text-center my-5 py-5"
+                        id = "titresParties">
                         Langages & Technologies</h1>
 
-                    <div class="d-flex flex-wrap align-items-center
-                         justify-content-center text-justify mx-3">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center text-justify mx-3">
                         <img src="img/languages_tools/france-svgrepo-com.svg" alt="français" class="logoLanguages" title="français">
 
                         <img src="img/languages_tools/united-kingdom-svgrepo-com.svg" alt="anglais" class="logoLanguages" title="anglais">
@@ -280,7 +280,7 @@
             <div class="col-10 col-md-8 col-lg-6 mt-5" id="__portfolio">
                 <div class="jumbotron
                     d-flex justify-content-center align-items-center">
-                    <h1 class="display-3">Portfolio</h1>
+                    <h1 class="" id = "titresParties">Portfolio</h1>
                 </div>
             </div>
             <div class="col-1 col-md-2 col-lg-3">
@@ -471,7 +471,7 @@
                 
                 <div class="jumbotron text-justify d-flex flex-column align-items-center 
                 justify-content-center" id="carte_legende">
-                    <h1 class="display-3">Mon parcours...en carte</h1>
+                    <h1 id = "titresParties" class="">Mon parcours...en carte</h1>
                     <p class="d-flex flex-row flex-wrap lead mt-3">
                         <span class="legende d-flex flex-wrap"><span id="vert_map">Vert </span> = Naissance</span>
                         <span class="legende d-flex flex-wrap"><span id="bleu_map">Bleu </span> = Travail</span> 
@@ -490,7 +490,7 @@
                 
                     <div class="jumbotron text-justify d-flex flex-column align-items-center 
                     justify-content-center" id="descriptionParcours">
-                        <h1 class="display-3">Mon parcours...</h1>
+                        <h1 id = "titresParties" class="">Mon parcours...</h1>
                         <p class="indicationPetitsEcrans">(RDV sur grand écran pour le voir en carte)</p>
 
                         <p class="mx-2 px-2 my-3 py-3 text-justify d-flex flex-column align-items-center 
@@ -592,7 +592,7 @@
 
             <div class="col-12 col-md-12 col-lg-6" id="__cv">
                 <div class="jumbotron">
-                    <h1 class="display-3">Curriculum vitae</h1>
+                    <h1 class="" id = "titresParties" >Curriculum vitae</h1>
                     
                     <p class="my-2 py-2">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
