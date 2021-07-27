@@ -55,11 +55,9 @@ h1, h2 {
     .legende{
       font-size: 1em;
     }
-    /*
-    #carte_legende{
-      display:none;
+    #parcoursGdMoyensEcrans{
+      display: none;
     }
-    */
   }
 
 
@@ -85,6 +83,11 @@ h1, h2 {
         font-size: 1.5em;
         color:  white ;
     }
+
+    #parcoursPetitsEcrans{
+      display: none;
+    }
+  
   }
   .logoLanguages {
     height: 8rem;
@@ -158,4 +161,8 @@ p {
 .legende{
   margin-left: 10px;
   margin-right: 10px;
+}
+
+#carte_legende{
+  width: 90%;
 }

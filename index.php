@@ -89,7 +89,7 @@
                         <h5 class="card-title">Portfolio</h5>
                         <p class="card-text">
                             Codés en Python, PHP, C ou C++(Arduino), cette section vous presentera
-                            les projets que j'ai réalisés jusqu'à présent.
+                            les principaux projets que j'ai réalisés jusqu'à présent.
                         </p>
                     </div>
                 </div>
@@ -106,8 +106,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Parcours Professionnel</h5>
                         <p class="card-text">
-                            En France ou au Japon, vous allez decouvrir mes
-                            diverses expériences professionnelles
+                            En France ou au Japon, vous allez avoir un aperçu de
+                            mes diverses expériences professionnelles
                         </p>
                     </div>
                 </div>
@@ -463,11 +463,13 @@
         <!-- Parcours professionel -->
         <div class="py-5 mt-5" id="parcoursPro"></div>
 
-        <div id="carte_legende" class="mx-2 px-2 d-flex flex-column align-items-center 
-        justify-content-center col-0 col-md-10 col-lg-12">
-            
+        <div class="parcoursCarteOuPas">
+
+            <div id="parcoursGdMoyensEcrans" 
+            class="container mx-2 px-2 ">
+                
                 <div class="jumbotron text-justify d-flex flex-column align-items-center 
-                justify-content-center" style="width: 100%;">
+                justify-content-center" id="carte_legende">
                     <h1 class="display-3">Mon parcours...en carte</h1>
                     <p class="d-flex flex-row flex-wrap lead mt-3">
                         <span class="legende d-flex flex-wrap"><span id="vert_map">Vert</span> = Naissance</span>
@@ -477,9 +479,47 @@
                     </p>
                     <div class="d-flex flex-row align-items-center justify-content-center" id="svgMap"></div>
                 </div>
+            </div>
+
+            <!-- text-justify d-flex flex-column align-items-center 
+                    justify-content-center
+            -->
+            <div id="parcoursPetitsEcrans" 
+            class="container mx-2 px-2">
+                
+                    <div class="jumbotron text-justify d-flex flex-column align-items-center 
+                    justify-content-center" id="descriptionParcours">
+                        <h1 class="display-3">Mon parcours...</h1>
+                        <p class="indicationPetitsEcrans">(Sur grand écran pour le voir en carte)</p>
+
+                        <p class="mx-2 px-2text-justify d-flex flex-column align-items-center 
+                        justify-content-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed non risus. Suspendisse lectus tortor,
+                            dignissim sit amet, adipiscing nec, ultricies sed,
+                            dolor. Cras elementum ultrices diam.
+                            Maecenas ligula massa, varius a, semper congue,
+                            euismod non, mi. Proin porttitor,
+                            orci nec nonummy molestie, enim est eleifend mi,
+                            non fermentum diam nisl sit amet erat. Duis semper.
+                            Duis arcu massa, scelerisque vitae,
+                            consequat in, pretium a, enim.
+                            Pellentesque congue.
+                            Ut in risus volutpat libero pharetra tempor.
+                            Cras vestibulum bibendum augue.
+                            Praesent egestas leo in pede.
+                            Praesent blandit odio eu enim.
+                            Pellentesque sed dui ut augue blandit sodales.
+                            Vestibulum ante ipsum primis in faucibus orci
+                            luctus et ultrices posuere cubilia Curae;
+                            Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+                            Maecenas adipiscing ante non diam sodales hendrerit.
+                        </p>
+                        
+                    </div>
+            </div>
         </div>
 
-        
         <!--Parcours professionel-->
 
 

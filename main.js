@@ -118,7 +118,7 @@ new svgMap({
         
       },
       jobs:{
-        name:'Activitées professionnelles',
+        name:'Principales activitées',
         format:'{0}'
       },
       dureeTotale:{
@@ -133,10 +133,8 @@ new svgMap({
       FR: {
           date: 1990,
           objetSejour: "Travail / Etudes ",
-          jobs: ["Développeur (stage), Conseiller pédagogique, Tuteur de japonais",
-                " Commercial, Téléconseiller, Receptionniste, Bartender",
-                " Serveur, Manutentionnaire, Bibliothécaire, Professeur particulier",
-                " Bénévole, Surveillant"
+          jobs: ["Développeur (stage), Conseiller pédagogique, Professeur particulier",
+                " Commercial, Téléconseiller"
           ],
           dureeTotale:"> 28 ans"
         },
@@ -155,8 +153,7 @@ new svgMap({
       JP: {
           date: 2010, objetSejour: "Travail / Séjour Linguistique",
           jobs: ["Assistant de direction (stage), Professeur de français",
-                " Bartender, Receptionniste, Housekeeper, Serveur",
-                " Manœuvre du bâtiment, Vendeur"
+                " Bartender, Receptionniste, Housekeeper"
           
           ],
           dureeTotale:"2 ans"
@@ -171,3 +168,11 @@ new svgMap({
   
   
 });
+
+/*
+jobs: ["Développeur (stage), Conseiller pédagogique, Tuteur de japonais",
+                " Commercial, Téléconseiller, Receptionniste, Bartender",
+                " Serveur, Manutentionnaire, Bibliothécaire, Professeur particulier",
+                " Bénévole, Surveillant"
+          ]
+*/
