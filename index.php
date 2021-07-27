@@ -528,7 +528,7 @@
         <!-- Valeurs -->
         <div class="row mt-5 mb-5 mx-2 px-0 pt-5 pb-5" id="valeurs">
             <div class="jumbotron text-center">
-                <h5 class="display-6">Les valeurs qui me definissent</h1>
+                <h5 id="titresValeurs">Les valeurs qui me definissent</h5>
             </div>
             <!-- Carousel wrapper -->
             <div id="carouselBasicExample" class="carousel slide carousel-fade mt-3 pt-3 mb-5 " data-mdb-ride="carousel">

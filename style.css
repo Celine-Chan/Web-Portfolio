@@ -67,6 +67,10 @@ h1, h2 {
     #titresParties{
       font-size: 2.0em;
     }
+    #titresValeurs{
+      font-size: 1.5em;
+      font-weight: normal;
+    }
     .logoLanguages {
       height: 5rem;
       width: 5rem;
@@ -109,6 +113,10 @@ h1, h2 {
     }
     #titresParties{
       font-size: 3.0em;
+    }
+    #titresValeurs{
+      font-size: 2.5em;
+      font-weight: normal;
     }
     .logoLanguages {
       height: 8rem;
