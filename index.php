@@ -494,26 +494,21 @@
 
                         <p class="mx-2 px-2 my-3 py-3 text-justify d-flex flex-column align-items-center 
                         justify-content-center">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed non risus. Suspendisse lectus tortor,
-                            dignissim sit amet, adipiscing nec, ultricies sed,
-                            dolor. Cras elementum ultrices diam.
-                            Maecenas ligula massa, varius a, semper congue,
-                            euismod non, mi. Proin porttitor,
-                            orci nec nonummy molestie, enim est eleifend mi,
-                            non fermentum diam nisl sit amet erat. Duis semper.
-                            Duis arcu massa, scelerisque vitae,
-                            consequat in, pretium a, enim.
-                            Pellentesque congue.
-                            Ut in risus volutpat libero pharetra tempor.
-                            Cras vestibulum bibendum augue.
-                            Praesent egestas leo in pede.
-                            Praesent blandit odio eu enim.
-                            Pellentesque sed dui ut augue blandit sodales.
-                            Vestibulum ante ipsum primis in faucibus orci
-                            luctus et ultrices posuere cubilia Curae;
-                            Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
-                            Maecenas adipiscing ante non diam sodales hendrerit.
+                        J’ai toujours été fasciné par les langues et cultures
+                        étrangères, notamment asiatiques, et c’est d’ailleurs
+                        ce sentiment qui a motivé mes choix universitaires et
+                        professionnels après le lycée. Par exemple, les postes de
+                        « Commercial », « Téléconseiller » et
+                        « Professeur Particulier » m’ont, respectivement,
+                        permis d’économiser pour mes trois premiers séjours
+                        au Japon. Et n’ayant pas de difficultés pour sociabiliser
+                        avec les personnes je me suis souvent tourné vers les
+                        postes où les interactions sociales étaient prédominantes
+                        comme : « Professeur de français », « Conseiller Pédagogique »,
+                         « Réceptionniste » ou encore « Bartender ».
+                        Aujourd’hui, je souhaite vivre de mon autre passion,
+                        l’informatique… Et avoir travaillé au sein du service
+                        informatique d’un hôpital me conforte dans ce choix.
                         </p>
                         
                     </div>
