@@ -434,7 +434,7 @@
                 <div class="bg-image ripple" data-mdb-ripple-color="light">
                     <img src="img/anete-lusina-zwsHjakE_iI-unsplash.jpg" class="w-100" />
                     <a href="https://github.com/J-BT/Web-Portfolio">
-                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">#!
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column  
                             justify-content-center align-items-center h-100 text-center text-break
                             mt-3 pt-3">
@@ -464,11 +464,6 @@
 
         <div class="parcoursCarteOuPas d-flex flex-column align-items-center 
                 justify-content-center text-justify">
-            <!-- 
-
-            Pour en savoir plus sur ma reconversion professionelle
-
-            -->
 
             <div id="parcoursGdMoyensEcrans" 
             class="container mx-2 px-2 ">
@@ -476,6 +471,17 @@
                 <div class="jumbotron text-justify d-flex flex-column align-items-center 
                 justify-content-center" id="carte_legende">
                     <h1 id = "titresParties" class="">Mon parcours...en carte</h1>
+
+                    <!-- Pour en savoir plus sur ma reconversion professionelle-->
+                    <div class="d-flex flex-row flex-wrap justify-content-end" 
+                    id="savoirPlusReconversion">
+                        <a href="https://github.com/J-BT/Web-Portfolio">
+                            <p id="enSavoirPlusTexte">Pour en savoir plus cliquez ici</p>
+                        </a>
+                    </div>
+
+                   
+                    
                     <p class="d-flex flex-row flex-wrap lead mt-3">
                         <span class="legende d-flex flex-wrap"><span id="vert_map">Vert </span> = Naissance</span>
                         <span class="legende d-flex flex-wrap"><span id="bleu_map">Bleu </span> = Travail</span> 
@@ -496,7 +502,6 @@
                     justify-content-center" id="descriptionParcours">
                         <h1 id = "titresParties" class="">Mon parcours...</h1>
                         <p class="indicationPetitsEcrans">(RDV sur grand écran pour le voir en carte)</p>
-
                         <p class="mx-2 px-2 my-3 py-3 text-justify d-flex flex-column align-items-center 
                         justify-content-center">
                         J’ai toujours été fasciné par les langues et cultures
@@ -515,7 +520,14 @@
                         Et avoir travaillé au sein du service
                         informatique d’un hôpital me conforte dans ce choix.
                         </p>
-                        
+
+                        <!-- Pour en savoir plus sur ma reconversion professionelle-->
+                        <div class="d-flex flex-row flex-wrap justify-content-end" 
+                        id="savoirPlusReconversion">
+                            <a href="https://github.com/J-BT/Web-Portfolio">
+                                <p id="enSavoirPlusTexte">Pour en savoir plus cliquez ici</p>
+                            </a>
+                        </div>
                     </div>
             </div>
         </div>

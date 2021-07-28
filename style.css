@@ -83,8 +83,10 @@ style="height: auto; width: 75%;"
       height: 5rem;
       width: 5rem;
       
+    }
+    
   }
-  }
+  /* fin petits ecrans */
 
   /* Ecran moyens */
   @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -143,9 +145,9 @@ style="height: auto; width: 75%;"
       width: 8rem;
       
   }
-    
 
   }
+  /* Fin grands écrans */
 
 
 .minilogoLanguages {
@@ -222,4 +224,12 @@ p {
 
 #titresParties{
   font-weight: 400;
+}
+
+#savoirPlusReconversion{
+  width: 100%;
+}
+
+#enSavoirPlusTexte{
+  font-size: 0.8em;
 }
