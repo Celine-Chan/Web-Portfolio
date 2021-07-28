@@ -152,20 +152,19 @@
                         <h1 id = "titresParties" class="" id="presentation">Présentation</h1>
                         <p class="lead mt-3">Qui suis-je ?</p>
                         <p class="text-left me-5 pe-5" id="texte_presentation">
-                            Bonjour, enchanté moi c’est Jean-Baptiste !
-                            Tout d’abord, je vous remercie de prendre un peu de
-                            votre temps pour visiter mon site internet...
-                            Ainsi, le temps étant précieux pour tout le monde,
-                            je vais essayer de faire court.
-                            Si l’on devait uniquement me définir par mon travail
-                            cela donnerait probablement quelque chose comme:
-                            « Développeur d’application / ex-conseiller
-                            pédagogique / ex-professeur de français / ex-commercial
-                            / ex-barman, etc. », bref quelque chose de peu digeste…
-                            Plus simplement, je suis un Franco-Brésilien,
-                            ayant vécu principalement en France et au Japon
-                            (mais surtout en France), passionné par
-                            les langues étrangères et les nouvelles technologies.
+                        Bonjour, enchanté moi c’est Jean-Baptiste !
+                        Tout d’abord, je vous remercie d’avoir pris un peu de votre 
+                        temps pour visiter mon site internet ...
+                        Ainsi, le temps étant précieux, je vais essayer de faire court.
+                        Je suis un Franco-Brésilien, ayant vécu principalement en France
+                        et au Japon, passionné par les nouvelles technologies et 
+                        les langues étrangères.
+                        En reconversion professionnelle dans le domaine du 
+                        développement informatique depuis près d’un an et demi, 
+                        je suis actuellement à la recherche d’une alternance d’un ou deux
+                        ans en développement d’application web /  mobile … 
+                        N’hésitez pas à me contacter si vous êtes intéressé.e !
+                        Bonne visite !
                             
                         </p>
                     </div>
@@ -194,20 +193,19 @@
             <div class="jumbotron text-justify ">
                 <h1 class="d-flex justify-content-center " id = "titresParties">Présentation</h1>
                 <p class="text-left mx-2 my-3 py-3" id="texte_presentation">
-                    Bonjour, enchanté moi c’est Jean-Baptiste !
-                    Tout d’abord, je vous remercie de prendre un peu de
-                    votre temps pour visiter mon site internet...
-                    Ainsi, le temps étant précieux pour tout le monde,
-                    je vais essayer de faire court.
-                    Si l’on devait uniquement me définir par mon travail
-                    cela donnerait probablement quelque chose comme:
-                    « Développeur d’application / ex-conseiller
-                    pédagogique / ex-professeur de français / ex-commercial
-                    / ex-barman, etc. », bref quelque chose de peu digeste…
-                    Plus simplement, je suis un Franco-Brésilien,
-                    ayant vécu principalement en France et au Japon
-                    (mais surtout en France), passionné par
-                    les langues étrangères et les nouvelles technologies.
+                Bonjour, enchanté moi c’est Jean-Baptiste !
+                Tout d’abord, je vous remercie d’avoir pris un peu de votre 
+                temps pour visiter mon site internet ...
+                Ainsi, le temps étant précieux, je vais essayer de faire court.
+                Je suis un Franco-Brésilien, ayant vécu principalement en France
+                et au Japon, passionné par les nouvelles technologies et 
+                les langues étrangères.
+                En reconversion professionnelle dans le domaine du 
+                développement informatique depuis près d’un an et demi, 
+                je suis actuellement à la recherche d’une alternance d’un ou deux
+                ans en développement d’application web /  mobile … 
+                N’hésitez pas à me contacter si vous êtes intéressé.e !
+                Bonne visite !
                     
                 </p>
             </div>
