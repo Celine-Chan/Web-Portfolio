@@ -216,7 +216,8 @@
         <div class="row mb-5 mx-2 pb-2 px-2" id="centres-interet">
             <div class="col-12 col-md-12 col-lg-5
                 d-flex align-items-center justify-content-center " style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0);" id="__centres-interet_tg_gd_md">
-                <img src="img/photo_profile.jpeg" class="img-fluid p-4 " alt="photo de profil" style="height: auto; width: 75%;">
+                <img src="img/photo_profile.jpeg" class="img-fluid p-4 " 
+                alt="photo de profil" id="photoProfil">
             </div>
 
             <div class="col-12 col-md-12 col-lg-7
