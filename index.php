@@ -521,16 +521,86 @@
                         informatique d’un hôpital me conforte dans ce choix.
                         </p>
 
-                        <!-- Pour en savoir plus sur ma reconversion professionelle-->
-                        <div class="d-flex flex-row flex-wrap justify-content-end" 
-                        id="savoirPlusReconversion">
-                            <a href="https://github.com/J-BT/Web-Portfolio">
-                                <p id="enSavoirPlusTexte">Pour en savoir plus cliquez ici</p>
-                            </a>
+                        <!-- Pour en savoir plus -->
+
+                        <a class="d-flex flex-row flex-wrap justify-content-end" 
+                        id="savoirPlusReconversion" 
+                        href="" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+                            <p id="enSavoirPlusTexte">Pour en savoir plus cliquez ici</p>
+                        </a>
+
+                        <!-- Modal -->
+                        <div
+                        class="modal fade"
+                        id="exampleModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                        >
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" 
+                                id="exampleModalLabel">Pourquoi la programmation ?</h5>
+                                <button
+                                type="button"
+                                class="btn-close"
+                                data-mdb-dismiss="modal"
+                                aria-label="Fermer"
+                                ></button>
+                            </div>
+                            <div class="modal-body">
+
+                            <p class="mx-1 px-1 text-justify d-flex flex-column
+                             align-items-center justify-content-center">
+                            
+                                Les sciences me passionnent depuis très longtemps, c’est d’ailleurs 
+                                pour cela que j’ai souhaité intégrer la filière scientifique au lycée,
+                                pour mieux comprendre les phénomènes qui nous entourent...
+                                C’est pendant la classe de première que j’ai découvert la programmation.
+                                Mon sujet de TPE étant la relativité, j’avais choisi de présenter le
+                                paradoxe des jumeaux Langevin à travers un mini programme sur 
+                                calculatrice Casio en me basant sur la transformation de Lorentz.
+                                Le « Basic Casio » est, certes, simple et limité par rapport à 
+                                d’autre langage de programmation tels que le C ou Python, mais 
+                                il permet de se familiariser avec les grands principes de 
+                                la programmation…
+                                Je fus totalement conquis ! Cependant, je découvris le japonais 
+                                la même année, et la perspective de pouvoir voyager puis vivre en Asie
+                                grâce à cette langue fût plus séduisante. J’ai donc choisi un cursus
+                                universitaire plutôt centré sur le commerce et le langues 
+                                étrangères :  Licence Administration Économique et Sociale 
+                                puis Master Échanges avec l’Asie .
+                                Ce parcours m’a offert l’opportunité de vivre en Asie pendant près 
+                                de 2 ans, mais en faisant divers jobs pas forcement en lien avec mon
+                                parcours ni mes envies. J’étais là où je souhaitais au prix d’une 
+                                routine professionnelle peu épanouissante. Il était donc vital que 
+                                je recentre mes choix professionnels…
+                                Après une période d’introspection, je suis revenu vers mon autre 
+                                passion du lycée, la programmation. Tout d’abord en autodidacte via
+                                le site Openclassroom puis à travers la formation de développeur
+                                data de l’école Digifab, du groupe Simplon. Aujourd’hui,
+                                en attendant de trouver une alternance, je fini mon application
+                                de gestion des stocks, principalement codée en Python/Javascript
+                                et j’aide ma compagne à réaliser une application web / mobile
+                                pour son entreprise en PHP. 
+                            </p>
+                                        
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                                Close
+                                </button>
+                            </div>
+                            </div>
                         </div>
+                        </div>
+                        <!-- Pour en savoir plus fin-->
                     </div>
             </div>
         </div>
+
+
 
         <!--Parcours professionel-->
 
