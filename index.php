@@ -433,8 +433,8 @@
                 d-flex align-items-center justify-content-center" id="__projet_3">
                 <div class="bg-image ripple" data-mdb-ripple-color="light">
                     <img src="img/anete-lusina-zwsHjakE_iI-unsplash.jpg" class="w-100" />
-                    <a href="#!">
-                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                    <a href="https://github.com/J-BT/Web-Portfolio">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">#!
                             <div class="d-flex flex-column  
                             justify-content-center align-items-center h-100 text-center text-break
                             mt-3 pt-3">
@@ -464,6 +464,11 @@
 
         <div class="parcoursCarteOuPas d-flex flex-column align-items-center 
                 justify-content-center text-justify">
+            <!-- 
+
+            Pour en savoir plus sur ma reconversion professionelle
+
+            -->
 
             <div id="parcoursGdMoyensEcrans" 
             class="container mx-2 px-2 ">
@@ -506,8 +511,8 @@
                         postes où les interactions sociales étaient prédominantes
                         comme : « Professeur de français », « Conseiller Pédagogique »,
                          « Réceptionniste » ou encore « Bartender ».
-                        Aujourd’hui, je souhaite vivre de mon autre passion,
-                        l’informatique… Et avoir travaillé au sein du service
+                        Aujourd’hui, je souhaite vivre de mon autre passion…
+                        Et avoir travaillé au sein du service
                         informatique d’un hôpital me conforte dans ce choix.
                         </p>
                         
