@@ -695,7 +695,7 @@
                         <img src="img/hannah-busing-Zyx1bK9mqmA-unsplash.jpg" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-md-block">
                             <h5 class="valeurs_carousel">Empathie</h5>
-                            <p class="texte_carousel">Se mettre à la place de ses amis,
+                            <p class="texte_carousel text-center">Se mettre à la place de ses amis,
                                 collègues ou clients pour mieux cibler leurs attentes.</p>
                         </div>
                     </div>
@@ -705,7 +705,7 @@
                         <img src="img/bady-abbas-XAkPN7aEGJM-unsplash.jpg" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-md-block">
                             <h5 class="valeurs_carousel">Optimisme</h5>
-                            <p class="texte_carousel">Voir le bon côté
+                            <p class="texte_carousel text-center">Voir le bon côté
                                 des choses pour ne pas rater d'opportunité.</p>
                         </div>
                     </div>
@@ -715,7 +715,7 @@
                         <img src="img/ozan-safak-1jOQNSc4P-c-unsplash.jpg" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-md-block">
                             <h5 class="valeurs_carousel">Resilience</h5>
-                            <p class="texte_carousel">Ne pas se laisser abattre
+                            <p class="texte_carousel text-center">Ne pas se laisser abattre
                                 par les aléas de la vie mais en faire une force.</p>
                         </div>
                     </div>
