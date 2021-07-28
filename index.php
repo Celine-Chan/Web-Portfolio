@@ -48,7 +48,7 @@
                                  "&lt very &gt Passionné &lt /very &gt"]'></span>
                         </h1>
                         <h2>Bienvenue sur mon site !</h2>
-                        <a class="btn btn-outline-light btn-lg mt-2" href="#!" role="button">Visite guidée en video <i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-lg mt-2" href="#!" role="button">Présentation video <i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                         <p class="card-text">
                             Vous êtes recruteur.se ? Ou vous souhaitez tout
                             simplement me contacter par email, linkedin ou
-                            github ? C'est par içi !
+                            github ? C'est par ici !
                         </p>
                     </div>
                 </div>
