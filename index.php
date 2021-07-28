@@ -513,9 +513,8 @@
                                 paradoxe des jumeaux Langevin à travers un mini programme sur 
                                 calculatrice Casio en me basant sur la transformation de Lorentz.
                                 Le « Basic Casio » est, certes, simple et limité par rapport à 
-                                d’autre langage de programmation tels que le C ou Python, mais 
-                                il permet de se familiariser avec les grands principes de 
-                                la programmation…
+                                d’autres langages de programmation tels que le C ou Python, mais 
+                                il permet de se familiariser avec les grands principes de l'algorithmique…
                                 Je fus totalement conquis ! Cependant, je découvris le japonais 
                                 la même année, et la perspective de pouvoir voyager puis vivre en Asie
                                 grâce à cette langue fût plus séduisante. J’ai donc choisi un cursus
@@ -630,9 +629,8 @@
                                 paradoxe des jumeaux Langevin à travers un mini programme sur 
                                 calculatrice Casio en me basant sur la transformation de Lorentz.
                                 Le « Basic Casio » est, certes, simple et limité par rapport à 
-                                d’autre langage de programmation tels que le C ou Python, mais 
-                                il permet de se familiariser avec les grands principes de 
-                                la programmation…
+                                d’autres langages de programmation tels que le C ou Python, mais 
+                                il permet de se familiariser avec les grands principes de l'algorithmique…
                                 Je fus totalement conquis ! Cependant, je découvris le japonais 
                                 la même année, et la perspective de pouvoir voyager puis vivre en Asie
                                 grâce à cette langue fût plus séduisante. J’ai donc choisi un cursus
@@ -651,7 +649,7 @@
                                 en attendant de trouver une alternance, je fini mon application
                                 de gestion des stocks, principalement codée en Python/Javascript
                                 et j’aide ma compagne à réaliser une application web / mobile
-                                pour son entreprise en PHP. 
+                                pour son entreprise en PHP.
                             </p>
                                         
                             </div>
