@@ -578,13 +578,13 @@
                         « Commercial », « Téléconseiller » et
                         « Professeur Particulier » m’ont, respectivement,
                         permis d’économiser pour mes trois premiers séjours
-                        au Japon. Et n’ayant pas de difficultés pour sociabiliser
-                        avec les personnes je me suis souvent tourné vers les
+                        au Japon. Ainsi, appréciant socialiser avec de nouvelles
+                        personnes, je me suis souvent tourné vers des
                         postes où les interactions sociales étaient prédominantes
                         comme : « Professeur de français », « Conseiller Pédagogique »,
                          « Réceptionniste » ou encore « Bartender ».
                         Aujourd’hui, je souhaite vivre de mon autre passion…
-                        Et avoir travaillé au sein du service
+                        Et avoir effectué un stage au sein du service
                         informatique d’un hôpital me conforte dans ce choix.
                         </p>
 
