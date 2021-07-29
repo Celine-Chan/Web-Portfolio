@@ -578,7 +578,7 @@
                         « Commercial », « Téléconseiller » et
                         « Professeur Particulier » m’ont, respectivement,
                         permis d’économiser pour mes trois premiers séjours
-                        au Japon. Ainsi, appréciant socialiser avec de nouvelles
+                        au Japon. Ainsi, appréciant rencontrer de nouvelles
                         personnes, je me suis souvent tourné vers des
                         postes où les interactions sociales étaient prédominantes
                         comme : « Professeur de français », « Conseiller Pédagogique »,
