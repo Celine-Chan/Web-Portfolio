@@ -352,7 +352,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_3">
                 <div class="bg-image ripple" data-mdb-ripple-color="light">
                     <img src="img/michael-dziedzic-dSyhpTGhNHg-unsplash.jpg" class="w-100" />
-                    <a href="https://pi.jeanbaptistetheroulde.com/">
+                    <a href="https://pi.pandasprojects.com/">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -406,7 +406,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_2">
                 <div class="bg-image ripple" data-mdb-ripple-color="light">
                     <img src="img/brett-jordan-94GiZLiWD8Y-unsplash.jpg" class="w-100" />
-                    <a href="https://lependu.jeanbaptistetheroulde.com/">
+                    <a href="https://lependu.pandasprojects.com/">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
