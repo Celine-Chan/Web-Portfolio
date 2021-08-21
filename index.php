@@ -228,39 +228,86 @@
                         Langages & Technologies</h1>
 
                     <div class="d-flex flex-wrap align-items-center justify-content-center text-justify mx-3">
-                        <img src="img/languages_tools/france-svgrepo-com.svg" alt="français" class="logoLanguages" title="français">
+                        <img src="img/languages_tools/france-svgrepo-com.svg" 
+                        alt="français" class="logoLanguages" title="français">
 
-                        <img src="img/languages_tools/united-kingdom-svgrepo-com.svg" alt="anglais" class="logoLanguages" title="anglais">
+                        <img src="img/languages_tools/united-kingdom-svgrepo-com.svg" 
+                        alt="anglais" class="logoLanguages" title="anglais">
 
-                        <img src="img/languages_tools/japan-svgrepo-com.svg" id="japan_flag" alt="japonais" class="logoLanguages" title="japonais">
+                        <img src="img/languages_tools/japan-svgrepo-com.svg" id="japan_flag" 
+                        alt="japonais" class="logoLanguages" title="japonais">
 
-                        <img src="img/languages_tools/python-original-wordmark.svg" alt="python" class="logoLanguages" title="python">
+                        <img src="img/languages_tools/python-original-wordmark.svg"
+                        alt="python" class="logoLanguages" title="python">
 
-                        <img src="img/languages_tools/php-original.svg" alt="php" class="logoLanguages" title="php">
+                        <img src="img/languages_tools/php-original.svg" 
+                        alt="php" class="logoLanguages" title="php">
 
-                        <img src="img/languages_tools/html5-original-wordmark.svg" alt="html5" class="logoLanguages" title="html5">
+                        <img src="img/languages_tools/html5-original-wordmark.svg" 
+                        alt="html5" class="logoLanguages" title="html5">
 
-                        <img src="img/languages_tools/css3-original-wordmark.svg" alt="css3" class="logoLanguages" title="css3">
+                        <img src="img/languages_tools/css3-original-wordmark.svg" 
+                        alt="css3" class="logoLanguages" title="css3">
 
-                        <img src="img/languages_tools/javascript-original.svg" alt="javascript" class="logoLanguages" title="javascript">
+                        <img src="img/languages_tools/javascript-original.svg" 
+                        alt="javascript" class="logoLanguages" title="javascript">
 
-                        <img src="img/languages_tools/c-original.svg" alt="c" class="logoLanguages" title="c">
+                        <img src="img/languages_tools/c-original.svg" 
+                        alt="c" class="logoLanguages" title="c">
 
-                        <img src="img/languages_tools/arduino-original-wordmark.svg" alt="arduino" class="logoLanguages" title="arduino">
+                        <img src="img/languages_tools/postgresql-original-wordmark.svg" 
+                        alt="postgresql" class="logoLanguages" title="postgresql">
 
-                        <img src="img/languages_tools/flask-original-wordmark.svg" alt="flask" class="logoLanguages" title="flask">
+                        <img src="img/languages_tools/sqlalchemy-original-wordmark.svg" 
+                        alt="sqlalchemy" class="logoLanguages" title="sqlalchemy">
 
-                        <img src="img/languages_tools/bootstrap-plain-wordmark.svg" alt="bootstrap" class="logoLanguages" title="bootstrap">
+                        <img src="img/languages_tools/arduino-original-wordmark.svg" 
+                        alt="arduino" class="logoLanguages" title="arduino">
 
-                        <img src="img/languages_tools/apache-original-wordmark.svg" alt="apache" class="logoLanguages" title="apache">
+                        <img src="img/languages_tools/flask-original-wordmark.svg" 
+                        alt="flask" class="logoLanguages" title="flask">
 
-                        <img src="img/languages_tools/nginx-original.svg" alt="ngix" class="logoLanguages" title="ngix">
+                        <img src="img/languages_tools/bootstrap-plain-wordmark.svg" 
+                        alt="bootstrap" class="logoLanguages" title="bootstrap">
 
-                        <img src="img/languages_tools/ubuntu-plain-wordmark.svg" alt="ubuntu" class="logoLanguages" title="ubuntu">
+                        <img src="img/languages_tools/numpy-original-wordmark.svg" 
+                        alt="numpy" class="logoLanguages" title="numpy">
 
-                        <img src="img/languages_tools/bash-original.svg" alt="bash" class="logoLanguages" title="bash">
+                        <img src="img/languages_tools/jquery-original-wordmark.svg" 
+                        alt="jquery" class="logoLanguages" title="jquery">
 
-                        <img src="img/languages_tools/git-original-wordmark.svg" alt="git" class="logoLanguages" title="git">
+                        <img src="img/languages_tools/apache-original-wordmark.svg" 
+                        alt="apache" class="logoLanguages" title="apache">
+
+                        <img src="img/languages_tools/nginx-original.svg" 
+                        alt="ngix" class="logoLanguages" title="ngix">
+
+                        <img src="img/languages_tools/ubuntu-plain-wordmark.svg" 
+                        alt="ubuntu" class="logoLanguages" title="ubuntu">
+
+                        <img src="img/languages_tools/bash-original.svg" 
+                        alt="bash" class="logoLanguages" title="bash">
+
+                        <img src="img/languages_tools/ssh-original-wordmark.svg" 
+                        alt="ssh" class="logoLanguages" title="ssh">
+
+                        <img src="img/languages_tools/filezilla-plain.svg" 
+                        alt="filezilla" class="logoLanguages" title="filezilla">
+
+                        <img src="img/languages_tools/digitalocean-original-wordmark.svg" 
+                        alt="digitalocean" class="logoLanguages" title="digitalocean">
+
+                        <img src="img/languages_tools/Logo-OVH.svg" 
+                        alt="OVH" class="logoLanguages" title="OVH">
+
+                        <img src="img/languages_tools/vscode-original.svg" 
+                        alt="vscode" class="logoLanguages" title="vscode">
+
+                        <img src="img/languages_tools/jupyter-original-wordmark.svg" 
+                        alt="jupyter" class="logoLanguages" title="jupyter">
+
+                        <img src="img/languages_tools/git-original-wordmark.svg" 
+                        alt="git" class="logoLanguages" title="git">
 
 
                     </div>
@@ -294,7 +341,7 @@
         <div class="row mt-3 ms-3 me-3 pt-3 ps-3 pe-3" id="portfolio">
             <div class="col-12 portfolio_img col-md-4 col-lg-4 portfolio_img_gd
                 d-flex align-items-center justify-content-center" id="__projet_1">
-                <div class="bg-image ripple" data-mdb-ripple-color="light">
+                <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/andrew-neel-1-29wyvvLJA-unsplash.jpg" class="w-100" />
                     <a href="https://madestination.pandasprojects.com/">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
@@ -302,13 +349,18 @@
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
                                 <p class="text-white mb-0">
-                                <h3>Quelle est ma destination</h3>
+                                <h3>Où je vais</h3>
                                 </p>
                                 <p class="text-white m-n2 p-n2">
                                 <h3>
-                                    <img src="img/languages_tools/python-original.svg" alt="logo_python" class="minilogoLanguages" title="logo_python">
-                                    <img src="img/languages_tools/html5-original.svg" alt="logo_html5" class="minilogoLanguages" title="logo_html5">
-                                    <img src="img/languages_tools/css3-original.svg" alt="logo_css3" class="minilogoLanguages" title="logo_css3">
+                                    <img src="img/languages_tools/python-original.svg" 
+                                        alt="logo_python" class="minilogoLanguages" title="logo_python">
+                                    <img src="img/languages_tools/javascript-plain.svg" 
+                                        alt="logo_js" class="minilogoLanguages" title="logo_js">
+                                    <img src="img/languages_tools/html5-original.svg" 
+                                        alt="logo_html5" class="minilogoLanguages" title="logo_html5">
+                                    <img src="img/languages_tools/css3-original.svg" 
+                                        alt="logo_css3" class="minilogoLanguages" title="logo_css3">
                                 </h3>
                                 </p>
                             </div>
@@ -317,121 +369,11 @@
                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
                         </div>
                     </a>
-                </div>
-            </div>
-            <div class="col-12 portfolio_img col-md-4 col-lg-4
-                d-flex align-items-center justify-content-center" id="__projet_2">
-                <div class="bg-image ripple" data-mdb-ripple-color="light">
-                    <img src="img/chuttersnap-BNBA1h-NgdY-unsplash.jpg" class="w-100" />
-                    <a href="https://gestionstocks.pandasprojects.com/">
-                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                            <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100 text-center
-                            mt-3 pt-3 ">
-                                <p class="text-white mb-0">
-                                <h3>Gestion des Stocks</h3>
-                                </p>
-                                <p class="text-white m-n2 p-n2">
-                                <h3>
-                                    <img src="img/languages_tools/python-original.svg" alt="logo_python" class="minilogoLanguages" title="logo_python">
-                                    <img src="img/languages_tools/javascript-plain.svg" alt="logo_js" class="minilogoLanguages" title="logo_js">
-                                    <img src="img/languages_tools/html5-original.svg" alt="logo_html5" class="minilogoLanguages" title="logo_html5">
-                                    <img src="img/languages_tools/css3-original.svg" alt="logo_css3" class="minilogoLanguages" title="logo_css3">
-                                </h3>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="hover-overlay">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
-                        </div>
-                    </a>
-                </div>
-
+                </div><!-- # -->
             </div>
             <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_3">
-                <div class="bg-image ripple" data-mdb-ripple-color="light">
-                    <img src="img/michael-dziedzic-dSyhpTGhNHg-unsplash.jpg" class="w-100" />
-                    <a href="https://pi.pandasprojects.com/">
-                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                            <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100 text-center
-                            mt-3 pt-3">
-                                <p class="text-white mb-0">
-                                <h3>Approximation de Pi</h3>
-                                </p>
-                                <p class="text-white m-n2 p-n2">
-                                <h3>
-                                    <img src="img/languages_tools/python-original.svg" alt="logo_python" class="minilogoLanguages" title="logo_python">
-                                    <img src="img/languages_tools/php-plain.svg" alt="logo_php" class="minilogoLanguages" title="logo_php">
-                                    <img src="img/languages_tools/javascript-plain.svg" alt="logo_js" class="minilogoLanguages" title="logo_js">
-                                    <img src="img/languages_tools/html5-original.svg" alt="logo_html5" class="minilogoLanguages" title="logo_html5">
-                                </h3>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="hover-overlay">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio 1 -->
-
-        <!-- Portfolio 2 -->
-        <div class="row mt-0 ms-3 me-3 pt-0 ps-3 pe-3 mb-5 " id="portfolio">
-            <div class="col-12 portfolio_img col-md-4 col-lg-4 
-                d-flex align-items-center justify-content-center" id="__projet_1">
-                <div class="bg-image ripple" data-mdb-ripple-color="light">
-                    <img src="img/lucas-santos-Qdvm-Qr1FYw-unsplash.jpg" class="w-100" />
-                    <a href="https://github.com/J-BT/huitLED--Arduino--">
-                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                            <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100 text-center
-                            mt-3 pt-3">
-                                <p class="text-white mb-0">
-                                <h3>Projets Arduino</h3>
-                                </p>
-                                <img src="img/languages_tools/arduino-original.svg" alt="logo_arduino" class="minilogoLanguages" title="logo_arduino">
-                            </div>
-                        </div>
-                        <div class="hover-overlay">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-12 portfolio_img col-md-4 col-lg-4
-                d-flex align-items-center justify-content-center" id="__projet_2">
-                <div class="bg-image ripple" data-mdb-ripple-color="light">
-                    <img src="img/brett-jordan-94GiZLiWD8Y-unsplash.jpg" class="w-100" />
-                    <a href="https://lependu.pandasprojects.com/">
-                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                            <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100 text-center
-                            mt-3 pt-3">
-                                <p class="text-white mb-0">
-                                <h3>Le Pendu</h3>
-                                </p>
-                                <p class="text-white m-n2 p-n2">
-                                <h3>
-                                    <img src="img/languages_tools/c-line.svg" alt="logo_c" class="minilogoLanguages" title="logo_c">
-                                    <img src="img/languages_tools/php-plain.svg" alt="logo_php" class="minilogoLanguages" title="logo_php">
-                                </h3>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="hover-overlay">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-            <div class="col-12 portfolio_img col-md-4 col-lg-4
-                d-flex align-items-center justify-content-center" id="__projet_3">
-                <div class="bg-image ripple" data-mdb-ripple-color="light">
+                <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/anete-lusina-zwsHjakE_iI-unsplash.jpg" class="w-100" />
                     <a href="https://github.com/J-BT/Web-Portfolio">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
@@ -443,10 +385,14 @@
                                 </p>
                                 <p class="text-white m-n2 p-n2">
                                 <h3>
-                                    <img src="img/languages_tools/php-plain.svg" alt="logo_php" class="minilogoLanguages" title="logo_php">
-                                    <img src="img/languages_tools/html5-original.svg" alt="logo_html5" class="minilogoLanguages" title="logo_html5">
-                                    <img src="img/languages_tools/css3-original.svg" alt="logo_css3" class="minilogoLanguages" title="logo_css3">
-                                    <img src="img/languages_tools/javascript-plain.svg" alt="logo_js" class="minilogoLanguages" title="logo_js">
+                                    <img src="img/languages_tools/php-plain.svg" 
+                                    alt="logo_php" class="minilogoLanguages" title="logo_php">
+                                    <img src="img/languages_tools/html5-original.svg" 
+                                    alt="logo_html5" class="minilogoLanguages" title="logo_html5">
+                                    <img src="img/languages_tools/css3-original.svg" 
+                                    alt="logo_css3" class="minilogoLanguages" title="logo_css3">
+                                    <img src="img/languages_tools/javascript-plain.svg" 
+                                    alt="logo_js" class="minilogoLanguages" title="logo_js">
                                 </h3>
                                 </p>
                             </div>
@@ -455,7 +401,127 @@
                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
                         </div>
                     </a>
-                </div>
+                </div><!-- # -->
+            </div>
+
+            <div class="col-12 portfolio_img col-md-4 col-lg-4
+                d-flex align-items-center justify-content-center" id="__projet_3">
+                <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
+                    <img src="img/michael-dziedzic-dSyhpTGhNHg-unsplash.jpg" class="w-100" />
+                    <a href="https://pi.pandasprojects.com/">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                            <div class="d-flex flex-column 
+                            justify-content-center align-items-center h-100 text-center
+                            mt-3 pt-3">
+                                <p class="text-white mb-0">
+                                <h3>Approximation de Pi</h3>
+                                </p>
+                                <p class="text-white m-n2 p-n2">
+                                <h3>
+                                    <img src="img/languages_tools/python-original.svg" 
+                                    alt="logo_python" class="minilogoLanguages" title="logo_python">
+                                    <img src="img/languages_tools/c-line.svg" 
+                                    alt="logo_c" class="minilogoLanguages" title="logo_c">
+                                    <img src="img/languages_tools/javascript-plain.svg" 
+                                    alt="logo_js" class="minilogoLanguages" title="logo_js">
+                                    <img src="img/languages_tools/html5-original.svg" 
+                                    alt="logo_html5" class="minilogoLanguages" title="logo_html5">
+                                </h3>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hover-overlay">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                        </div>
+                    </a>
+                </div><!-- # -->
+            </div>
+        </div>
+        <!-- Portfolio 1 -->
+
+        <!-- Portfolio 2 -->
+        <div class="row mt-0 ms-3 me-3 pt-0 ps-3 pe-3 mb-5 " id="portfolio">
+            <div class="col-12 portfolio_img col-md-4 col-lg-4 
+                d-flex align-items-center justify-content-center" id="__projet_1">
+                <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
+                    <img src="img/lucas-santos-Qdvm-Qr1FYw-unsplash.jpg" class="w-100" />
+                    <a href="https://github.com/J-BT/huitLED--Arduino--">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                            <div class="d-flex flex-column 
+                            justify-content-center align-items-center h-100 text-center
+                            mt-3 pt-3">
+                                <p class="text-white mb-0">
+                                <h3>Projets Arduino</h3>
+                                </p>
+                                <img src="img/languages_tools/arduino-original.svg" 
+                                alt="logo_arduino" class="minilogoLanguages" title="logo_arduino">
+                            </div>
+                        </div>
+                        <div class="hover-overlay">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                        </div>
+                    </a>
+                </div><!-- # -->
+            </div>
+            <div class="col-12 portfolio_img col-md-4 col-lg-4
+                d-flex align-items-center justify-content-center" id="__projet_2">
+                <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
+                    <img src="img/chuttersnap-BNBA1h-NgdY-unsplash.jpg" class="w-100" />
+                    <a href="https://gestionstocks.pandasprojects.com/">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                            <div class="d-flex flex-column 
+                            justify-content-center align-items-center h-100 text-center
+                            mt-3 pt-3 ">
+                                <p class="text-white mb-0">
+                                <h3>Gestion des Stocks</h3>
+                                </p>
+                                <p class="text-white m-n2 p-n2">
+                                <h3>
+                                    <img src="img/languages_tools/python-original.svg" 
+                                        alt="logo_python" class="minilogoLanguages" title="logo_python">
+                                    <img src="img/languages_tools/javascript-plain.svg" 
+                                        alt="logo_js" class="minilogoLanguages" title="logo_js">
+                                    <img src="img/languages_tools/html5-original.svg" 
+                                        alt="logo_html5" class="minilogoLanguages" title="logo_html5">
+                                    <img src="img/languages_tools/css3-original.svg" 
+                                        alt="logo_css3" class="minilogoLanguages" title="logo_css3">
+                                </h3>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hover-overlay">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                        </div>
+                    </a>
+                </div><!-- # -->
+            </div>
+            <div class="col-12 portfolio_img col-md-4 col-lg-4
+                d-flex align-items-center justify-content-center" id="__projet_2">
+                <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
+                    <img src="img/brett-jordan-94GiZLiWD8Y-unsplash.jpg" class="w-100" />
+                    <a href="">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                            <div class="d-flex flex-column 
+                            justify-content-center align-items-center h-100 text-center
+                            mt-3 pt-3">
+                                <p class="text-white mb-0">
+                                <h3>Prochainement</h3>
+                                </p>
+                                <p class="text-white m-n2 p-n2">
+                                <h3>
+                                    <img src="img/languages_tools/django-original.svg" 
+                                    alt="logo_c" class="minilogoLanguages" title="logo_django">
+                                    <img src="img/languages_tools/react-original-wordmark.svg" 
+                                    alt="logo_php" class="minilogoLanguages" title="logo_react">
+                                </h3>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hover-overlay">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                        </div>
+                    </a>
+                </div><!-- # -->
             </div>
         </div>
         <!-- Portfolio 2 -->
