@@ -385,7 +385,8 @@
                 <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" 
-                    id="exampleModalLabel2">Où je vais : description du projet </h5>
+                    id="exampleModalLabel2">
+                        <span id="nbLimitesAPI">Où je vais : description du projet </span></h5>
                     <button
                     type="button"
                     class="btn-close"
@@ -395,7 +396,7 @@
                 </div>
                 <div class="modal-body">
 
-                <p class="mx-1 px-1 text-justify d-flex flex-column
+                <p class="mx-5 px-5 text-justify d-flex flex-column
                     align-items-center justify-content-center">
                 
                     <p>
@@ -404,32 +405,28 @@
                       plus susceptibles de vous plaire.
                     </p>  
                     
-                    <p>
-                      Pour l'instant vous avez le choix parmi 5 critères : 
-                      le nombre d'habitants, l'esperance de vie, le taux de chômage,
-                      la temperature et la météo.
-                    </p>
 
-                    <p id="nbLimitesAPI">NB : les données météo ne sont pas à jour car l'API
-                      d'OpenWeatherMap est payante au-delà d'un certain nombre 
-                      d'appels...</p>
-                  
-                    <p class="" id="miniTexteCertif">
-                    Projet présenté pour les certifications
-                    <strong><a 
-                      rel="nofollow"
-                      href="https://www.francecompetences.fr/recherche/rs/3497/" 
-                      class="tm-footer-link">RS3497</a></strong>  
-                    “Développer une base de données” et <strong><a 
-                      rel="nofollow"
-                      href="https://www.francecompetences.fr/recherche/rs/3508/" 
-                      class="tm-footer-link">RS3508</a></strong>  
-                    “Exploiter une base de données” de l'école Digifab.
-                    </p> 
-
-
-                    <a href="https://madestination.pandasprojects.com/">vers Où je vais</a>
-                    
+                    <div class="my-5 d-flex flex-row
+                    align-items-center justify-content-around " id="cardsModalPortfolio">
+                        <div class="mx-2 bg-image" id="imageModalPortfolio">
+                            <img src="https://mdbootstrap.com/img/new/fluid/city/055.jpg" class="img-fluid" />
+                            <a href="https://madestination.pandasprojects.com/">
+                                <div class="mask d-flex flex-row align-items-center
+                                 justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p class="text-white" id="textImageModalPortfolio">Aller vers l'appli</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mx-2 bg-image" id="imageModalPortfolio">
+                            <img src="https://mdbootstrap.com/img/new/fluid/city/055.jpg" class="img-fluid" />
+                            <a href="https://github.com/J-BT/Ou_Je_Vais_Portfolio--Flask--">
+                                <div class="mask d-flex flex-row align-items-center
+                                 justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p class="text-white" id="textImageModalPortfolio">Aller vers le code</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>  
                 </p>
                             
                 </div>

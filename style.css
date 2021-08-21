@@ -248,3 +248,10 @@ p {
 #nbLimitesAPI{
   text-decoration: underline #1b59bd;
 }
+#imageModalPortfolio:hover{
+  opacity: 0.8!important;
+}
+
+#textImageModalPortfolio, .mask, #imageModalPortfolio{
+  text-align: center !important;
+}
