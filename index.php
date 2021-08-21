@@ -343,7 +343,9 @@
                 d-flex align-items-center justify-content-center" id="__projet_1">
                 <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/andrew-neel-1-29wyvvLJA-unsplash.jpg" class="w-100" />
-                    <a href="https://madestination.pandasprojects.com/">
+                    <a class="d-flex flex-row flex-wrap justify-content-end" 
+                    id="savoirPlusReconversion" 
+                    href="" data-mdb-toggle="modal" data-mdb-target="#ouJeVaisModal">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -371,6 +373,77 @@
                     </a>
                 </div><!-- # -->
             </div>
+            <!-- Modal Ou Je Vais-->
+            <div
+            class="modal fade"
+            id="ouJeVaisModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel2"
+            aria-hidden="true"
+            >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" 
+                    id="exampleModalLabel2">Où je vais : description du projet </h5>
+                    <button
+                    type="button"
+                    class="btn-close"
+                    data-mdb-dismiss="modal"
+                    aria-label="Fermer"
+                    ></button>
+                </div>
+                <div class="modal-body">
+
+                <p class="mx-1 px-1 text-justify d-flex flex-column
+                    align-items-center justify-content-center">
+                
+                    <p>
+                      Grâce à des données démographiques ou météorologiques, 
+                      cette application determine un classement des destinations les
+                      plus susceptibles de vous plaire.
+                    </p>  
+                    
+                    <p>
+                      Pour l'instant vous avez le choix parmi 5 critères : 
+                      le nombre d'habitants, l'esperance de vie, le taux de chômage,
+                      la temperature et la météo.
+                    </p>
+
+                    <p id="nbLimitesAPI">NB : les données météo ne sont pas à jour car l'API
+                      d'OpenWeatherMap est payante au-delà d'un certain nombre 
+                      d'appels...</p>
+                  
+                    <p class="" id="miniTexteCertif">
+                    Projet présenté pour les certifications
+                    <strong><a 
+                      rel="nofollow"
+                      href="https://www.francecompetences.fr/recherche/rs/3497/" 
+                      class="tm-footer-link">RS3497</a></strong>  
+                    “Développer une base de données” et <strong><a 
+                      rel="nofollow"
+                      href="https://www.francecompetences.fr/recherche/rs/3508/" 
+                      class="tm-footer-link">RS3508</a></strong>  
+                    “Exploiter une base de données” de l'école Digifab.
+                    </p> 
+
+
+                    <a href="https://madestination.pandasprojects.com/">vers Où je vais</a>
+                    
+                </p>
+                            
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                    Fermer
+                    </button>
+                </div>
+                </div>
+            </div>
+            </div>
+           
+
+            <!-- fin Modal Où je vais -->
             <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_3">
                 <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
@@ -838,7 +911,7 @@
 
                     </div>
                     <div class="card-footer text-muted">
-                        Mis à jour le 28/11/2021
+                        Mis à jour le 28/11/2020
                     </div>
                 </div>
             </div>

@@ -233,3 +233,18 @@ p {
 #enSavoirPlusTexte{
   font-size: 0.8em;
 }
+
+/****** modals Portfolio *******/
+
+#aProposTexte{
+  text-align: justify;
+}
+
+#miniTexteCertif{
+  text-align: justify;
+  border-style: dashed;
+  padding : 4px 4px 4px 4px;
+}
+#nbLimitesAPI{
+  text-decoration: underline #1b59bd;
+}
