@@ -448,14 +448,15 @@
                 </div>
             </div>
             </div>
-           
-
             <!-- fin Modal Où je vais -->
+            
+            
+            <!-- Projet 2 -->
             <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_3">
                 <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/anete-lusina-zwsHjakE_iI-unsplash.jpg" class="w-100" />
-                    <a href="https://github.com/J-BT/Web-Portfolio">
+                    <a href="" data-mdb-toggle="modal" data-mdb-target="#jbtModal">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column  
                             justify-content-center align-items-center h-100 text-center text-break
@@ -483,12 +484,79 @@
                     </a>
                 </div><!-- # -->
             </div>
+            <!-- Modal jeanbaptistetheroulde.com -->
+            <div
+            class="modal fade"
+            id="jbtModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel2"
+            aria-hidden="true"
+            >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" 
+                    id="exampleModalLabel2">
+                        <span id="nbLimitesAPI">
+                            jeanbaptistetheroulde.com : description du projet </span></h5>
+                    <button
+                    type="button"
+                    class="btn-close"
+                    data-mdb-dismiss="modal"
+                    aria-label="Fermer"
+                    id="FermerButtonModal"
+                    ></button>
+                </div>
+                <div class="modal-body">
 
+                <p class="mx-5 px-5 text-justify d-flex flex-column
+                    align-items-center justify-content-center">
+                
+                    <p>
+                      Site internet de présentation + Porfolio
+                    </p>  
+                    
+
+                    <div class="my-5 d-flex flex-row
+                    align-items-center justify-content-around " id="cardsModalPortfolio">
+                        <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
+                            <img src="img/jbtApp.png" class="img-fluid" />
+                            <a href="https://www.jeanbaptistetheroulde.com/">
+                                <div class="mask d-flex flex-row align-items-center
+                                 justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p class="text-white" id="textImageModalPortfolio">l'Application</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
+                            <img src="img/jbtGitHub.png" class="img-fluid" />
+                            <a href="https://github.com/J-BT/Web-Portfolio">
+                                <div class="mask d-flex flex-row align-items-center
+                                 justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p class="text-white" id="textImageModalPortfolio">le Code</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>  
+                </p>
+                            
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                    Fermer
+                    </button>
+                </div>
+                </div>
+            </div>
+            </div>
+            <!-- fin Modal jeanbaptistetheroulde.com  -->
+
+            <!-- Approximation de Pi-->
             <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_3">
                 <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/michael-dziedzic-dSyhpTGhNHg-unsplash.jpg" class="w-100" />
-                    <a href="https://pi.pandasprojects.com/">
+                    <a href="" data-mdb-toggle="modal" data-mdb-target="#approximationPi">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -515,17 +583,87 @@
                         </div>
                     </a>
                 </div><!-- # -->
+            </div><!-- fin Approximation de Pi -->
+            <!-- Modal Approximation de Pi -->
+            <div
+            class="modal fade"
+            id="approximationPi"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel2"
+            aria-hidden="true"
+            >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" 
+                    id="exampleModalLabel2">
+                        <span id="nbLimitesAPI">
+                            Approximation de Pi : description du projet </span></h5>
+                    <button
+                    type="button"
+                    class="btn-close"
+                    data-mdb-dismiss="modal"
+                    aria-label="Fermer"
+                    id="FermerButtonModal"
+                    ></button>
+                </div>
+                <div class="modal-body">
+
+                <p class="mx-5 px-5 text-justify d-flex flex-column
+                    align-items-center justify-content-center">
+                
+                    <p>
+                    Grâce à la méthode de Monte-Carlos, on est capable d'approcher
+                    la valeur de pi en fonction de la circonference d'un cercle.
+                    Ce programme en fait la demonstration grâce à son &laquo;lancer de
+                    flechettes&raquo;.
+                    </p>  
+                    
+
+                    <div class="my-5 d-flex flex-row
+                    align-items-center justify-content-around " id="cardsModalPortfolio">
+                        <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
+                            <img src="img/jbtApp.png" class="img-fluid" />
+                            <a href="https://www.jeanbaptistetheroulde.com/">
+                                <div class="mask d-flex flex-row align-items-center
+                                 justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p class="text-white" id="textImageModalPortfolio">l'Application</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
+                            <img src="img/approPiGitHub.png" class="img-fluid" />
+                            <a href="https://github.com/J-BT/Web-Portfolio">
+                                <div class="mask d-flex flex-row align-items-center
+                                 justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p class="text-white" id="textImageModalPortfolio">le Code</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>  
+                </p>
+                            
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                    Fermer
+                    </button>
+                </div>
+                </div>
             </div>
+            </div>
+            <!-- fin Modal Approximation de Pi  -->
         </div>
         <!-- Portfolio 1 -->
 
         <!-- Portfolio 2 -->
+        <!-- Arduino -->
         <div class="row mt-0 ms-3 me-3 pt-0 ps-3 pe-3 mb-5 " id="portfolio">
             <div class="col-12 portfolio_img col-md-4 col-lg-4 
                 d-flex align-items-center justify-content-center" id="__projet_1">
                 <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/lucas-santos-Qdvm-Qr1FYw-unsplash.jpg" class="w-100" />
-                    <a href="https://github.com/J-BT/huitLED--Arduino--">
+                    <a href="" data-mdb-toggle="modal" data-mdb-target="#arduinoProjects">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -542,12 +680,80 @@
                         </div>
                     </a>
                 </div><!-- # -->
+            </div> <!-- fin Arduino -->
+            <!-- Modal Arduino -->
+            <div
+            class="modal fade"
+            id="arduinoProjects"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel2"
+            aria-hidden="true"
+            >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" 
+                    id="exampleModalLabel2">
+                        <span id="nbLimitesAPI">
+                            Dernier projet Arduino : description </span></h5>
+                    <button
+                    type="button"
+                    class="btn-close"
+                    data-mdb-dismiss="modal"
+                    aria-label="Fermer"
+                    id="FermerButtonModal"
+                    ></button>
+                </div>
+                <div class="modal-body">
+
+                <p class="mx-5 px-5 text-justify d-flex flex-column
+                    align-items-center justify-content-center">
+                
+                    <p>
+                    Ce mini projet permet d'allumer les LED 2, 4, 6, 8, 10, 11, 12 et 13
+                     de l'Arduino UNO selon 2 schemas differents
+                    </p>  
+                    
+
+                    <div class="my-5 d-flex flex-row
+                    align-items-center justify-content-around " id="cardsModalPortfolio">
+                        <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
+                            <img src="img/montageArduino.jpg" class="img-fluid" />
+                            <a href="img/montageArduino.jpg">
+                                <div class="mask d-flex flex-row align-items-center
+                                 justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p class="text-white" id="textImageModalPortfolio">le Montage</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
+                            <img src="img/arduinoGitHub.png" class="img-fluid" />
+                            <a href="https://github.com/J-BT/huitLED--Arduino--" 
+                            target="_blank">
+                                <div class="mask d-flex flex-row align-items-center
+                                 justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                    <p class="text-white" id="textImageModalPortfolio">le Code</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>  
+                </p>
+                            
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                    Fermer
+                    </button>
+                </div>
+                </div>
             </div>
+            </div>
+            <!-- fin Modal Arduino  -->
             <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_2">
                 <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/chuttersnap-BNBA1h-NgdY-unsplash.jpg" class="w-100" />
-                    <a href="https://gestionstocks.pandasprojects.com/">
+                    <a >
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -579,7 +785,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_2">
                 <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/brett-jordan-94GiZLiWD8Y-unsplash.jpg" class="w-100" />
-                    <a href="">
+                    <a >
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
