@@ -1,4 +1,6 @@
-#titresParties, p{
+#titresParties, p,
+ .titleh2, #siVousSouhaitez,
+ #exampleModalLabel2, #FermerButtonModal{
   font-family: 'Urbanist', serif;
 }
 
@@ -8,6 +10,9 @@
   font-weight: normal;
   font-style: normal;
  
+}
+#enBold{
+  font-weight: bold !important;
 }
 
 
@@ -53,6 +58,12 @@ style="height: auto; width: 75%;"
 */
 /* Pour les petits ecrans */
 @media screen and (max-width: 768px) {
+  #cardsModalPortfolio{
+    display: flex !important;
+    flex-direction: column !important;
+
+  }
+
     #textImageModalPortfolio, .mask, #imageModalPortfolio{
       text-align: center !important;
       font-size: 0.9em;
@@ -108,7 +119,10 @@ style="height: auto; width: 75%;"
 
   /* Ecran moyens */
   @media screen and (min-width: 576px) and (max-width: 768px) {
-    #textImageModalPortfolio, .mask, #imageModalPortfolio{
+    
+
+    #textImageModalPortfolio,
+     .mask, #imageModalPortfolio{
       text-align: center !important;
       font-size: 1em;
       
@@ -285,6 +299,10 @@ p {
 }
 #imageModalPortfolio:hover{
   opacity: 0.8!important;
+}
+#imageModalPortfolio{
+  border-style: hidden !important;
+  border-radius: 10px !important;
 }
 
 

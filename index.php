@@ -394,12 +394,14 @@
                 <div class="modal-header">
                     <h5 class="modal-title" 
                     id="exampleModalLabel2">
-                        <span id="nbLimitesAPI">Où je vais : description du projet </span></h5>
+                        <span id="nbLimitesAPI">
+                            Où je vais : description du projet </span></h5>
                     <button
                     type="button"
                     class="btn-close"
                     data-mdb-dismiss="modal"
                     aria-label="Fermer"
+                    id="FermerButtonModal"
                     ></button>
                 </div>
                 <div class="modal-body">
@@ -416,7 +418,7 @@
 
                     <div class="my-5 d-flex flex-row
                     align-items-center justify-content-around " id="cardsModalPortfolio">
-                        <div class="mx-2 bg-image" id="imageModalPortfolio">
+                        <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
                             <img src="img/ouJeVaisApp.png" class="img-fluid" />
                             <a href="https://madestination.pandasprojects.com/">
                                 <div class="mask d-flex flex-row align-items-center
@@ -425,7 +427,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mx-2 bg-image" id="imageModalPortfolio">
+                        <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
                             <img src="img/ouJeVaisGitHub.png" class="img-fluid" />
                             <a href="https://github.com/J-BT/Ou_Je_Vais_Portfolio--Flask--">
                                 <div class="mask d-flex flex-row align-items-center
@@ -886,7 +888,7 @@
             <div class="col-12 col-md-12 col-lg-6 d-flex flex-row align-items-center 
             justify-content-around" id="__cv">
                 <div class="jumbotron">
-                    <h4 class="my-0 py-0">
+                    <h4 class="my-0 py-0" id="siVousSouhaitez">
                         Si vous le souhaitez vous pouvez 
                             <span class="txt-type2" 
                             data-wait2="1000" 
