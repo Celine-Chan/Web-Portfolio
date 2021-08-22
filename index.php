@@ -419,7 +419,8 @@
                     <div class="my-5 d-flex flex-row
                     align-items-center justify-content-around " id="cardsModalPortfolio">
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/ouJeVaisApp.png" class="img-fluid" />
+                            <img src="img/ouJeVaisApp.png" class="img-fluid" 
+                            width="1600" height="800"/>
                             <a href="https://madestination.pandasprojects.com/">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
@@ -428,7 +429,8 @@
                             </a>
                         </div>
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/ouJeVaisGitHub.png" class="img-fluid" />
+                            <img src="img/ouJeVaisGitHub.png" class="img-fluid" 
+                            width="1600" height="800"/>
                             <a href="https://github.com/J-BT/Ou_Je_Vais_Portfolio--Flask--">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
@@ -520,7 +522,8 @@
                     <div class="my-5 d-flex flex-row
                     align-items-center justify-content-around " id="cardsModalPortfolio">
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/jbtApp.png" class="img-fluid" />
+                            <img src="img/jbtApp.png" class="img-fluid" 
+                            width="1600" height="800"/>
                             <a href="https://www.jeanbaptistetheroulde.com/">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
@@ -529,7 +532,8 @@
                             </a>
                         </div>
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/jbtGitHub.png" class="img-fluid" />
+                            <img src="img/jbtGitHub.png" class="img-fluid" 
+                            width="1600" height="800"/>
                             <a href="https://github.com/J-BT/Web-Portfolio">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
@@ -623,7 +627,8 @@
                     <div class="my-5 d-flex flex-row
                     align-items-center justify-content-around " id="cardsModalPortfolio">
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/jbtApp.png" class="img-fluid" />
+                            <img src="img/jbtApp.png" class="img-fluid" 
+                            width="1600" height="800"/>
                             <a href="https://www.jeanbaptistetheroulde.com/">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
@@ -632,7 +637,8 @@
                             </a>
                         </div>
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/approPiGitHub.png" class="img-fluid" />
+                            <img src="img/approPiGitHub.png" class="img-fluid" 
+                            width="1600" height="800"/>
                             <a href="https://github.com/J-BT/Web-Portfolio">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
@@ -718,7 +724,8 @@
                     <div class="my-5 d-flex flex-row
                     align-items-center justify-content-around " id="cardsModalPortfolio">
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/montageArduino.jpg" class="img-fluid" />
+                            <img src="img/montageArduino.jpg" class="img-fluid"
+                            width="1600" height="800"/>
                             <a href="img/montageArduino.jpg">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
@@ -727,7 +734,8 @@
                             </a>
                         </div>
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/arduinoGitHub.png" class="img-fluid" />
+                            <img src="img/arduinoGitHub.png" class="img-fluid" 
+                            width="1600" height="800"/>
                             <a href="https://github.com/J-BT/huitLED--Arduino--" 
                             target="_blank">
                                 <div class="mask d-flex flex-row align-items-center
