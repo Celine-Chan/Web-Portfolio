@@ -10,9 +10,16 @@
     <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.2.1/dist/svgMap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/pixel-operator" type="text/css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500&display=swap" rel="stylesheet">  
+    <!-- fin Fonts -->
+    
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
 
@@ -42,13 +49,14 @@
             ">
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
                 <div class="d-flex justify-content-center align-items-center h-100">
-                    <div class="text-white">
+                    <div class="text-white" id="texteTitre">
                         <h1>Jean-Baptiste Theroulde...
                             <span class="txt-type" data-wait="3000" data-words='["Développeur",
                                  "&lt very &gt Passionné &lt /very &gt"]'></span>
                         </h1>
                         <h2>Bienvenue sur mon site !</h2>
-                        <a class="btn btn-outline-light btn-lg mt-2" href="#!" role="button">Présentation video <i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-lg mt-2" 
+                        href="#!" role="button">Présentation video <i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -67,7 +75,7 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Présentation</h5>
+                        <h5 class="card-title" >Présentation</h5>
                         <p class="card-text">
                             Qui suis-je ? Qu'ai-je fait dans la vie ?
                             D'où est-ce que je viens ? Si cela vous intéresse rendez-vous
@@ -149,7 +157,7 @@
                 <div class="col-9 col-md-8 col-lg-5 ms-n4 me-3">
                     <div class="jumbotron mt-n4 mb-n4 me-0 px-3 text-justify"
                     style="background-color:rgb(255, 255, 255); color: rgb(0, 0, 0); ">
-                        <h1 id = "titresParties" class="" id="presentation">Présentation</h1>
+                        <h1  class=""  id="titresParties">Présentation</h1>
                         <p class="lead mt-3">Qui suis-je ?</p>
                         <p class="text-left me-5 pe-5" id="texte_presentation">
                         Bonjour, enchanté moi c’est Jean-Baptiste !
@@ -191,7 +199,7 @@
         <div class="container px-3 my-5 py-5 text-justify" id="description_pt_ecrans">
 
             <div class="jumbotron text-justify ">
-                <h1 class="d-flex justify-content-center " id = "titresParties">Présentation</h1>
+                <h1 class="d-flex justify-content-center " id ="titresParties">Présentation</h1>
                 <p class="text-left mx-2 my-3 py-3" id="texte_presentation">
                 Bonjour, enchanté moi c’est Jean-Baptiste !
                 Tout d’abord, je vous remercie d’avoir pris un peu de votre 
@@ -409,20 +417,20 @@
                     <div class="my-5 d-flex flex-row
                     align-items-center justify-content-around " id="cardsModalPortfolio">
                         <div class="mx-2 bg-image" id="imageModalPortfolio">
-                            <img src="https://mdbootstrap.com/img/new/fluid/city/055.jpg" class="img-fluid" />
+                            <img src="img/ouJeVaisApp.png" class="img-fluid" />
                             <a href="https://madestination.pandasprojects.com/">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
-                                    <p class="text-white" id="textImageModalPortfolio">Aller vers l'appli</p>
+                                    <p class="text-white" id="textImageModalPortfolio">l'Application</p>
                                 </div>
                             </a>
                         </div>
                         <div class="mx-2 bg-image" id="imageModalPortfolio">
-                            <img src="https://mdbootstrap.com/img/new/fluid/city/055.jpg" class="img-fluid" />
+                            <img src="img/ouJeVaisGitHub.png" class="img-fluid" />
                             <a href="https://github.com/J-BT/Ou_Je_Vais_Portfolio--Flask--">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
-                                    <p class="text-white" id="textImageModalPortfolio">Aller vers le code</p>
+                                    <p class="text-white" id="textImageModalPortfolio">le Code</p>
                                 </div>
                             </a>
                         </div>
@@ -811,7 +819,7 @@
         <!-- Valeurs -->
         <div class="row mt-5 mb-5 mx-2 px-0 pt-3 pb-3" id="valeurs">
             <div class="jumbotron text-center">
-                <h5 id="titresValeurs">Les valeurs qui me definissent</h5>
+                <h5 id="titresParties">Les valeurs qui me definissent</h5>
             </div>
             <!-- Carousel wrapper -->
             <div id="carouselBasicExample" class="carousel slide carousel-fade mt-3 pt-3 mb-5 " data-mdb-ride="carousel">
