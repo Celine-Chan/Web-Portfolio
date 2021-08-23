@@ -346,10 +346,10 @@
             </div>
         </div>
         <!--Titre portfolio-->
-        <a class="mx-2 px-2 d-flex flex-row flex-wrap justify-content-end" 
+        <a class="d-flex flex-row flex-wrap justify-content-end" 
         id="savoirPlusReconversion" 
         href="https://github.com/J-BT?tab=repositories">
-            <p id="enSavoirPlusTexte">Pour voir plus de projets, cliquez ici..</p>
+            <p id="enSavoirPlusTexte" class="mx-3 px-3">Pour voir plus de projets, cliquez ici..</p>
         </a>
 
         <!-- Portfolio 1 -->
