@@ -305,4 +305,8 @@ p {
   border-radius: 10px !important;
 }
 
+/* Alertify **/
 
+#textAlertify{
+  color: rgb(255, 255, 255);
+}

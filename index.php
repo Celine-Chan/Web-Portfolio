@@ -19,7 +19,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500&display=swap" rel="stylesheet">  
     <!-- fin Fonts -->
-    
+
+    <!-- Alertify -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
 
@@ -344,6 +346,11 @@
             </div>
         </div>
         <!--Titre portfolio-->
+        <a class="mx-2 px-2 d-flex flex-row flex-wrap justify-content-end" 
+        id="savoirPlusReconversion" 
+        href="https://github.com/J-BT?tab=repositories">
+            <p id="enSavoirPlusTexte">Pour voir plus de projets, cliquez ici..</p>
+        </a>
 
         <!-- Portfolio 1 -->
         <div class="row mt-3 ms-3 me-3 pt-3 ps-3 pe-3" id="portfolio">
@@ -761,7 +768,7 @@
                 d-flex align-items-center justify-content-center" id="__projet_2">
                 <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
                     <img src="img/chuttersnap-BNBA1h-NgdY-unsplash.jpg" class="w-100" />
-                    <a >
+                    <a onclick="enCours()">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -791,15 +798,15 @@
             </div>
             <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_2">
-                <div class="bg-image ripple" data-mdb-ripple-color="light"><!-- # -->
+                <div class="bg-image ripple" data-mdb-ripple-color="light" ><!-- # -->
                     <img src="img/brett-jordan-94GiZLiWD8Y-unsplash.jpg" class="w-100" />
-                    <a >
+                    <a onclick="prochainement()">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3">
-                                <p class="text-white mb-0">
-                                <h3>Prochainement</h3>
+                                <p class="text-white mb-0" >
+                                <h3 >Nouveau projet</h3>
                                 </p>
                                 <p class="text-white m-n2 p-n2">
                                 <h3>
@@ -1151,6 +1158,9 @@
     <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.2.1/dist/svgMap.min.js"></script>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+    <!-- Alertify -->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    
     <script src="main.js"></script>
     
 </body>

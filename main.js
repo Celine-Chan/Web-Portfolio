@@ -181,3 +181,12 @@ new svgMap({
   
 });
 
+/* Alertify */
+
+function enCours(){
+  alertify.success().setContent('<h2 id="textAlertify"> Projet en cours... </h2>').show(); 
+}
+
+function prochainement(){
+  alertify.success().setContent('<h2 id="textAlertify"> Prochainement... </h2>').show();
+}
