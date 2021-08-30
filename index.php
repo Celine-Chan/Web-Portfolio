@@ -16,7 +16,7 @@
         JavaScript, développeur, developer, 開発者, web, alternance, back-end,
         front-end">
     <meta name="author" content="Jean-Baptiste Theroulde">
-    <meta property="og:image" content="img/photo_profile.jpeg">
+    <meta property="og:image" content="img/218c9f5262a142318c2343e8fd6879ea.png">
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
