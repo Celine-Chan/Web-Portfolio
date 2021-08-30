@@ -5,6 +5,20 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+
+    <!-- Informative meta tags-->
+
+   
+    <meta name="description" content="Developpeur web/ web mobile passionné par
+    les langues et les nouvelles technologies, je recherche une alternance à partir
+    de Novembre 2021...Ceci est mon portfolio, bonne visite !">
+    <meta name="keywords" content="Python, Flask, Django, HTML, CSS,
+        JavaScript, développeur, developer, 開発者, web, alternance, back-end,
+        front-end">
+    <meta name="author" content="Jean-Baptiste Theroulde">
+    <meta property="og:image" content="img/photo_profile.jpeg">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.2.1/dist/svgMap.min.css" rel="stylesheet">
