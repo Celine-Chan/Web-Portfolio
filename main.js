@@ -190,3 +190,4 @@ function enCours(){
 function prochainement(){
   alertify.success().setContent('<h2 id="textAlertify"> Prochainement... </h2>').show();
 }
+

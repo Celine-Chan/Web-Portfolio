@@ -77,7 +77,7 @@
                         </h1>
                         <h2>Bienvenue sur mon site !</h2>
                         <a class="btn btn-outline-light btn-lg mt-2" 
-                        href="#!" role="button">Présentation video <i class="fab fa-youtube"></i></a>
+                        role="button">Présentation video <i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
