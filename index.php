@@ -1,3 +1,6 @@
+<?php
+   header('Access-Control-Allow-Origin: https://www.youtube.com/embed/9nCB9t3M8bA');
+?>
 <!doctype html>
 
 <html lang="fr">
@@ -111,7 +114,12 @@
                 </div>
                 <div class="modal-body">
 
-                <iframe src="https://www.youtube.com/embed/9nCB9t3M8bA">
+                <iframe src="https://www.youtube.com/embed/9nCB9t3M8bA" 
+                    allowfullscreen="allowfullscreen"
+                    mozallowfullscreen="mozallowfullscreen" 
+                    msallowfullscreen="msallowfullscreen" 
+                    oallowfullscreen="oallowfullscreen" 
+                    webkitallowfullscreen="webkitallowfullscreen">
                     
                 </iframe>
                             
