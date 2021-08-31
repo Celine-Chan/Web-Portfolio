@@ -77,12 +77,20 @@
                         </h1>
                         <h2>Bienvenue sur mon site !</h2>
                         <a class="btn btn-outline-light btn-lg mt-2" 
+                        data-mdb-toggle="modal" data-mdb-target="#videoModal"
                         role="button">Présentation video <i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Background image -->
+
+        <!-- Video Modal -->
+
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+
+        <!-- end Video Modal -->
 
         <!-- Sous menu HERO (Parcours - Portfolio - CV) -->
         <div class="row mt-2 mb-5 ms-2 me-2 p-2" id="hero">
