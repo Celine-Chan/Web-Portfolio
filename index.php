@@ -111,7 +111,7 @@
                 </div>
                 <div class="modal-body">
 
-                <iframe width="400" src="https://www.youtube.com/embed/9nCB9t3M8bA">
+                <iframe src="https://www.youtube.com/embed/9nCB9t3M8bA">
                     
                 </iframe>
                             
