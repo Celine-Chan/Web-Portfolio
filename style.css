@@ -310,3 +310,10 @@ p {
 #textAlertify{
   color: rgb(255, 255, 255);
 }
+
+/* video */
+
+iframe{
+  width: 100%;
+  height: auto;
+}
