@@ -707,22 +707,22 @@
                     <div class="my-5 d-flex flex-row
                     align-items-center justify-content-around " id="cardsModalPortfolio">
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/jbtApp.png" class="img-fluid" 
+                            <img src="img/PiDart.png" class="img-fluid" 
                             width="1600" height="800"/>
-                            <a href="https://www.jeanbaptistetheroulde.com/">
+                            <a href="https://github.com/J-BT/PiDart">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
-                                    <p class="text-white" id="textImageModalPortfolio">l'Application</p>
+                                    <p class="text-white" id="textImageModalPortfolio">Version 2021</p>
                                 </div>
                             </a>
                         </div>
                         <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
-                            <img src="img/approPiGitHub.png" class="img-fluid" 
+                            <img src="img/piApproximation.png" class="img-fluid" 
                             width="1600" height="800"/>
-                            <a href="https://github.com/J-BT/Web-Portfolio">
+                            <a href="https://github.com/J-BT/Monte_Carlos--Python--">
                                 <div class="mask d-flex flex-row align-items-center
                                  justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
-                                    <p class="text-white" id="textImageModalPortfolio">le Code</p>
+                                    <p class="text-white" id="textImageModalPortfolio">Version 2020</p>
                                 </div>
                             </a>
                         </div>
