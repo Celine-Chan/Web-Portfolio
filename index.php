@@ -1201,7 +1201,7 @@
 
                         <div class="d-flex flex-row align-items-center justify-content-center">
 
-                            <a href="pdf/cv_jbtheroulde_simulation_entretien.pdf" 
+                            <a href="pdf/JeanBaptisteTheroulde_resume.pdf" 
                             class="btn btn-success mx-1" id="boutonsCV">Afficher</a>
 
                             <a href="download.php?file=cv_jbtheroulde_simulation_entretien.pdf" 
