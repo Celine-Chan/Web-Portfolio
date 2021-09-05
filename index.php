@@ -1204,7 +1204,7 @@
                             <a href="pdf/JeanBaptisteTheroulde_resume_05092021.pdf" 
                             class="btn btn-success mx-1" id="boutonsCV">Afficher</a>
 
-                            <a href="download.php?file=cv_jbtheroulde_simulation_entretien.pdf" 
+                            <a href="download.php?file=JeanBaptisteTheroulde_resume_05092021.pdf" 
                             class="btn btn-primary mx-1" target="_new" id="boutonsCV">Télécharger</a>
 
                         </div>
