@@ -1,5 +1,6 @@
 <?php
    header('Access-Control-Allow-Origin: https://www.youtube.com/embed/9nCB9t3M8bA');
+   require_once './controller/pdf_check_controller.php';
 ?>
 <!doctype html>
 
@@ -1213,7 +1214,29 @@
                     </div>
                     <div class="card-footer text-muted">
                         <?php
-                        $filename = 'pdf/JeanBaptisteTheroulde_resume_05092021.pdf';
+
+                        
+                        function scanThisDirectory ($dirToScan){
+                            /*
+                            Function returning the files of a directory
+                            */
+                            $directory = $dirToScan;
+                            $scanned_directory = array_diff(scandir($directory), 
+                                array('..', '.'));
+                            $resumePdf = "";
+                            foreach ($scanned_directory as $file){
+                                if (str_contains($file, '.pdf')) {
+                                    $resumePdf = $file;
+                                }
+                            }
+                            return $resumePdf;
+                        }// end function scanThisDirectory
+
+                        $folder = 'pdf/';
+                        $pdfResumeName = scanThisDirectory($folder);
+                        //echo $pdfResumeName;
+
+                        $filename = 'pdf/' . $pdfResumeName;
                         if (file_exists($filename)) {
                             ?><p> Dernière mise à jour :  <?php
                             echo date ("F d Y H:i:s.", filemtime($filename));
