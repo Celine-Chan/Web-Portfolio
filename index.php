@@ -1191,10 +1191,7 @@
             <div class="col-12 col-md-12 col-lg-6 d-flex flex-row align-items-center 
             justify-content-around" id="__cv">
                 <div class="jumbotron">
-                    <h4 class=                        $folder = 'pdf/';
-                        $pdfResumeName = scanThisDirectory($folder);
-                        //echo $pdfResumeName;
-                        $pdfResumeAndLocation = 'pdf/' . $pdfResumeName;"my-0 py-0" id="siVousSouhaitez">
+                    <h4 class="my-0 py-0" id="siVousSouhaitez">
                         Si vous le souhaitez vous pouvez 
                             <span class="txt-type2" 
                             data-wait2="1000" 
@@ -1225,7 +1222,7 @@
                     <div class="card-footer text-muted">
                         <?php
 
-                        if (file_exists($_SESSION['pdfResumeAndLocation'])) {
+                        if (file_exists($pdfResumeAndLocation)) {
                             ?><p> Dernière mise à jour :  <?php
                             echo date ("F d Y H:i:s.", filemtime($_SESSION['pdfResumeAndLocation']));
                             ?></p><?php
