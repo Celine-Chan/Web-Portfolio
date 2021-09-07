@@ -1,11 +1,14 @@
 <?php
-   header('Access-Control-Allow-Origin: https://www.youtube.com/embed/9nCB9t3M8bA');
-   require_once './controller/pdf_check_controller.php';
+    session_start();
+    header('Access-Control-Allow-Origin: https://www.youtube.com/embed/9nCB9t3M8bA');
+    require_once './controller/pdf_check_controller.php';
 
     $folder = 'pdf/';
-    $pdfResumeName = scanThisDirectory($folder);
-    //echo $pdfResumeName;
-    $pdfResumeAndLocation = 'pdf/' . $pdfResumeName;
+    $_SESSION['pdfResumeName'] = scanThisDirectory($folder);
+    //echo $_SESSION['pdfResumeName'];
+    $_SESSION['pdfResumeAndLocation'] = 'pdf/' . $_SESSION['pdfResumeName'];
+    //echo $_SESSION['pdfResumeAndLocation'];
+    
 ?>
 <!doctype html>
 
@@ -1188,7 +1191,10 @@
             <div class="col-12 col-md-12 col-lg-6 d-flex flex-row align-items-center 
             justify-content-around" id="__cv">
                 <div class="jumbotron">
-                    <h4 class="my-0 py-0" id="siVousSouhaitez">
+                    <h4 class=                        $folder = 'pdf/';
+                        $pdfResumeName = scanThisDirectory($folder);
+                        //echo $pdfResumeName;
+                        $pdfResumeAndLocation = 'pdf/' . $pdfResumeName;"my-0 py-0" id="siVousSouhaitez">
                         Si vous le souhaitez vous pouvez 
                             <span class="txt-type2" 
                             data-wait2="1000" 
@@ -1207,11 +1213,11 @@
 
                         <div class="d-flex flex-row align-items-center justify-content-center">
 
-                            <a href=<?php echo $pdfResumeAndLocation ?> 
+                            <a href=<?php echo $_SESSION['pdfResumeAndLocation'] ?> 
                             class="btn btn-success mx-1" id="boutonsCV">Afficher</a>
-
                             
-                            <a href=<?php echo "download.php?file=" . $pdfResumeName ?>
+                            
+                            <a href=<?php echo "download.php?file=" . $_SESSION['pdfResumeName'] ?>
                             class="btn btn-primary mx-1" target="_new" id="boutonsCV">Télécharger</a>
 
                         </div>
@@ -1219,11 +1225,13 @@
                     <div class="card-footer text-muted">
                         <?php
 
-                        if (file_exists($pdfResumeAndLocation)) {
+                        if (file_exists($_SESSION['pdfResumeAndLocation'])) {
                             ?><p> Dernière mise à jour :  <?php
-                            echo date ("F d Y H:i:s.", filemtime($pdfResumeAndLocation));
+                            echo date ("F d Y H:i:s.", filemtime($_SESSION['pdfResumeAndLocation']));
                             ?></p><?php
                         }
+
+                        session_destroy();
                         ?>
                     </div>
                 </div>
