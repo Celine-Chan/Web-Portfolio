@@ -2,12 +2,6 @@
     session_start();
     header('Access-Control-Allow-Origin: https://www.youtube.com/embed/9nCB9t3M8bA');
     require_once './controller/pdf_check_controller.php';
-
-    $folder = 'pdf/';
-    $_SESSION['pdfResumeName'] = scanThisDirectory($folder);
-    //echo $_SESSION['pdfResumeName'];
-    $_SESSION['pdfResumeAndLocation'] = 'pdf/' . $_SESSION['pdfResumeName'];
-    //echo $_SESSION['pdfResumeAndLocation'];
     
 ?>
 <!doctype html>
@@ -1210,11 +1204,11 @@
 
                         <div class="d-flex flex-row align-items-center justify-content-center">
 
-                            <a href=<?php echo $_SESSION['pdfResumeAndLocation'] ?> 
+                            <a href="pdf/JeanBaptisteTheroulde_resume_05092021.pdf" 
                             class="btn btn-success mx-1" id="boutonsCV">Afficher</a>
                             
                             
-                            <a href=<?php echo "download.php?file=" . $_SESSION['pdfResumeName'] ?>
+                            <a href="JeanBaptisteTheroulde_resume_05092021.pdf"
                             class="btn btn-primary mx-1" target="_new" id="boutonsCV">Télécharger</a>
 
                         </div>
@@ -1222,13 +1216,17 @@
                     <div class="card-footer text-muted">
                         <?php
 
-                        if (file_exists($_SESSION['pdfResumeAndLocation'])) {
+                        $folder = 'pdf/';
+                        $pdfResumeName= scanThisDirectory($folder);
+                        //echo $_SESSION['pdfResumeName'];
+                        $pdfResumeAndLocation = 'pdf/' . $pdfResumeName;
+                        //echo $_SESSION['pdfResumeAndLocation'];
+
+                        if (file_exists($pdfResumeAndLocation)) {
                             ?><p> Dernière mise à jour :  <?php
-                            echo date ("F d Y H:i:s.", filemtime($_SESSION['pdfResumeAndLocation']));
+                            echo date ("F d Y H:i:s.", filemtime($pdfResumeAndLocation));
                             ?></p><?php
                         }
-
-                        session_destroy();
                         ?>
                     </div>
                 </div>
