@@ -1,6 +1,11 @@
 <?php
    header('Access-Control-Allow-Origin: https://www.youtube.com/embed/9nCB9t3M8bA');
    require_once './controller/pdf_check_controller.php';
+
+    $folder = 'pdf/';
+    $pdfResumeName = scanThisDirectory($folder);
+    //echo $pdfResumeName;
+    $pdfResumeAndLocation = 'pdf/' . $pdfResumeName;
 ?>
 <!doctype html>
 
@@ -1202,35 +1207,21 @@
 
                         <div class="d-flex flex-row align-items-center justify-content-center">
 
-                            <?php  
-                                $folder = 'pdf/';
-                                $pdfResumeName = scanThisDirectory($folder);
-                                //echo $pdfResumeName;
-                                $filename = 'pdf/' . $pdfResumeName;
-                            ?>
-                            <a href="pdf/JeanBaptisteTheroulde_resume_05092021.pdf" 
+                            <a href=<?php echo $pdfResumeAndLocation ?> 
                             class="btn btn-success mx-1" id="boutonsCV">Afficher</a>
 
-                        
-
-                            <a href="download.php?file=JeanBaptisteTheroulde_resume_05092021.pdf" 
+                            
+                            <a href=<?php echo "download.php?file=" . $pdfResumeName ?>
                             class="btn btn-primary mx-1" target="_new" id="boutonsCV">Télécharger</a>
 
                         </div>
-
-
                     </div>
                     <div class="card-footer text-muted">
                         <?php
-                        
-                        $folder = 'pdf/';
-                        $pdfResumeName = scanThisDirectory($folder);
-                        //echo $pdfResumeName;
-                        $filename = 'pdf/' . $pdfResumeName;
 
-                        if (file_exists($filename)) {
+                        if (file_exists($pdfResumeAndLocation)) {
                             ?><p> Dernière mise à jour :  <?php
-                            echo date ("F d Y H:i:s.", filemtime($filename));
+                            echo date ("F d Y H:i:s.", filemtime($pdfResumeAndLocation));
                             ?></p><?php
                         }
                         ?>
