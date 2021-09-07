@@ -1,7 +1,5 @@
 <?php
-    session_start();
     header('Access-Control-Allow-Origin: https://www.youtube.com/embed/9nCB9t3M8bA');
-    require_once './controller/pdf_check_controller.php';
     
 ?>
 <!doctype html>
@@ -1216,12 +1214,7 @@
                     <div class="card-footer text-muted">
                         <?php
 
-                        $folder = 'pdf/';
-                        $pdfResumeName= scanThisDirectory($folder);
-                        //echo $_SESSION['pdfResumeName'];
-                        $pdfResumeAndLocation = 'pdf/' . $pdfResumeName;
-                        //echo $_SESSION['pdfResumeAndLocation'];
-
+                        $pdfResumeAndLocation = "pdf/JeanBaptisteTheroulde_resume_05092021.pdf";
                         if (file_exists($pdfResumeAndLocation)) {
                             ?><p> Dernière mise à jour :  <?php
                             echo date ("F d Y H:i:s.", filemtime($pdfResumeAndLocation));
