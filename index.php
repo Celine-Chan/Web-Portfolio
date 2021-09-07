@@ -1212,7 +1212,14 @@
 
                     </div>
                     <div class="card-footer text-muted">
-                        Mis à jour le 28/11/2020
+                        <?php
+                        $filename = 'pdf/JeanBaptisteTheroulde_resume_05092021.pdf';
+                        if (file_exists($filename)) {
+                            ?><p> Dernière mise à jour :  <?php
+                            echo date ("F d Y H:i:s.", filemtime($filename));
+                            ?></p><?php
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
