@@ -1222,7 +1222,7 @@
                     <div class="card-footer text-muted">
                         <?php
 
-                        if (file_exists($pdfResumeAndLocation)) {
+                        if (file_exists($_SESSION['pdfResumeAndLocation'])) {
                             ?><p> Dernière mise à jour :  <?php
                             echo date ("F d Y H:i:s.", filemtime($_SESSION['pdfResumeAndLocation']));
                             ?></p><?php
