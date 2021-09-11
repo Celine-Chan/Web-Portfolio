@@ -80,9 +80,6 @@
                                  "&lt very &gt Passionné &lt /very &gt"]'></span>
                         </h1>
                         <h2>Bienvenue sur mon site !</h2>
-                        <a class="btn btn-outline-light btn-lg mt-2" 
-                        data-mdb-toggle="modal" data-mdb-target="#videoModal"
-                        role="button">Présentation video <i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -90,53 +87,7 @@
         <!-- Background image -->
 
         <!-- Video Modal -->
-        <!-- Modal Ou Je Vais-->
-        <div
-            class="modal fade"
-            id="videoModal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel2"
-            aria-hidden="true"
-            >
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" 
-                    id="exampleModalLabel2">
-                        <span id="nbLimitesAPI">
-                            Présentation video </span></h5>
-                    <button
-                    type="button"
-                    class="btn-close"
-                    data-mdb-dismiss="modal"
-                    aria-label="Fermer"
-                    id="FermerButtonModal"
-                    ></button>
-                </div>
-                <div class="modal-body">
-
-                <iframe src="https://www.youtube.com/embed/9nCB9t3M8bA" 
-                    allowfullscreen="allowfullscreen"
-                    mozallowfullscreen="mozallowfullscreen" 
-                    msallowfullscreen="msallowfullscreen" 
-                    oallowfullscreen="oallowfullscreen" 
-                    webkitallowfullscreen="webkitallowfullscreen">
-                    
-                </iframe>
-                            
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
-                    Fermer
-                    </button>
-                </div>
-                </div>
-            </div>
-        </div>
-        <!-- fin Modal Où je vais -->
-
-
-
+        
         <!-- end Video Modal -->
 
         <!-- Sous menu HERO (Parcours - Portfolio - CV) -->
