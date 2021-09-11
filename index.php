@@ -195,9 +195,7 @@
                         et au Japon, passionné par les nouvelles technologies et 
                         les langues étrangères.
                         En reconversion professionnelle dans le domaine du 
-                        développement informatique depuis près d’un an et demi, 
-                        je suis actuellement à la recherche d’une alternance d’un ou deux
-                        ans en développement d’application web /  mobile … 
+                        développement informatique depuis près d’un an et demi.
                         N’hésitez pas à me contacter si vous êtes intéressé.e !
                         Bonne visite !
                             
@@ -236,9 +234,7 @@
                 et au Japon, passionné par les nouvelles technologies et 
                 les langues étrangères.
                 En reconversion professionnelle dans le domaine du 
-                développement informatique depuis près d’un an et demi, 
-                je suis actuellement à la recherche d’une alternance d’un ou deux
-                ans en développement d’application web /  mobile … 
+                développement informatique depuis près d’un an et demi.
                 N’hésitez pas à me contacter si vous êtes intéressé.e !
                 Bonne visite !
                     
@@ -921,11 +917,7 @@
                                 Après une période d’introspection, je suis revenu vers mon autre 
                                 passion du lycée, la programmation. Tout d’abord en autodidacte via
                                 le site Openclassroom puis à travers la formation de développeur
-                                data de l’école Digifab, du groupe Simplon. Aujourd’hui,
-                                en attendant de trouver une alternance, je fini mon application
-                                de gestion des stocks, principalement codée en Python/Javascript
-                                et j’aide ma compagne à réaliser une application web / mobile
-                                pour son entreprise en PHP. 
+                                data de l’école Digifab, du groupe Simplon.
                             </p>
                                         
                             </div>
@@ -1037,11 +1029,7 @@
                                 Après une période d’introspection, je suis revenu vers mon autre 
                                 passion du lycée, la programmation. Tout d’abord en autodidacte via
                                 le site Openclassroom puis à travers la formation de développeur
-                                data de l’école Digifab, du groupe Simplon. Aujourd’hui,
-                                en attendant de trouver une alternance, je fini mon application
-                                de gestion des stocks, principalement codée en Python/Javascript
-                                et j’aide ma compagne à réaliser une application web / mobile
-                                pour son entreprise en PHP.
+                                data de l’école Digifab, du groupe Simplon.
                             </p>
                                         
                             </div>
