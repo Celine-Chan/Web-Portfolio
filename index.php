@@ -13,11 +13,10 @@
     <!-- Informative meta tags-->
 
    
-    <meta name="description" content="Developpeur web/ web mobile passionné par
-    les langues et les nouvelles technologies, je recherche une alternance à partir
-    de Novembre 2021...Ceci est mon portfolio, bonne visite !">
+    <meta name="description" content="Développeur freelance passionné par
+    les langues et les nouvelles technologies...Ceci est mon portfolio, bonne visite !">
     <meta name="keywords" content="Python, Flask, Django, HTML, CSS,
-        JavaScript, développeur, developer, 開発者, web, alternance, back-end,
+        JavaScript, développeur, developer, 開発者, web, back-end,
         front-end">
     <meta name="author" content="Jean-Baptiste Theroulde">
     <meta property="og:image" content="img/218c9f5262a142318c2343e8fd6879ea.png">
