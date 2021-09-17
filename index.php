@@ -1140,11 +1140,11 @@
 
                         <div class="d-flex flex-row align-items-center justify-content-center">
 
-                            <a href="pdf/JeanBaptisteTheroulde_resume_05092021.pdf" 
+                            <a href="pdf/JeanBaptisteTheroulde_resume_17092021.pdf" 
                             class="btn btn-success mx-1" id="boutonsCV">Afficher</a>
                             
                             
-                            <a href="JeanBaptisteTheroulde_resume_05092021.pdf"
+                            <a href="download.php?file=JeanBaptisteTheroulde_resume_17092021.pdf"
                             class="btn btn-primary mx-1" target="_new" id="boutonsCV">Télécharger</a>
 
                         </div>
@@ -1152,7 +1152,7 @@
                     <div class="card-footer text-muted">
                         <?php
 
-                        $pdfResumeAndLocation = "pdf/JeanBaptisteTheroulde_resume_05092021.pdf";
+                        $pdfResumeAndLocation = "pdf/JeanBaptisteTheroulde_resume_17092021.pdf";
                         if (file_exists($pdfResumeAndLocation)) {
                             ?><p> Dernière mise à jour :  <?php
                             echo date ("F d Y H:i:s.", filemtime($pdfResumeAndLocation));
