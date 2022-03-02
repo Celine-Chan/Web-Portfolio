@@ -1,31 +1,11 @@
 
 <?php
-require_once 'controller/controller_index.php';
 
-header('Content-type: text/html; charset=UTF-8');
-$errors = [];
-
-
-$name = 'Formulaire de contact ' . $_POST['lastname'] . ' ' . $_POST['firstname'];
-$message = $_POST['message'];
-$headers = 'FROM : ' . $_POST['mail'];
-$headers .= "\nContent-Type: text/plain; charset=iso-8859-1"; // Type MIME
-
-mail('jeanbaptiste.theroulde@gmail.com', $name, $message, $headers);
-
-if ($_POST['lastname']!= "" && $_POST['firstname']!= "" &&
-    $_POST['mail']!= "" && $_POST['message']!= "") {
-
-    ?>
-
-        <script>
-            alert("Merci ! Votre email a bien été envoyé !");
-        </script>
-
-    <?php
-    }
+    require_once 'controller/controller_index.php';
 
 ?>
+
+
 <div id="Contacts"></div>
 
 <footer class="bg-dark text-center text-white">

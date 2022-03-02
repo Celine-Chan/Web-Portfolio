@@ -15,7 +15,7 @@
    
     <meta name="description" content="Développeur freelance passionné par
     les langues et les nouvelles technologies...Ceci est mon portfolio, bonne visite !">
-    <meta name="keywords" content="Python, Flask, Django, HTML, CSS,
+    <meta name="keywords" content="Python, Flask, Django, C#, EntityFramework, HTML, CSS,
         JavaScript, développeur, developer, 開発者, web, back-end,
         front-end">
     <meta name="author" content="Jean-Baptiste Theroulde">
@@ -38,7 +38,9 @@
     <!-- fin Fonts -->
 
     <!-- Alertify -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/> -->
+
+
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
 
@@ -75,8 +77,9 @@
                 <div class="d-flex justify-content-center align-items-center h-100">
                     <div class="text-white" id="texteTitre">
                         <h1>Jean-Baptiste Theroulde...
-                            <span class="txt-type" data-wait="3000" data-words='["Développeur",
-                                 "&lt very &gt Passionné &lt /very &gt"]'></span>
+                            <span class="txt-type" data-wait="3000" 
+                                data-words='["Développeur", "Globetrotter"]'>
+                            </span>
                         </h1>
                         <h2>Bienvenue sur mon site !</h2>
                     </div>
@@ -122,7 +125,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Portfolio</h5>
                         <p class="card-text">
-                            Codés en Python, PHP, C ou C++(Arduino), cette section vous presentera
+                            Codés en Python, PHP ou C# , cette section vous presentera
                             les principaux projets que j'ai réalisés jusqu'à présent.
                         </p>
                     </div>
@@ -140,8 +143,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Parcours Professionnel</h5>
                         <p class="card-text">
-                            En France ou au Japon, vous allez avoir un aperçu de
-                            mes diverses expériences professionnelles
+                            En France ou au Japon, voiçi un aperçu de
+                            mes expériences professionnelles
                         </p>
                     </div>
                 </div>
@@ -189,12 +192,27 @@
                         Bonjour, enchanté moi c’est Jean-Baptiste !
                         Tout d’abord, je vous remercie d’avoir pris un peu de votre 
                         temps pour visiter mon site internet ...
-                        Ainsi, le temps étant précieux, je vais essayer de faire court.
                         Je suis un Franco-Brésilien, ayant vécu principalement en France
-                        et au Japon, passionné par les nouvelles technologies et 
-                        les langues étrangères.
-                        En reconversion professionnelle dans le domaine du 
-                        développement informatique depuis près d’un an et demi.
+                        et au Japon. Je suis passionné par les nouvelles technologies et 
+                        les langues étrangères et
+                        je travaille dans le développement informatique depuis 
+                        plus de
+                        <?php
+
+                        $whenIStartedProgramming = new DateTime('2020-03-01');
+                        $today = new DateTime('now');
+
+                        $codingForNYears=date_diff($whenIStartedProgramming,$today);
+
+                        if(isset($codingForNYears)){
+                            echo $codingForNYears->format("%y");    
+                        }
+
+                        else{
+                            echo "XX";
+                        }
+                            
+                        ?> ans.
                         N’hésitez pas à me contacter si vous êtes intéressé.e !
                         Bonne visite !
                             
@@ -1172,7 +1190,9 @@
     </div>
 
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+    crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.2.1/dist/svgMap.min.js"></script>
     <!-- MDB -->

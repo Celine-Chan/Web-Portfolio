@@ -4,6 +4,7 @@ $errorMessages = [];
 $regexName = '/^[a-zA-ZéèàêâùïüëçæœÉÈÇÙÆŒ-]+$/';
 $regexTextArea = '/^[a-zA-Z0-9éèàêâùïüëçæœÉÈÇÙÆŒ .;:,_!?()=*&\"\'$€~-]+$/';
 
+
 if (isset($_POST['submit'])) {
 
     if (isset($_POST['lastname'])) {
