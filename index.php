@@ -196,7 +196,7 @@
                         et au Japon. Je suis passionné par les nouvelles technologies et 
                         les langues étrangères et
                         je travaille dans le développement informatique depuis 
-                        plus de
+                        de
                         <?php
 
                         $whenIStartedProgramming = new DateTime('2020-03-01');
@@ -212,7 +212,18 @@
                             echo "XX";
                         }
                             
-                        ?> ans.
+                        ?> ans
+                        <?php
+                            if(isset($codingForNYears)){
+                                if($codingForNYears->format("%m") != "0"){
+                                    echo $codingForNYears->format("et %m  mois"); 
+                                }
+                            }
+    
+                            else{
+                                echo "XX";
+                            }
+                        ?>.
                         N’hésitez pas à me contacter si vous êtes intéressé.e !
                         Bonne visite !
                             
